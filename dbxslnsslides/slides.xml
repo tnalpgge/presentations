@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE slides [
+<!ENTITY subdir "basename $PWD &amp;&amp; : Please fill in this blank">
+<!ENTITY ps1h '<prompt xmlns="http://docbook.org/ns/docbook">[you@workstation ~]$</prompt>'>
+<!ENTITY subversion '<application xmlns="http://docbook.org/ns/docbook">Subversion</application>'>
+<!ENTITY html '<acronym xmlns="http://docbook.org/ns/docbook">HTML</acronym>'>
+<!ENTITY sql '<acronym xmlns="http://docbook.org/ns/docbook">SQL</acronym>'>
+<!ENTITY url '<acronym xmlns="http://docbook.org/ns/docbook">URL</acronym>'>
+<!ENTITY http '<acronym xmlns="http://docbook.org/ns/docbook">HTTP</acronym>'>
+<!ENTITY qa '<acronym xmlns="http://docbook.org/ns/docbook">QA</acronym>'>
+<!ENTITY ps1i '<prompt xmlns="http://docbook.org/ns/docbook">[isint@appserver ~]$</prompt>'>
+<!ENTITY linux '<application xmlns="http://docbook.org/ns/docbook">Linux</application>'>
+<!ENTITY perl '<application xmlns="http://docbook.org/ns/docbook">Perl</application>'>
+<!ENTITY ssh '<application xmlns="http://docbook.org/ns/docbook">SSH</application>'>
+<!ENTITY ps1 '<prompt xmlns="http://docbook.org/ns/docbook">[you@workstation ~]$</prompt>'>
+<!ENTITY python '<application xmlns="http://docbook.org/ns/docbook">Python</application>'>
+<!ENTITY ps2 '<prompt xmlns="http://docbook.org/ns/docbook">&gt;</prompt>'>
+<!ENTITY github '<application xmlns="http://docbook.org/ns/docbook">GitHub</application>'>
+<!ENTITY git '<application xmlns="http://docbook.org/ns/docbook">Git</application>'>
+<!ENTITY jboss '<application xmlns="http://docbook.org/ns/docbook">JBoss</application>'>
+<!ENTITY httpd '<application xmlns="http://docbook.org/ns/docbook">HTTP Server</application>'>
+<!ENTITY apache '<orgname xmlns="http://docbook.org/ns/docbook">Apache</orgname>'>
+<!ENTITY api '<acronym xmlns="http://docbook.org/ns/docbook">API</acronym>'>
+<!ENTITY yaml '<application xmlns="http://docbook.org/ns/docbook">YAML</application>'>
+<!ENTITY pgp '<application xmlns="http://docbook.org/ns/docbook"><acronym>PGP</acronym></application>'>
+<!ENTITY cli '<acronym xmlns="http://docbook.org/ns/docbook">CLI</acronym>'>
+<!ENTITY yum '<application xmlns="http://docbook.org/ns/docbook">yum</application>'>
+<!ENTITY rest '<acronym xmlns="http://docbook.org/ns/docbook">ReST</acronym>'>
+<!ENTITY restful-api "&rest;ful &api;">
+]>
+<dbs:slides xmlns="http://docbook.org/ns/docbook"
+	    xmlns:dbs="http://docbook.org/ns/docbook-slides"
+	    xmlns:xlink="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Slide Show Title</title>
+    <subtitle>Subtitle</subtitle>
+    <author>
+      <personname>
+	<firstname>Author's</firstname>
+	<surname>Name</surname>
+      </personname>
+      <affiliation>
+	<orgname>Author's Organization</orgname>
+      </affiliation>
+    </author>
+    <pubdate>Date of Presentation</pubdate>
+    <copyright>
+      <year>Year</year>
+      <holder>Copyright Holder</holder>
+    </copyright>
+    <confgroup>
+      <confdates>Conference Dates</confdates>
+      <conftitle>Conference Title</conftitle>
+      <address>Conference Location</address>
+      <confsponsor>Conference Sponsor</confsponsor>
+    </confgroup>
+  </info>
+
+  <dbs:foilgroup xml:id="frontmatter.foilgroup">
+    <title xml:id="frontmatter.foilgroup.title">Front Matter</title>
+
+    <dbs:foil xml:id="typographical1.foil">
+      <title xml:id="typographical1.foil.title">Typographical Conventions</title>
+      <para>
+        <firstterm>A word or phrase to be defined</firstterm>
+      </para>
+      <para>
+        <emphasis>Emphasis!</emphasis>
+      </para>
+      <para>
+	Names of <application>applications</application> or 
+	<application>software packages</application>
+      </para>
+      <para>
+        <literal>Literal text</literal>
+      </para>
+      <para>
+        <filename>File and directory names</filename>
+      </para>
+      <para>
+        <replaceable>replaceable placeholders</replaceable>
+      </para>
+      <para>
+	Names of <command>commands</command>
+      </para>
+      <para>
+	Names of <varname>variables</varname> and their <varname>${expansions}</varname>
+      </para>
+      <para>
+        <code>inline(codeFragment);</code>
+      </para>
+      <para>
+	<acronym>GUI</acronym> <guimenu>Menu Names</guimenu>,
+	<guimenuitem>Menu Items</guimenuitem>,
+	<guilabel>Labels</guilabel>, and
+	<guibutton>Buttons</guibutton>
+      </para>
+      <para>
+	<database>Database, table, or column names</database>
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="typographical2.foil">
+      <title xml:id="typographical2.foil.title">Typographical Conventions</title>
+
+      <note>
+	<para>Take note of this.</para>
+      </note>
+      <blockquote>
+        <para>
+	  A block quotation from someone or somewhere...
+	</para>
+      </blockquote>
+      <warning>
+	<para>Dire consequences ahead!</para>
+      </warning>
+      <informalexample>
+	<para>
+	  An example.  Good or bad?  Who knows?
+	</para>
+      </informalexample>
+      <qandaset>
+        <qandaentry>
+	  <question>
+            <label>Labeled</label>
+            <para>Question?</para>
+          </question>
+	  <answer>
+	    <label>Corresponding</label>
+	    <para>Answer.</para>
+	  </answer>
+	</qandaentry>
+      </qandaset>
+      <cmdsynopsis>
+        <command>command synopsis</command>
+        <arg>--optional-switch</arg>
+        <arg choice="plain">required</arg>
+        <arg rep="repeat">repeatable</arg>
+      </cmdsynopsis>
+      <programlisting>
+10 PRINT "PROGRAM LISTING"
+20 GOTO 10    
+      </programlisting>
+      <screen><prompt>command-prompt$</prompt> <userinput>user-supplied input</userinput>
+output on the screen</screen>
+    </dbs:foil>
+  </dbs:foilgroup>
+
+  <dbs:foilgroup>
+    <info>
+      <title>Main content of presentation</title>
+    </info>
+
+    <dbs:foil dbs:style="introduction">
+      <info>
+	<title>Introduction</title>
+      </info>
+      <para>Baz</para>
+    </dbs:foil>
+
+    <dbs:foil dbs:incremental="1">
+      <info>
+	<title>Incremental</title>
+      </info>
+      <itemizedlist>
+	<listitem>
+	  <para>Zot</para>
+	</listitem>
+	<listitem>
+	  <para>Quux</para>
+	</listitem>
+	<listitem>
+	  <para>Blurfl</para>
+	</listitem>
+      </itemizedlist>
+    </dbs:foil>
+
+    <dbs:foil dbs:collapsible="1">
+      <info>
+	<title>Collapsible</title>
+      </info>
+      <orderedlist>
+	<listitem>
+	  <para>Corge</para>
+	</listitem>
+	<listitem>
+	  <para>Wibble</para>
+	</listitem>
+	<listitem>
+	  <para>Wobble</para>
+	</listitem>
+      </orderedlist>
+    </dbs:foil>
+
+    <dbs:foil>
+      <info>
+	<title>Left Right Incremental</title>
+      </info>
+      <dbs:block dbs:style="left">
+	<para>Bar</para>
+      </dbs:block>
+      <dbs:block dbs:style="right" dbs:incremental="1">
+	<para>Garply</para>
+      </dbs:block>
+    </dbs:foil>
+
+    <dbs:foil>
+      <info>
+	<title>Incremental Images</title>
+      </info>
+      <dbs:block dbs:incremental="1" dbs:style="face_container">
+        <mediaobject>
+          <imageobject>
+	    <imagedata dbs:style="first-image" fileref="files/slidy/graphics/face1.gif"/>
+	  </imageobject>
+        </mediaobject>
+
+        <mediaobject>
+          <imageobject>
+	    <imagedata dbs:style="subsequent-image" fileref="files/slidy/graphics/face2.gif"/>
+  	  </imageobject>
+        </mediaobject>
+
+        <mediaobject>	
+          <imageobject>
+	    <imagedata dbs:style="subsequent-image" fileref="files/slidy/graphics/face3.gif"/>
+	  </imageobject>
+        </mediaobject>
+
+        <mediaobject>
+          <imageobject>
+	    <imagedata dbs:style="subsequent-image" fileref="files/slidy/graphics/face4.gif"/>
+	  </imageobject>
+        </mediaobject>
+      </dbs:block>
+    </dbs:foil>
+  </dbs:foilgroup>
+
+  <dbs:foilgroup dbs:style="foilgroup">
+    <info>
+      <title>A Group of Foils</title>
+    </info>
+    <dbs:foil>
+      <info>
+	<title>First in Group</title>
+      </info>
+      <para>Lorem ipsum</para>
+    </dbs:foil>
+    <dbs:foil>
+      <info>
+	<title>Middle in Group</title>
+      </info>
+      <para>dolor sit amet</para>
+    </dbs:foil>
+    <dbs:foil>
+      <info>
+	<title>Last in Group</title>
+      </info>
+      <itemizedlist>
+	<listitem>
+	  <para>great</para>
+	</listitem>
+	<itemizedlist>
+	  <listitem>
+	    <para>googly</para>
+	  </listitem>
+	  <itemizedlist>
+	    <listitem>
+	      <para>moogly!</para>
+	    </listitem>
+	  </itemizedlist>
+	</itemizedlist>
+      </itemizedlist>
+    </dbs:foil>
+  </dbs:foilgroup>
+
+  <dbs:foilgroup xml:id="backmatter.foilgroup">
+    <title xml:id="backmatter.foilgroup.title">Back Matter</title>
+    <dbs:foil xml:id="resources.foil">
+      <title xml:id="resources.foil.title">More Resources</title>
+      <para>
+	This presentation is stored in &github;:
+      </para>
+      <screen>&ps1h; <userinput>git clone https://github.com/tnalpgge/presentations</userinput>
+&ps1h; <userinput>cd &subdir;</userinput>
+<prompt>[you@workstation &subdir;]$</prompt> <userinput>make</userinput>
+      </screen>
+      <para>
+	And start reading at <filename>slides.html</filename>.
+      </para>
+      <para>
+	You will need to follow the instructions in
+	<filename>README.md</filename> to set up your workspace to
+	properly build these slides.
+      </para>
+    </dbs:foil>
+    <dbs:foil>
+      <title>Any Questions?</title>
+    </dbs:foil>
+  </dbs:foilgroup>
+
+</dbs:slides>
