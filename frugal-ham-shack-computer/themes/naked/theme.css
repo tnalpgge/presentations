@@ -1,0 +1,130 @@
+/*
+Naked look and feel (i.e. mostly whatever slidy wants to give you)
+*/
+
+/* for all slides */
+
+body {
+}
+
+/* displaying behind all slides */
+
+div.background {
+    z-index: 1;
+}
+
+/* for specific elements on the cover slide */
+
+.slide.cover {
+ }
+
+.slide.cover h1 {
+}
+
+.slide.cover h2 {
+}
+
+/* for the titles on individual slides */
+
+div.slide h1 {
+}
+
+.title {
+}
+
+/* main slide content is in front of background */
+
+div.slide {
+    z-index: 20;
+}
+
+/* convenience for placement */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* help text about how to navigate slides */
+
+.help {
+}
+
+/* logo in background on every slide */
+
+#head-logo {
+    z-index: 2;
+}
+
+/* logo on cover slide only */
+
+#cover-logo {
+}
+
+/* container for #cover-logo */
+
+.cover-logo {
+}
+
+/* an empty bar above the titles on the cover slide */
+
+.blanktop {
+}
+
+/* contains title and subtitle of presentation */
+
+.titles {
+}
+
+/* the actual title */
+
+.slideshowtitle {
+}
+
+/* the actual subtitle */
+
+.subtitle {
+}
+
+/* container for author, affiliation, and presentation date */
+
+.attribution {
+}
+
+/* slide show author */
+
+.author {
+}
+
+/* author's organization or affiliation */
+
+.affiliation {
+}
+
+/* presentation date */
+
+.pubdate {
+}
+
+/* proof of concept for incremental images */
+
+.face_container {
+    margin-left: 4em;
+    position: relative;
+}
+
+.first-image {
+    position: static;
+    vertical-align: bottom;
+}
+
+.subsequent-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+

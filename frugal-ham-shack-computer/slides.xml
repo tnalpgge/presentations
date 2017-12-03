@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE slides [
+<!ENTITY subdir "frugal-ham-shack-computer">
+<!ENTITY ps1h '<prompt xmlns="http://docbook.org/ns/docbook">[you@workstation ~]$</prompt>'>
+<!ENTITY subversion '<application xmlns="http://docbook.org/ns/docbook">Subversion</application>'>
+<!ENTITY html '<acronym xmlns="http://docbook.org/ns/docbook">HTML</acronym>'>
+<!ENTITY sql '<acronym xmlns="http://docbook.org/ns/docbook">SQL</acronym>'>
+<!ENTITY url '<acronym xmlns="http://docbook.org/ns/docbook">URL</acronym>'>
+<!ENTITY http '<acronym xmlns="http://docbook.org/ns/docbook">HTTP</acronym>'>
+<!ENTITY qa '<acronym xmlns="http://docbook.org/ns/docbook">QA</acronym>'>
+<!ENTITY linux '<application xmlns="http://docbook.org/ns/docbook">Linux</application>'>
+<!ENTITY perl '<application xmlns="http://docbook.org/ns/docbook">Perl</application>'>
+<!ENTITY ssh '<application xmlns="http://docbook.org/ns/docbook">SSH</application>'>
+<!ENTITY ps1 '<prompt xmlns="http://docbook.org/ns/docbook">[you@workstation ~]$</prompt>'>
+<!ENTITY python '<application xmlns="http://docbook.org/ns/docbook">Python</application>'>
+<!ENTITY ps2 '<prompt xmlns="http://docbook.org/ns/docbook">&gt;</prompt>'>
+<!ENTITY github '<application xmlns="http://docbook.org/ns/docbook">GitHub</application>'>
+<!ENTITY git '<application xmlns="http://docbook.org/ns/docbook">Git</application>'>
+<!ENTITY jboss '<application xmlns="http://docbook.org/ns/docbook">JBoss</application>'>
+<!ENTITY httpd '<application xmlns="http://docbook.org/ns/docbook">HTTP Server</application>'>
+<!ENTITY apache '<orgname xmlns="http://docbook.org/ns/docbook">Apache</orgname>'>
+<!ENTITY api '<acronym xmlns="http://docbook.org/ns/docbook">API</acronym>'>
+<!ENTITY yaml '<application xmlns="http://docbook.org/ns/docbook">YAML</application>'>
+<!ENTITY pgp '<application xmlns="http://docbook.org/ns/docbook"><acronym>PGP</acronym></application>'>
+<!ENTITY cli '<acronym xmlns="http://docbook.org/ns/docbook">CLI</acronym>'>
+<!ENTITY yum '<application xmlns="http://docbook.org/ns/docbook">yum</application>'>
+<!ENTITY rest '<acronym xmlns="http://docbook.org/ns/docbook">ReST</acronym>'>
+<!ENTITY restful-api "&rest;ful &api;">
+]>
+<dbs:slides xmlns="http://docbook.org/ns/docbook"
+	    xmlns:dbs="http://docbook.org/ns/docbook-slides"
+	    xmlns:xlink="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Ham Shack Computer for the Frugal</title>
+    <subtitle>When a Commercial Operating System is Too Expensive</subtitle>
+    <author>
+      <personname>
+	<firstname>Tony</firstname>
+	<surname>Monroe</surname>
+      </personname>
+      <affiliation>
+	<orgname>W6SFI</orgname>
+      </affiliation>
+    </author>
+    <pubdate>April 2018</pubdate>
+    <copyright>
+      <year>2017-2018</year>
+      <holder>Tony Monroe</holder>
+    </copyright>
+    <confgroup>
+      <confdates>April 2018</confdates>
+      <conftitle>General Meeting</conftitle>
+      <address>Fremont, California</address>
+      <confsponsor>South Bay Amateur Radio Association</confsponsor>
+    </confgroup>
+  </info>
+
+  <dbs:foilgroup xml:id="frontmatter.foilgroup">
+    <title xml:id="frontmatter.foilgroup.title">Front Matter</title>
+
+    <dbs:foil xml:id="typographical1.foil">
+      <title xml:id="typographical1.foil.title">Typographical Conventions</title>
+      <para>
+        <firstterm>A word or phrase to be defined</firstterm>
+      </para>
+      <para>
+        <emphasis>Emphasis!</emphasis>
+      </para>
+      <para>
+	Names of <application>applications</application> or 
+	<application>software packages</application>
+      </para>
+      <para>
+        <literal>Literal text</literal>
+      </para>
+      <para>
+        <filename>File and directory names</filename>
+      </para>
+      <para>
+        <replaceable>replaceable placeholders</replaceable>
+      </para>
+      <para>
+	Names of <command>commands</command>
+      </para>
+      <para>
+	Names of <varname>variables</varname> and their <varname>${expansions}</varname>
+      </para>
+      <para>
+        <code>inline(codeFragment);</code>
+      </para>
+      <para>
+	<acronym>GUI</acronym> <guimenu>Menu Names</guimenu>,
+	<guimenuitem>Menu Items</guimenuitem>,
+	<guilabel>Labels</guilabel>, and
+	<guibutton>Buttons</guibutton>
+      </para>
+      <para>
+	<database>Database, table, or column names</database>
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="typographical2.foil">
+      <title xml:id="typographical2.foil.title">Typographical Conventions</title>
+
+      <note>
+	<para>Take note of this.</para>
+      </note>
+      <blockquote>
+        <para>
+	  A block quotation from someone or somewhere...
+	</para>
+      </blockquote>
+      <warning>
+	<para>Dire consequences ahead!</para>
+      </warning>
+      <informalexample>
+	<para>
+	  An example.  Good or bad?  Who knows?
+	</para>
+      </informalexample>
+      <qandaset>
+        <qandaentry>
+	  <question>
+            <label>Labeled</label>
+            <para>Question?</para>
+          </question>
+	  <answer>
+	    <label>Corresponding</label>
+	    <para>Answer.</para>
+	  </answer>
+	</qandaentry>
+      </qandaset>
+      <cmdsynopsis>
+        <command>command synopsis</command>
+        <arg>--optional-switch</arg>
+        <arg choice="plain">required</arg>
+        <arg rep="repeat">repeatable</arg>
+      </cmdsynopsis>
+      <programlisting>
+10 PRINT "PROGRAM LISTING"
+20 GOTO 10    
+      </programlisting>
+      <screen><prompt>command-prompt$</prompt> <userinput>user-supplied input</userinput>
+output on the screen</screen>
+    </dbs:foil>
+  </dbs:foilgroup>
+
+  <dbs:foilgroup xml:id="aboutme.foilgroup">
+    <info>
+      <title xml:id="aboutme.foilgroup.title">Who Is This Guy Anyway?</title>
+    </info>
+    <!-- Early experience with electronics education kits -->
+    <!-- Granddad's ham shack: CW, SSB, local repeaters, SSTV -->
+    <!-- Highlights of high school: orderly subjects!  math, chemistry, physics, Latin -->
+    <!-- Formative computing years in college at UC Berkeley: experimenting with hand-me-downs, steeped in history -->
+    <!-- Early employment experience at Sendmail -->
+    <!-- Enthusiasm for open source -->
+    <!-- Difficulty balancing curiosity against strategic use of money -->
+    <!-- Ongoing interest in STEM (yes, all of them) look at my Watch Later on youtube... -->
+  </dbs:foilgroup>
+
+  <dbs:foilgroup xml:id="myshack.foilgroup">
+    <info>
+      <title xml:id="myshack.foilgroup.title">About My Ham Shack</title>
+    </info>
+    <!-- Contents of ham shack -->
+    <!-- ICOM IC-7200 HF-6m most-mode txcvr -->
+    <!-- Yaesu FTM-3100 2m FM txcvr -->
+    <!-- MFJ-949E transmatch -->
+    <!-- Dummy load -->
+    <!-- RigBlaster Nomic -->
+    <!-- Alpha-Delta DX-EE fan dipole -->
+    <!-- end-fed zig-zag long wire ($unknown but cheap) -->
+    <!-- Copper J-pole ($20) -->
+    <!-- SODIAL LD-C103 USB to 1/4" stereo plug CW interface (less than $10) -->
+
+
+  </dbs:foilgroup>
+
+  <dbs:foilgroup xml:id="computer-setup.foilgroup">
+    <info>
+      <title xml:id="computer-setup.foilgroup.title">Setting Up the Computer</title>
+    </info>
+    <!-- Computer specs -->
+    <!-- Acquiring and installing Ubuntu Linux -->
+    <!-- Working with Linux and UNIX-like operating systems: get ready to use your keyboard -->
+    <!-- Adding remote repositories for easy access to decent versions of software -->
+    <!-- Working with USB serial ports -->
+    <!-- Working with sound cards -->
+  </dbs:foilgroup>
+
+  <dbs:foilgroup>
+    <info>
+      <title>Capabilities Achieved</title>
+    </info>
+    <!-- GQRX as pandapter/scanner with a NooElec SDR dongle -->
+    <!-- Online logging with TQSL -->
+    <!-- Logging with CQRLog -->
+    <!-- Qtel for EchoLink -->
+    <!-- HF weak signal modes with WSJT-X -->
+    <!-- HF RTTY contesting with Fldigi and CQRLog -->
+    <!-- APRS with Direwolf and XAstir -->
+    <!-- Packet radio BBS with linpac -->
+    <!-- CW contesting with cwdaemon and TLF -->
+  </dbs:foilgroup>
+
+  <dbs:foilgroup>
+    <info>
+      <title>Future Plans</title>
+    </info>
+    <!-- QSSTV -->
+    <!-- FreeDV digital voice over HF -->
+    <!-- IPv4 over packet radio: AMPR -->
+    <!-- Winlink 2000 via Pat -->
+    <!-- SSB contesting with cwdaemon and TLF -->
+  </dbs:foilgroup>
+
+  <dbs:foilgroup xml:id="backmatter.foilgroup">
+    <title xml:id="backmatter.foilgroup.title">Back Matter</title>
+    <dbs:foil xml:id="resources.foil">
+      <title xml:id="resources.foil.title">More Resources</title>
+      <para>
+	<link xlink:href="http://www.trinityos.com/HAM/CentosDigitalModes/hampacketizing-centos.html"/>
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="presentation.foil">
+      <title xml:id="presentation.foil.title">About This Presentation</title>
+      <para>
+	This presentation is stored in &github;:
+      </para>
+      <para>
+	<link xlink:href="https://tnalpgge.github.io/presentations/&subdir;/"/>
+      </para>
+      <para>
+	Should you wish to see how this presentation was assembled:
+      </para>
+      <screen>&ps1h; <userinput>git clone https://github.com/tnalpgge/presentations</userinput>
+&ps1h; <userinput>cd &subdir;</userinput>
+<prompt>[you@workstation &subdir;]$</prompt> <userinput>make</userinput>
+      </screen>
+      <para>
+	And start reading at <filename>slides.html</filename>.
+      </para>
+      <para>
+	You will need to follow the instructions in
+	<filename>README.md</filename> to set up your workspace to
+	properly build these slides.
+      </para>
+    </dbs:foil>
+    <dbs:foil>
+      <title>Any Questions?</title>
+    </dbs:foil>
+  </dbs:foilgroup>
+
+</dbs:slides>

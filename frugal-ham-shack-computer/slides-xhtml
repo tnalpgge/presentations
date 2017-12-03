@@ -1,0 +1,68 @@
+#!/usr/bin/env bash -x
+# -*- shell-script -*-
+
+pairs="$pairs freebsd:/usr/local/share/xsl/docbook-ns"
+pairs="$pairs macosx:/usr/local/opt/docbook-xsl/docbook-xsl-ns"
+
+for pair in $pairs
+do
+    os=${pair%%:*}
+    xsldir=${pair##*:}
+    xsl=${xsldir}/slides/xhtml/slidy.xsl
+    if [ -r $xsl ]
+    then
+	break
+    fi
+done
+
+if [ x"$THEME" = x"" ]
+then
+    echo THEME not defined in GNUmakefile
+    exit 2
+fi
+
+if [ x"$SRCROOT" = x"" ]
+then
+    echo SRCROOT not defined
+    exit 2
+fi
+
+if [ ! -d $SRCROOT/themes/$THEME ]
+then
+    echo No theme directory for $THEME
+    exit 3
+fi
+
+case "$1" in
+    stylesheet)
+	if [ "$VERBOSE" -ge 1 ]
+	then
+	    echo >&2 "Convert slides to XHTML"
+	fi
+	if [ -r $xsl ]
+	then
+	    echo $SRCROOT/themes/$THEME/${os}.xsl
+	else
+	    echo $SRCROOT/themes/$THEME/sourceforge.xsl
+	fi
+	;;
+    post-process)
+	echo >&2 Post-processing
+	for i in *.proc
+	do
+	    if [ -r $i ]
+	    then
+		j=${i##*/}
+		k=${j%%.proc}.html
+		xmllint --html --format $i > $OUTPUT_DIR/$k
+
+	    fi
+	done
+	;;
+    browser-support)
+	echo >&2 Copying browser support files
+	slidelib=$2
+	rm -rf files/$slidelib
+	mkdir -p files/$slidelib
+	rsync -a $xsldir/slides/$slidelib/ files/$slidelib/
+esac
