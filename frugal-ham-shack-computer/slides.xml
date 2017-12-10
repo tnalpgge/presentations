@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE slides [
 <!ENTITY subdir "frugal-ham-shack-computer">
-<!ENTITY ps1h '<prompt xmlns="http://docbook.org/ns/docbook">[you@workstation ~]$</prompt>'>
+<!ENTITY ps1h '<prompt xmlns="http://docbook.org/ns/docbook">[yourself@workstation ~]$</prompt>'>
 <!ENTITY subversion '<application xmlns="http://docbook.org/ns/docbook">Subversion</application>'>
 <!ENTITY html '<acronym xmlns="http://docbook.org/ns/docbook">HTML</acronym>'>
 <!ENTITY sql '<acronym xmlns="http://docbook.org/ns/docbook">SQL</acronym>'>
@@ -11,7 +11,7 @@
 <!ENTITY linux '<application xmlns="http://docbook.org/ns/docbook">Linux</application>'>
 <!ENTITY perl '<application xmlns="http://docbook.org/ns/docbook">Perl</application>'>
 <!ENTITY ssh '<application xmlns="http://docbook.org/ns/docbook">SSH</application>'>
-<!ENTITY ps1 '<prompt xmlns="http://docbook.org/ns/docbook">[you@workstation ~]$</prompt>'>
+<!ENTITY ps1 '<prompt xmlns="http://docbook.org/ns/docbook">[yourself@workstation ~]$</prompt>'>
 <!ENTITY python '<application xmlns="http://docbook.org/ns/docbook">Python</application>'>
 <!ENTITY ps2 '<prompt xmlns="http://docbook.org/ns/docbook">&gt;</prompt>'>
 <!ENTITY github '<application xmlns="http://docbook.org/ns/docbook">GitHub</application>'>
@@ -26,6 +26,47 @@
 <!ENTITY yum '<application xmlns="http://docbook.org/ns/docbook">yum</application>'>
 <!ENTITY rest '<acronym xmlns="http://docbook.org/ns/docbook">ReST</acronym>'>
 <!ENTITY restful-api "&rest;ful &api;">
+<!ENTITY cw '<acronym xmlns="http://docbook.org/ns/docbook">CW</acronym>'>
+<!ENTITY ssb '<acronym xmlns="http://docbook.org/ns/docbook">SSB</acronym>'>
+<!ENTITY am '<acronym xmlns="http://docbook.org/ns/docbook">AM</acronym>'>
+<!ENTITY rtty '<acronym xmlns="http://docbook.org/ns/docbook">RTTY</acronym>'>
+<!ENTITY fm '<acronym xmlns="http://docbook.org/ns/docbook">FM</acronym>'>
+<!ENTITY swr '<acronym xmlns="http://docbook.org/ns/docbook">SWR</acronym>'>
+<!ENTITY sdr '<acronym xmlns="http://docbook.org/ns/docbook">SDR</acronym>'>
+<!ENTITY ptt '<acronym xmlns="http://docbook.org/ns/docbook">PTT</acronym>'>
+<!ENTITY usb '<acronym xmlns="http://docbook.org/ns/docbook">USB</acronym>'>
+<!ENTITY skcc '<acronym xmlns="http://docbook.org/ns/docbook">SKCC</acronym>'>
+<!ENTITY ibm '<orgname xmlns="http://docbook.org/ns/docbook"><acronym>IBM</acronym></orgname>'>
+<!ENTITY pc '<acronym xmlns="http://docbook.org/ns/docbook">PC</acronym>'>
+<!ENTITY commodore '<orgname xmlns="http://docbook.org/ns/docbook">Commodore</orgname>'>
+<!ENTITY apple '<orgname xmlns="http://docbook.org/ns/docbook">Apple</orgname>'>
+<!ENTITY nintendo '<orgname xmlns="http://docbook.org/ns/docbook">Nintendo</orgname>'>
+<!ENTITY atari '<orgname xmlns="http://docbook.org/ns/docbook">Atari</orgname>'>
+<!ENTITY afb '<acronym xmlns="http://docbook.org/ns/docbook">AFB</acronym>'>
+<!ENTITY windows '<application xmlns="http://docbook.org/ns/docbook">Windows</application>'>
+<!ENTITY unix '<application xmlns="http://docbook.org/ns/docbook"><acronym>UNIX</acronym></application>'>
+<!ENTITY stem '<acronym xmlns="http://docbook.org/ns/docbook">STEM</acronym>'>
+<!ENTITY gb '<acronym xmlns="http://docbook.org/ns/docbook">GB</acronym>'>
+<!ENTITY intel '<orgname xmlns="http://docbook.org/ns/docbook">Intel</orgname>'>
+<!ENTITY itx '<acronym xmlns="http://docbook.org/ns/docbook">ITX</acronym>'>
+<!ENTITY debian '<orgname xmlns="http://docbook.org/ns/docbook">Debian</orgname>'>
+<!ENTITY freebsd '<application xmlns="http://docbook.org/ns/docbook">FreeBSD</application>'>
+<!ENTITY ubuntu '<orgname xmlns="http://docbook.org/ns/docbook">Ubuntu</orgname>'>
+<!ENTITY chromium '<application xmlns="http://docbook.org/ns/docbook">Chromium</application>'>
+<!ENTITY firefox '<application xmlns="http://docbook.org/ns/docbook">Firefox</application>'>
+<!ENTITY evolution '<application xmlns="http://docbook.org/ns/docbook">Evolution</application>'>
+<!ENTITY thunderbird '<application xmlns="http://docbook.org/ns/docbook">Thunderbird</application>'>
+<!ENTITY libreoffice '<application xmlns="http://docbook.org/ns/docbook">LibreOffice</application>'>
+<!ENTITY dvd '<acronym xmlns="http://docbook.org/ns/docbook">DVD</acronym>'>
+<!ENTITY vim '<application xmlns="http://docbook.org/ns/docbook">Vim</application>'>
+<!ENTITY vi '<application xmlns="http://docbook.org/ns/docbook">vi</application>'>
+<!ENTITY emacs '<application xmlns="http://docbook.org/ns/docbook">Emacs</application>'>
+<!ENTITY nano '<application xmlns="http://docbook.org/ns/docbook">nano</application>'>
+<!ENTITY wsjtx '<application xmlns="http://docbook.org/ns/docbook"><acronym>WSJT-X</acronym></application>'>
+<!ENTITY cqrlog '<application xmlns="http://docbook.org/ns/docbook">CQRLog</application>'>
+<!ENTITY fldigi '<application xmlns="http://docbook.org/ns/docbook">FLDigi</application>'>
+<!ENTITY icom '<orgname xmlns="http://docbook.org/ns/docbook">ICOM</orgname>'>
+<!ENTITY gqrx '<application xmlns="http://docbook.org/ns/docbook">gqrx</application>'>
 ]>
 <dbs:slides xmlns="http://docbook.org/ns/docbook"
 	    xmlns:dbs="http://docbook.org/ns/docbook-slides"
@@ -148,59 +189,570 @@ output on the screen</screen>
     <info>
       <title xml:id="aboutme.foilgroup.title">Who Is This Guy Anyway?</title>
     </info>
-    <!-- Early experience with electronics education kits -->
-    <!-- Granddad's ham shack: CW, SSB, local repeaters, SSTV -->
-    <!-- Highlights of high school: orderly subjects!  math, chemistry, physics, Latin -->
-    <!-- Formative computing years in college at UC Berkeley: experimenting with hand-me-downs, steeped in history -->
-    <!-- Early employment experience at Sendmail -->
-    <!-- Enthusiasm for open source -->
-    <!-- Difficulty balancing curiosity against strategic use of money -->
-    <!-- Ongoing interest in STEM (yes, all of them) look at my Watch Later on youtube... -->
+    <dbs:foil xml:id="early.foil">
+      <title xml:id="early.foil.title">Early experiences</title>
+      <para>
+	&ibm; &pc;, &commodore; VIC-20 and C-64, &apple; ][
+      </para>
+      <para>
+	&atari; 2600, &nintendo; Entertainment System
+      </para>
+      <para>
+	Electronics kits.  Connect jumper wires to components to
+	create semi-useful gadgets!
+      </para>
+      <para>
+	Isaac Asimov (Foundation, Robots), Franklin W. Dixon (Hardy
+	Boys), J.R.R. Tolkien
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="maurice.foil">
+      <title xml:id="maurice.foil.title">Papa Maurice</title>
+      <para>
+	Worked on aircraft at Edwards AFB.
+      </para>
+      <para>
+	Took me and my brother to Mojave Airport many times to look at
+	airplanes.
+      </para>
+      <para>
+	Designed, planned, and built many of the additions to his house!
+      </para>
+      <para>
+	"Mechanically inclined" would be an understatement.
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="stephen.foil">
+      <title xml:id="stephen.foil.title">Granddad Stephen</title>
+      <para>
+	U.S. Army intelligence.
+      </para>
+      <para>
+	Initially licensed in Massachusetts as W1BAN in 1930.
+      </para>
+      <para>
+	Changed to W6SFI after moving to California in 1941.
+      </para>
+      <para>
+	Quarter Century Wireless Association #11,768.
+      </para>
+      <para>
+	Worked CW, SSB, local repeaters, SSTV.
+      </para>
+      <para>
+	Actively encouraged my interest in computers.
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="highschool.foil">
+      <title xml:id="highschool.foil.title">High School: Moody Nerd in Denial</title>
+      <para>
+	Slurped up all the available mathematics courses, through calculus.
+      </para>
+      <para>
+	Chemistry, because it had more math than biology.
+      </para>
+      <para>
+	Skipped mechanical physics, went straight for electricity
+	&amp; magnetism.
+      </para>
+      <para>
+	Latin, with its myriad conjugations, declensions, etc.
+	Not applicable to everyday life, seriously uncool...what's
+	not to love?
+      </para>
+      <para>
+	A little bit of computer programming.
+      </para>
+      <para>
+	Just enough history, English, art, etc. to meet requirements.
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="college.foil">
+      <title xml:id="college.foil.title">College years: UC Berkeley</title>
+      <para>
+	An academically humbling experience, relative to high school!
+      </para>
+      <para>
+	Couldn't handle a mathematics major, settled for computer
+	science instead.
+      </para>
+      <para>
+	When working on a computer science degree at UC Berkeley,
+	difficult to avoid the deep computing history there.
+      </para>
+      <para>
+	Joined a student computing club that was most likely to get in
+	trouble with the campus system and network administrators :-)
+      </para>
+      <para>
+	Learned a few computer langauges, actively pursued a
+	&windows;-free existence with heavy use of open-source
+	software.
+      </para>
+      <para>
+	So much to learn, so little time, so little parental
+	funding...somehow graduated on time.
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="employment.foil">
+      <title xml:id="employment.foil.title">Professional Career</title>
+      <para>
+	Always trying to be versatile and curious, favoring &unix;-like
+	computing environments and open-source tools.
+      </para>
+      <para>
+	Still haven't figured out how to balance in-house workers'
+	time versus paying a vendor for a product.  Combined with my
+	curiosity about things...I'm not management material yet :-)
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="prelicense.foil">
+      <title xml:id="prelicense.foil.title">My journey to amateur radio</title>
+      <para>
+	Still curious about &stem; topics.  (Just look at my "Watch
+	Later" playlist on YouTube...)
+      </para>
+      <para>
+	Numbers stations on shortwave radio!  What's the deal with
+	that?
+      </para>
+      <para>
+	Can I build that?  (Physically, not in software)
+      </para>
+      <para>
+	How does that work?  What's underneath it?
+      </para>
+      <para>
+	How little do I need to maximize my capabilities?
+      </para>
+      <para>
+	Is there a book on it at my local public library?
+      </para>
+    </dbs:foil>
   </dbs:foilgroup>
 
   <dbs:foilgroup xml:id="myshack.foilgroup">
     <info>
       <title xml:id="myshack.foilgroup.title">About My Ham Shack</title>
     </info>
-    <!-- Contents of ham shack -->
-    <!-- ICOM IC-7200 HF-6m most-mode txcvr -->
-    <!-- Yaesu FTM-3100 2m FM txcvr -->
-    <!-- MFJ-949E transmatch -->
-    <!-- Dummy load -->
-    <!-- RigBlaster Nomic -->
-    <!-- Alpha-Delta DX-EE fan dipole -->
-    <!-- end-fed zig-zag long wire ($unknown but cheap) -->
-    <!-- Copper J-pole ($20) -->
-    <!-- SODIAL LD-C103 USB to 1/4" stereo plug CW interface (less than $10) -->
-
-
+    <dbs:foil xml:id="nooelec.foil">
+      <title xml:id="nooelec.foil.title">NooElec SDR and upconverter</title>
+      <!-- photo of SDR USB stick -->
+      <!-- photo of upconverter -->
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    Receives 24-1766 MHz with external antenna
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Additional software required to demodulate what you receive
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    With transverter shift of -125 MHz, can also receive 0-24 MHz!
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </dbs:foil>
+    <dbs:foil xml:id="ic7200.foil">
+      <title xml:id="ic7200.foil.title">ICOM IC-7200 transceiver</title>
+      <itemizedlist>
+	<listitem>
+	  <para>Covers 0-54 MHz</para>
+	</listitem>
+	<listitem>
+	  <para>
+	    &cw;, &ssb;, &am;, &rtty;, digital modes, but no &fm;
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Up to 100 watts output power
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </dbs:foil>
+    <dbs:foil xml:id="ftm3100.foil">
+      <title xml:id="ftm3100.foil.title">Yaesu FTM-3100 transceiver</title>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    Covers 136-174 MHz
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Analog &fm; only!
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    5 to 65 watts output power
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </dbs:foil>
+    <dbs:foil xml:id="mfj949e.foil">
+      <title xml:id="mfj949e.foil.title">MFJ-949E transmatch</title>
+      <!-- photo of MFJ-949E -->
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    Totally manual and passive
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    2 antennas, 12-position inductor, 2 variable capacitors
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Integrated dummy load and &swr; meter handy for testing
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </dbs:foil>
+    <dbs:foil xml:id="nomic.foil">
+      <title xml:id="nomic.foil.title">RigBlaster nomic</title>
+      <!-- photo of nomic -->
+      <para>
+	Enables digital modes for older or less featureful transceivers
+      </para>
+      <para>
+	While testing, make sure to have a dummy load handy!
+      </para>
+      <!-- photo of MFJ-260C -->
+    </dbs:foil>
+    <dbs:foil xml:id="ldc103.foil">
+      <title xml:id="ldc103.foil.title">SODIAL LD-C103 &usb; &cw; interface</title>
+      <!-- photo of LD-C103 -->
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    Turns a &usb; port into a software-controlled straight key
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Earn dirty looks from hard-core mechanical key enthusiasts!
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </dbs:foil>
+    <dbs:foil xml:id="antennas.foil">
+      <title xml:id="antennas.foil.title">Antennas</title>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    Alpha-Delta DX-EE multi-band dipole, covers 40-6 meters
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Copper pipe J-pole, 2 meters &amp; 70 centimeters
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    End-fed 120-foot long wire, covers 160-60 meters
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </dbs:foil>
   </dbs:foilgroup>
 
   <dbs:foilgroup xml:id="computer-setup.foilgroup">
     <info>
       <title xml:id="computer-setup.foilgroup.title">Setting Up the Computer</title>
     </info>
-    <!-- Computer specs -->
-    <!-- Acquiring and installing Ubuntu Linux -->
-    <!-- Working with Linux and UNIX-like operating systems: get ready to use your keyboard -->
-    <!-- Adding remote repositories for easy access to decent versions of software -->
-    <!-- Working with USB serial ports -->
-    <!-- Working with sound cards -->
+    <dbs:foil xml:id="computerspecs.foil">
+      <title xml:id="computerspecs.foil.title">Computer specifications</title>
+      <para>
+	16 &gb; memory -- probably too much
+      </para>
+      <para>
+	250 &gb; solid-state disk -- definitely too much, but far
+	faster and quieter than spinning platters of rust!
+      </para>
+      <para>
+	&intel; Core i5, 2.7 GHz, 4 cores -- probably overkill
+      </para>
+      <para>
+	Mini-&itx; form factor motherboard and case -- nice and compact
+      </para>
+    </dbs:foil>
+    <dbs:foil title="ubuntu.foil">
+      <title xml:id="ubuntu.foil.title">Ubuntu Linux</title>
+      <link xlink:href="https://www.ubuntu.com/"/>
+      <para>
+	Possibly the best combination of user-friendly desktop
+	environment plus all the low-level command-line power tools
+	you could want.
+      </para>
+      <para>
+	Can take advantage of packaging work done by &debian; -- very
+	important for easy acquisition of ham-related software!
+      </para>
+      <para>
+	Not actually my preferred operating system (&freebsd;) but
+	more popular and thus better supported.  Besides, most ham
+	software is written for Linux first.
+      </para>
+      <para>
+	Download an image from the web site, burn it to &usb; stick or
+	&dvd;, and install.
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="ossetup.foil">
+      <title xml:id="ossetup.foil.title">Setting up the operating system</title>
+      <para>
+	Most application software can be installed from the
+	<application>&ubuntu; Software</application> application.
+      </para>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    Web browser: &chromium; or &firefox;
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Mail reader: &evolution; or &thunderbird;
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Office suite: &libreoffice;
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </dbs:foil>
+    <dbs:foil xml:id="keyboard.foil">
+      <title xml:id="keyboard.foil.title">A word about keyboards</title>
+      <para>
+	&linux; and &unix;-like operating systems have a long history
+	of providing very focused tools that are very good at what
+	they do -- and nothing else -- and encouraging users to
+	combine those tools to accomplish their tasks.
+      </para>
+      <para>
+	This generally means that:
+      </para>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    You must get friendly with your keyboard.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    You must find where the terminal program is.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    You must get comfortable entering commands at a shell.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    You must learn a text editor: &vim; (descendant of
+	    the venerable &vi;), &emacs; or &nano;
+	  </para>
+	</listitem>
+      </itemizedlist>
+      <note>
+	<para>
+	  You need not publicly take sides in the long-running &emacs;
+	  versus &vi; holy war. :-)
+	</para>
+      </note>
+    </dbs:foil>
+    <dbs:foil xml:id="ppa.foil">
+      <title xml:id="ppa.foil.title">Adding additional software repositories</title>
+      <para>
+	By adding additional software repositories beyond those that
+	come with &ubuntu;, you gain access to ham-related software
+	and you also make it easier to install updates later!
+      </para>
+      <link xlink:href="https://help.ubuntu.com/community/Repositories/Ubuntu"/>
+      <para>
+	After you find an interesting repository, you can add it with
+	the instructions on that page.  If you're the command-line
+	type, you can (e.g.):
+      </para>
+      <screen>&ps1; <userinput>sudo apt-add-repository ppa:ubuntu-hams-updates/ppa</userinput>
+&ps1; <userinput>sudo apt-get update</userinput></screen>
+      
+      <para>
+	Since you are a radio amateur, you may want to look into these
+	repositories:
+      </para>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    For a lot of software:
+	    <literal>ppa:ubuntu-hams-updates/ppa</literal>
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    &wsjtx; for weak signal work:
+	    <literal>ppa:ki7mt/wsjtx</literal>
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    &cqrlog; for logging:
+	    <literal>ppa:ok2cqr/ppa</literal>
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    &fldigi; for digital modes:
+	    <literal>ppa:kamalmostafa/fldigi</literal>
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </dbs:foil>
+    <dbs:foil xml:id="serialports.foil">
+      <title xml:id="serialports.foil.title">Serial ports</title>
+      <para>
+	Serial ports are commonly used by amateur radio hardware to
+	allow computer control.
+      </para>
+      <para>
+	Lots of devices have &usb;-to-serial hardware built in.
+      </para>
+      <para>
+	Most serial ports have boring, indistinct names that are
+	allocated as the devices are plugged in and/or powered on.
+      </para>
+      
+      <screen>&ps1; <userinput>ls -l /dev/ttyUSB*</userinput>
+crw-rw---- 1 root dialout 188, 0 Dec  9 20:56 /dev/ttyUSB0
+crw-rw---- 1 root dialout 188, 1 Dec  2 17:59 /dev/ttyUSB1
+crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</screen>
+
+      <para>
+	However your operating system may also provide more
+	descriptive names that are not based on when the device was
+	plugged in.
+      </para>
+      
+      <screen>&ps1; <userinput>ls -l /dev/serial/by-id/</userinput>
+total 0
+lrwxrwxrwx 1 root root 13 Dec  9 20:56 usb-1a86_USB2.0-Serial-if00-port0 -> ../../ttyUSB0
+lrwxrwxrwx 1 root root 13 Dec  2 17:58 usb-Prolific_Technology_Inc._USB-Serial_Controller_D-if00-port0 -> ../../ttyUSB1
+lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_IC-7200_0205281-if00-port0 -> ../../ttyUSB3</screen>
+      
+      <para>
+	Remember where to find these!  You may need to put them in
+	configuration files later.
+      </para>
+      <para>
+	Also add yourself to group <literal>dialout</literal> so that
+	you can access those serial ports as yourself, without being
+	the <literal>root</literal> superuser!
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="soundcard.foil">
+      <title xml:id="soundcard.foil.title">Working with sound cards</title>
+      <para>
+	In addition to the built-in sound card on the motherboard, you
+	can add as many &usb; sound cards as you want.
+      </para>
+      <para>
+	Newer amateur radio hardware that emits sound output or
+	accepts sound input can appear as a sound card when it is
+	attached.
+      </para>
+      <para>
+	Addressing individual sound devices is trickier than with
+	serial ports.  The operating system does some magic behind the
+	scenes to allow multiple programs to access them, and they
+	have funny addresses.
+      </para>
+      <para>
+	I have 3 sound cards on the computer right now:
+      </para>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    The built-in sound card on the motherboard
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Headset with microphone, attached via &usb;
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    &icom; IC-7200 attached via &usb;
+	  </para>
+	</listitem>
+      </itemizedlist>
+      <para>
+	To find the addresses of individual sound devices, I find
+	myself using:
+      </para>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    For playback only: <command>aplay -l</command>
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    For recording only: <command>arecord -l</command>
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    For an exhaustive list: <command>aplay -L</command>
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </dbs:foil>
   </dbs:foilgroup>
 
   <dbs:foilgroup>
     <info>
       <title>Capabilities Achieved</title>
     </info>
-    <!-- GQRX as pandapter/scanner with a NooElec SDR dongle -->
-    <!-- Online logging with TQSL -->
+    <dbs:foil title="scanner.foil">
+      <title xml:id="scanner.foil.title">Scanner and pandapter</title>
+      <para>
+	The program &gqrx; will read from an attached &sdr; dongle.
+      </para>
+      <para>
+	It can detect the presence of any RF signal, and can
+	demodulate analog &am;, &fm;, and &ssb; in software.
+      </para>
+      <para>
+	It can also record audio or raw I/Q to a file, and make audio
+	available for other programs to consume, possibly over the
+	network!
+      </para>
+      <!-- screen shot of gqrx -->
+      <imageobject>
+	<imagedata fileref="nooelec.svg"/>
+      </imageobject>
+    </dbs:foil>
     <!-- Logging with CQRLog -->
+    <!-- exporting logs from CQRLog to other programs/services -->
     <!-- Qtel for EchoLink -->
     <!-- HF weak signal modes with WSJT-X -->
     <!-- HF RTTY contesting with Fldigi and CQRLog -->
-    <!-- APRS with Direwolf and XAstir -->
+    <!-- APRS with Direwolf and Xastir -->
     <!-- Packet radio BBS with linpac -->
     <!-- CW contesting with cwdaemon and TLF -->
+    <!-- SSB contesting with cwdaemon and TLF -->
   </dbs:foilgroup>
 
   <dbs:foilgroup>
@@ -211,16 +763,16 @@ output on the screen</screen>
     <!-- FreeDV digital voice over HF -->
     <!-- IPv4 over packet radio: AMPR -->
     <!-- Winlink 2000 via Pat -->
-    <!-- SSB contesting with cwdaemon and TLF -->
   </dbs:foilgroup>
 
   <dbs:foilgroup xml:id="backmatter.foilgroup">
     <title xml:id="backmatter.foilgroup.title">Back Matter</title>
     <dbs:foil xml:id="resources.foil">
       <title xml:id="resources.foil.title">More Resources</title>
-      <para>
-	<link xlink:href="http://www.trinityos.com/HAM/CentosDigitalModes/hampacketizing-centos.html"/>
-      </para>
+      <link xlink:href="http://www.trinityos.com/HAM/CentosDigitalModes/hampacketizing-centos.html"/>
+      <link xlink:href="https://www.debian.org/blends/hamradio/"/>
+      <link xlink:href="https://launchpad.net/~ubuntu-hams-updates"/>
+
     </dbs:foil>
     <dbs:foil xml:id="presentation.foil">
       <title xml:id="presentation.foil.title">About This Presentation</title>

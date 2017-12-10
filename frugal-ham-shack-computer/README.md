@@ -7,10 +7,10 @@ Red Hat Enterprise Linux, release 6:
 yum -y install ??? xmlto make plotutils
 ```
 
-Ubuntu Linux:
+Ubuntu Linux with apt:
 
 ```sh
-aptitude install ??? xmlto make plotutils
+apt install xmlto make plotutils docbook-xsl-ns docbook-slides
 ```
  
 FreeBSD with pkgng:

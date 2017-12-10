@@ -1,0 +1,10 @@
+graph nooelec {
+      Computer [style="filled"; fillcolor="gray"; shape="box3d"];
+      sdrstick [label="NESDR Mini"; style="filled"; shape="cds"; fillcolor="black"; fontcolor="white"];
+      hamitup [label="Ham It Up"; style="filled"; shape="box3d"; fillcolor="cyan";];
+      Antenna [shape="invtriangle"];
+
+      Antenna -- hamitup;
+      hamitup -- sdrstick;
+      sdrstick -- Computer;
+}

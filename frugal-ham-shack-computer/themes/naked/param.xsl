@@ -36,8 +36,8 @@
 
 <!-- local params -->
 <!-- user.head.logo is displayed on all non-cover slides -->
-    <xsl:param name="user.head.logo"/>
+    <xsl:param name="user.head.logo">img/headlogo.png</xsl:param>
 <!-- user.cover.logo is displayed on cover slide only -->
-    <xsl:param name="user.cover.logo"/>
+    <xsl:param name="user.cover.logo">img/coverlogo.png</xsl:param>
 
 </xsl:stylesheet>

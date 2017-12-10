@@ -3,6 +3,7 @@
 
 pairs="$pairs freebsd:/usr/local/share/xsl/docbook-ns"
 pairs="$pairs macosx:/usr/local/opt/docbook-xsl/docbook-xsl-ns"
+pairs="$pairs ubuntu:/usr/share/xml/docbook/stylesheet/docbook-xsl-ns"
 
 for pair in $pairs
 do
