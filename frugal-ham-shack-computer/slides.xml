@@ -67,6 +67,22 @@
 <!ENTITY fldigi '<application xmlns="http://docbook.org/ns/docbook">FLDigi</application>'>
 <!ENTITY icom '<orgname xmlns="http://docbook.org/ns/docbook">ICOM</orgname>'>
 <!ENTITY gqrx '<application xmlns="http://docbook.org/ns/docbook">gqrx</application>'>
+<!ENTITY qtel '<application xmlns="http://docbook.org/ns/docbook">Qtel</application>'>
+<!ENTITY hamlib '<application xmlns="http://docbook.org/ns/docbook">Hamlib</application>'>
+<!ENTITY direwolf '<application xmlns="http://docbook.org/ns/docbook">Direwolf</application>'>
+<!ENTITY aprs '<acronym xmlns="http://docbook.org/ns/docbook">APRS</acronym>'>
+<!ENTITY xastir '<application xmlns="http://docbook.org/ns/docbook">Xastir</application>'>
+<!ENTITY bbs '<acronym xmlns="http://docbook.org/ns/docbook">BBS</acronym>'>
+<!ENTITY linpac '<application xmlns="http://docbook.org/ns/docbook">linpac</application>'>
+<!ENTITY tlf '<application xmlns="http://docbook.org/ns/docbook">tlf</application>'>
+<!ENTITY cwdaemon '<application xmlns="http://docbook.org/ns/docbook">cwdaemon</application>'>
+<!ENTITY hamlib.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://hamlib.sourceforge.net/">&hamlib;</link>'>
+<!ENTITY ls.ttyusb '<screen xmlns="http://docbook.org/ns/docbook">&ps1; <userinput>ls -l /dev/serial/by-id/</userinput>
+total 0
+lrwxrwxrwx 1 root root 13 Dec  9 20:56 usb-1a86_USB2.0-Serial-if00-port0 -> ../../ttyUSB0
+lrwxrwxrwx 1 root root 13 Dec  2 17:58 usb-Prolific_Technology_Inc._USB-Serial_Controller_D-if00-port0 -> ../../ttyUSB1
+lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_IC-7200_0205281-if00-port0 -> ../../ttyUSB3</screen>'>
+<!ENTITY rigctld '<application xmlns="http://docbook.org/ns/docbook">rigctld</application>'>
 ]>
 <dbs:slides xmlns="http://docbook.org/ns/docbook"
 	    xmlns:dbs="http://docbook.org/ns/docbook-slides"
@@ -643,12 +659,8 @@ crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</screen>
 	descriptive names that are not based on when the device was
 	plugged in.
       </para>
-      
-      <screen>&ps1; <userinput>ls -l /dev/serial/by-id/</userinput>
-total 0
-lrwxrwxrwx 1 root root 13 Dec  9 20:56 usb-1a86_USB2.0-Serial-if00-port0 -> ../../ttyUSB0
-lrwxrwxrwx 1 root root 13 Dec  2 17:58 usb-Prolific_Technology_Inc._USB-Serial_Controller_D-if00-port0 -> ../../ttyUSB1
-lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_IC-7200_0205281-if00-port0 -> ../../ttyUSB3</screen>
+
+      &ls.ttyusb;
       
       <para>
 	Remember where to find these!  You may need to put them in
@@ -744,15 +756,146 @@ lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridg
 	<imagedata fileref="nooelec.svg"/>
       </imageobject>
     </dbs:foil>
-    <!-- Logging with CQRLog -->
-    <!-- exporting logs from CQRLog to other programs/services -->
+    <dbs:foil xml:id="hamlib.foil">
+      <title xml:id="hamlib.foil.title">Computer control of a rig with &hamlib;</title>
+      <para>
+	The nice folks at
+	&hamlib.link;
+	wrote a library that gives a common interface to many
+	(hundreds of) rigs.
+      </para>
+      <para>
+	Many popular programs that control rigs are built on &hamlib;!
+      </para>
+      <imageobject>
+	<imagedata fileref="hamlib-rigctl.svg"/>
+      </imageobject>
+    </dbs:foil>
+    <dbs:foil xml:id="hamlib-setup.foil">
+      <title xml:id="hamlib-setup.foil.title">Setting up &hamlib;</title>
+      <para>
+	For most applications, all you need to find out are:
+      </para>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    A &hamlib; model id number
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    The name of the serial port device
+	  </para>
+	</listitem>
+      </itemizedlist>
+
+      <screen>&ps1; <userinput>rigctl -l | head -5</userinput>
+ Rig #  Mfg                    Model                   Version         Status
+     1  Hamlib                 Dummy                   0.5             Beta
+     2  Hamlib                 NET rigctl              0.3             Beta
+   101  Yaesu                  FT-847                  0.5             Beta
+   103  Yaesu                  FT-1000D                0.0.6           Alpha
+&ps1; <userinput>rigctl -l | grep IC-7200</userinput>
+   361  Icom                   IC-7200                 0.7             Beta</screen>
+      
+      <para>
+	We already found the serial port earlier!
+      </para>
+      &ls.ttyusb;
+    </dbs:foil>
+    <dbs:foil xml:id="rigctld.foil">
+      <title xml:id="rigctld.foil.title">Many programs sharing one rig</title>
+      <para>
+	But what if you want multiple programs on one machine to use
+	your rig?
+      </para>
+      <para>
+	Or, even crazier yet, let a program elsewhere on the network
+	use your rig?
+      </para>
+      <para>
+	&hamlib; to the rescue again!
+      </para>
+      <para>
+	Set up the &hamlib; program &rigctld; with the rig ID number
+	and the serial port device.
+      </para>
+      <para>
+	Set up the remote program with rig ID number 2
+	(<literal>NET rigctl</literal>)
+	and direct it to the host and port where &rigctld; is running.
+      </para>
+      <imageobject>
+	<imagedata fileref="hamlib-rigctld.svg"/>
+      </imageobject>
+    </dbs:foil>
+    <dbs:foil xml:id="cqrlog.foil">
+      <title xml:id="cqrlog.foil.title">Logging with &cqrlog;</title>
+      <!-- integration with rigctld -->
+      <!-- remote mode for fldigi -->
+      <!-- remote mode for wsjtx -->
+      <!-- contest mode -->
+    </dbs:foil>
+    <dbs:foil xml:id="logexport.foil">
+      <title xml:id="logexport.foil.title">Exporting logs from &cqrlog;</title>
+      <!-- exporting logs from CQRLog to other programs/services -->
+      <!-- trustedqsl for LotW -->
+      <!-- eqsl.cc -->
+      <!-- clublog -->
+      <!-- qrz -->
+      <!-- qrzcq -->
+    </dbs:foil>
+    <dbs:foil xml:id="qtel.foil">
+      <title xml:id="qtel.foil.title">&qtel; for EchoLink</title>
+    </dbs:foil>
     <!-- Qtel for EchoLink -->
-    <!-- HF weak signal modes with WSJT-X -->
-    <!-- HF RTTY contesting with Fldigi and CQRLog -->
-    <!-- APRS with Direwolf and Xastir -->
-    <!-- Packet radio BBS with linpac -->
-    <!-- CW contesting with cwdaemon and TLF -->
-    <!-- SSB contesting with cwdaemon and TLF -->
+    <dbs:foil xml:id="wsjtx.foil">
+      <title xml:id="wsjtx.foil.title">Weak signal modes with &wsjtx;</title>
+      <!-- remote mode back to cqrlog -->
+      <!-- Best to set for exclusive control of rig, not shared -->
+    </dbs:foil>
+    <dbs:foil xml:id="fldigi.foil">
+      <title xml:id="fldigi.foil.title">Digital modes and contests with &fldigi;</title>
+      <!-- remote mode back to cqrlog -->
+      <!-- rigcat, not hamlib rigctld -->
+      <!-- cabrillo log export -->
+    </dbs:foil>
+    <dbs:foil xml:id="direwolf.foil">
+      <title xml:id="direwolf.foil.title">Packet radio with &direwolf;</title>
+    </dbs:foil>
+    <dbs:foil xml:id="xastir.foil">
+      <title xml:id="xastir.foil.title">&aprs; with &xastir;</title>
+      <!-- use direwolf to T/R packets -->
+      <!-- can also set up GPS dongle -->
+      <!-- many projects about building RPi + Direwolf + Xastir + GPS dongle -->
+    </dbs:foil>
+    <dbs:foil xml:id="linpac.foil">
+      <title xml:id="linpac.foil.title">Packet radio with &linpac;</title>
+      <!-- primarily for connecting to a packet bbs -->
+      <!-- can also be used as a free-form packet radio terminal -->
+    </dbs:foil>
+    <dbs:foil xml:id="cwdaemon.foil">
+      <title xml:id="cwdaemon.foil.title">Computer-generated &cw; with &cwdaemon;</title>
+      <!-- brief list of capabilites -->
+      <!-- configuration of serial device -->
+      <!-- testing with nc -->
+    </dbs:foil>
+    <dbs:foil xml:id="tlfcw.foil">
+      <title xml:id="tlfcw.foil.title">&cw; contesting with &tlf;</title>
+      <!-- launching in its own terminal -->
+      <!-- configuring your station in general in logcfg.dat -->
+      <!-- rules files: setting up for a particular contest -->
+      <!-- controlling rig -->
+      <!-- exporting logs in cabrillo for submission -->
+      <!-- exporting logs in adif, back to cqrlog -->
+    </dbs:foil>
+    <dbs:foil xml:id="tlfssb.foil">
+      <title xml:id="tlfssb.foil.title">&ssb; contesting with &tlf;</title>
+      <!-- recording .wav -->
+      <!-- setting up play_vk -->
+      <!-- don't forget USB data mode on txcvr -->
+      <!-- determining appropriate sound devices -->
+    </dbs:foil>
   </dbs:foilgroup>
 
   <dbs:foilgroup>

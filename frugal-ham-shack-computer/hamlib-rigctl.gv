@@ -1,0 +1,15 @@
+graph hamlib_rigctl {
+      Antenna [label=""; shape="invtriangle"];
+      transmatch [shape="box3d"; color="white"; style="filled"; fillcolor="#808080"; fontcolor="white" label="MFJ-949E"];
+      rig [style="filled"; color="white"; fillcolor="black"; fontcolor="orange"; edgecolor="orange"; shape="box3d"; label="ICOM IC-7200"];
+      /* Computer [style="filled"; fillcolor="gray"; shape="box3d"]; */
+
+      subgraph cluster_computer {
+      	       label="Computer               ";
+      	       program [shape="hexagon"; style="filled"; fillcolor="#c0c0c0"; fontcolor="green"; fontname="Courier"];
+      };
+
+      Antenna -- transmatch;
+      transmatch -- rig;
+      rig -- program;
+}

@@ -1,0 +1,31 @@
+graph hamlib_rigctld {
+      Antenna [label=""; shape="invtriangle"];
+      transmatch [shape="box3d"; color="white"; style="filled"; fillcolor="#808080"; fontcolor="white" label="MFJ-949E"];
+      rig [style="filled"; color="white"; fillcolor="black"; fontcolor="orange"; edgecolor="orange"; shape="box3d"; label="ICOM IC-7200"];
+      network [label="some kind\nof network"; shape="egg"; color="white"; style="filled"; color="#d0d0d0"];
+      
+      /* Computer [style="filled"; fillcolor="gray"; shape="box3d"]; */
+
+      subgraph cluster_computer {
+      	       label="Computer";
+	       rigctld [shape="hexagon"; style="filled"; color="white"; fillcolor="red"; fontcolor="yellow"; fontname="Courier"];
+      	       lp0 [label="program"; shape="hexagon"; style="filled"; fillcolor="#c0c0c0"; fontcolor="green"; fontname="Courier"];
+	       lp1 [label="program"; shape="hexagon"; style="filled"; fillcolor="#c0c0c0"; fontcolor="green"; fontname="Courier"];
+	       lp2 [label="program"; shape="hexagon"; style="filled"; fillcolor="#c0c0c0"; fontcolor="green"; fontname="Courier"];
+	       lp0 -- rigctld;
+	       lp1 -- rigctld;
+      	       lp2 -- rigctld;
+      };
+
+      subgraph cluster_remote {
+      	       label="Other Computer";
+	       remote_program [label="remote\nprogram"; shape="hexagon"; style="filled"; fillcolor="#c0c0c0"; fontcolor="green"; fontname="Courier"];
+      };
+
+      Antenna -- transmatch;
+      transmatch -- rig;
+      rig -- rigctld;
+      network -- rigctld;
+      remote_program -- network;
+      
+}

@@ -3,7 +3,7 @@ THEME=naked
 XMLSRC=$(addsuffix .xml, $(DOC))
 XSLSRC=$(addsuffix .xsl, themes/$(THEME)/$(DOC)) themes/$(THEME)/param.xsl themes/$(THEME)/freebsd.xsl themes/$(THEME)/macosx.xsl themes/$(THEME)/sourceforge.xsl 
 XMLTO_HELPER=$(addsuffix -xhtml, $(DOC))
-GVSRC=nooelec.gv
+GVSRC=nooelec.gv hamlib-rigctl.gv hamlib-rigctld.gv
 PICSRC=
 SVGOBJ=$(GVSRC:.gv=.svg) $(PICSRC:.pic=.svg)
 LINTSRC=$(addsuffix .lint, $(XMLSRC)) $(addsuffix .lint, $(XSLSRC))
