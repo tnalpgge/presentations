@@ -77,12 +77,45 @@
 <!ENTITY tlf '<application xmlns="http://docbook.org/ns/docbook">tlf</application>'>
 <!ENTITY cwdaemon '<application xmlns="http://docbook.org/ns/docbook">cwdaemon</application>'>
 <!ENTITY hamlib.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://hamlib.sourceforge.net/">&hamlib;</link>'>
-<!ENTITY ls.ttyusb '<screen xmlns="http://docbook.org/ns/docbook">&ps1; <userinput>ls -l /dev/serial/by-id/</userinput>
+<!ENTITY ls.ttyusb '<screen xmlns="http://docbook.org/ns/docbook">&ps1; <userinput>ls -l /dev/ttyUSB*</userinput>
+crw-rw---- 1 root dialout 188, 0 Dec  9 20:56 /dev/ttyUSB0
+crw-rw---- 1 root dialout 188, 1 Dec  2 17:59 /dev/ttyUSB1
+crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</screen>'>
+<!ENTITY ls.serial.by-id '<screen xmlns="http://docbook.org/ns/docbook">&ps1; <userinput>ls -l /dev/serial/by-id/</userinput>
 total 0
 lrwxrwxrwx 1 root root 13 Dec  9 20:56 usb-1a86_USB2.0-Serial-if00-port0 -> ../../ttyUSB0
 lrwxrwxrwx 1 root root 13 Dec  2 17:58 usb-Prolific_Technology_Inc._USB-Serial_Controller_D-if00-port0 -> ../../ttyUSB1
 lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_IC-7200_0205281-if00-port0 -> ../../ttyUSB3</screen>'>
 <!ENTITY rigctld '<application xmlns="http://docbook.org/ns/docbook">rigctld</application>'>
+<!ENTITY prolific '<orgname xmlns="http://docbook.org/ns/docbook">Prolific Technology Inc.</orgname>'>
+<!ENTITY gps '<acronym xmlns="http://docbook.org/ns/docbook">GPS</acronym>'>
+<!ENTITY n1mm '<application xmlns="http://docbook.org/ns/docbook">N1MM</application>'>
+<!ENTITY hrd '<application xmlns="http://docbook.org/ns/docbook">HamRadio Deluxe</application>'>
+<!ENTITY rbn '<orgname xmlns="http://docbook.org/ns/docbook">Reverse Beacon Network</orgname>'>
+<!ENTITY rbn.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.reversebeacon.net/">&rbn;</link>'>
+<!ENTITY dx '<acronym xmlns="http://docbook.org/ns/docbook">DX</acronym>'>
+<!ENTITY xplanet '<application xmlns="http://docbook.org/ns/docbook">XPlanet</application>'>
+<!ENTITY hamqth '<orgname xmlns="http://docbook.org/ns/docbook">HamQTH</orgname>'>
+<!ENTITY hamqth.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.hamqth.com/">&hamqth;</link>'>
+<!ENTITY qrz '<orgname xmlns="http://docbook.org/ns/docbook"><acronym>QRZ</acronym></orgname>'>
+<!ENTITY qrz.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.qrz.com/">&qrz;</link>'>
+<!ENTITY lotw '<application xmlns="http://docbook.org/ns/docbook">Logbook of the World</application>'>
+<!ENTITY lotw.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://lotw.arrl.org/">&lotw;</link>'>
+<!ENTITY eqsl '<orgname xmlns="http://docbook.org/ns/docbook">eQSL</orgname>'>
+<!ENTITY eqsl.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://eqsl.cc/">&eqsl;</link>'>
+<!ENTITY clublog '<orgname xmlns="http://docbook.org/ns/docbook">ClubLog</orgname>'>
+<!ENTITY clublog.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.clublog.org/">&clublog;</link>'>
+<!ENTITY tqsl '<application xmlns="http://docbook.org/ns/docbook">TrustedQSL</application>'>
+<!ENTITY adif '<acronym xmlns="http://docbook.org/ns/docbook">ADIF</acronym>'>
+<!ENTITY qrzcq '<orgname xmlns="http://docbook.org/ns/docbook">QRZCQ</orgname>'>
+<!ENTITY qrzcq.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.qrzcq.com/">&qrzcq;</link>'>
+<!ENTITY rigcat '<application xmlns="http://docbook.org/ns/docbook">RigCAT</application>'>
+<!ENTITY remote.fldigi.guimenuitem '<guimenuitem xmlns="http://docbook.org/ns/docbook">Remote mode for &fldigi;</guimenuitem>'>
+<!ENTITY remote.wsjtx.guimenuitem '<guimenuitem xmlns="http://docbook.org/ns/docbook">Remote mode for &wsjtx;</guimenuitem>'>
+<!ENTITY tnc '<acronym xmlns="http://docbook.org/ns/docbook">TNC</acronym>'>
+<!ENTITY kiss '<acronym xmlns="http://docbook.org/ns/docbook">KISS</acronym>'>
+<!ENTITY ax25 '<acronym xmlns="http://docbook.org/ns/docbook">AX.25</acronym>'>
+<!ENTITY bbs '<acronym xmlns="http://docbook.org/ns/docbook">BBS</acronym>'>
 ]>
 <dbs:slides xmlns="http://docbook.org/ns/docbook"
 	    xmlns:dbs="http://docbook.org/ns/docbook-slides"
@@ -200,6 +233,53 @@ lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridg
 output on the screen</screen>
     </dbs:foil>
   </dbs:foilgroup>
+  
+  <dbs:foilgroup xml:id="meta.foilgroup">
+    <info>
+      <title xml:id="meta.foilgroup.title">About this presentation</title>
+    </info>
+    <dbs:foil xml:id="includes.foil">
+      <title xml:id="includes.foil.title">What this presentation covers</title>
+      <para>
+	Capabilities of my station, given my particular combination of
+	hardware and software.
+      </para>
+      <para>
+	The personal experiences of one radio amateur.  Your mileage
+	may vary!
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="excludes.foil">
+      <title xml:id="excludes.foil.title">What this presentation does not cover</title>
+      <para>
+	How to partition your disks, back up your data, install an
+	operating system, or perform basic administration tasks.
+      </para>
+      <para>
+	How to use the individual programs highlighted here.
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="warnings.foil">
+      <title xml:id="warnings.foil.title">Warnings</title>
+      <warning>
+	<para>
+	  Back up your data before doing anything drastic to your computer!
+	</para>
+      </warning>
+      <warning>
+	<para>
+	  Connect to a dummy load before experimenting with anything
+	  that could transmit!
+	</para>
+      </warning>
+      <warning>
+	<para>
+	  RF can cause weird things to happen on computers.  Be
+	  prepared to add RF chokes to power and data cables.
+	</para>
+      </warning>
+    </dbs:foil>
+  </dbs:foilgroup>
 
   <dbs:foilgroup xml:id="aboutme.foilgroup">
     <info>
@@ -219,13 +299,15 @@ output on the screen</screen>
       </para>
       <para>
 	Isaac Asimov (Foundation, Robots), Franklin W. Dixon (Hardy
-	Boys), J.R.R. Tolkien
+	Boys), J.R.R. Tolkien (Something with hobbits and rings)
       </para>
     </dbs:foil>
     <dbs:foil xml:id="maurice.foil">
       <title xml:id="maurice.foil.title">Papa Maurice</title>
       <para>
-	Worked on aircraft at Edwards AFB.
+	Worked on aircraft and their engines at Edwards
+	<acronym>AFB</acronym> in the high desert of Southern
+	California.
       </para>
       <para>
 	Took me and my brother to Mojave Airport many times to look at
@@ -236,6 +318,12 @@ output on the screen</screen>
       </para>
       <para>
 	"Mechanically inclined" would be an understatement.
+      </para>
+      <para>
+	<link xlink:href="https://airandspace.si.edu/collection-objects/rutan-voyager">Voyager Aircraft</link>
+	and
+	<link xlink:href="https://www.nasa.gov/centers/kennedy/shuttleoperations/orbiters/challenger-info.html">Space Shuttle Challenger</link>
+	made quite an impression on a young mind!
       </para>
     </dbs:foil>
     <dbs:foil xml:id="stephen.foil">
@@ -318,8 +406,11 @@ output on the screen</screen>
       </para>
       <para>
 	Still haven't figured out how to balance in-house workers'
-	time versus paying a vendor for a product.  Combined with my
-	curiosity about things...I'm not management material yet :-)
+	time versus paying a vendor for a product.
+      </para>
+      <para>
+	Combined with my curiosity about things...I'm not management
+	material yet :-)
       </para>
     </dbs:foil>
     <dbs:foil xml:id="prelicense.foil">
@@ -346,7 +437,7 @@ output on the screen</screen>
       </para>
     </dbs:foil>
   </dbs:foilgroup>
-
+  
   <dbs:foilgroup xml:id="myshack.foilgroup">
     <info>
       <title xml:id="myshack.foilgroup.title">About My Ham Shack</title>
@@ -355,88 +446,67 @@ output on the screen</screen>
       <title xml:id="nooelec.foil.title">NooElec SDR and upconverter</title>
       <!-- photo of SDR USB stick -->
       <!-- photo of upconverter -->
-      <itemizedlist>
-	<listitem>
-	  <para>
-	    Receives 24-1766 MHz with external antenna
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    Additional software required to demodulate what you receive
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    With transverter shift of -125 MHz, can also receive 0-24 MHz!
-	  </para>
-	</listitem>
-      </itemizedlist>
+      <para>
+	Receives 24-1766 MHz with external antenna.
+      </para>
+      <para>
+	Additional software required to demodulate what you receive.
+      </para>
+      <para>
+	With transverter shift of -125 MHz, can also receive 0-24 MHz!
+      </para>
     </dbs:foil>
     <dbs:foil xml:id="ic7200.foil">
       <title xml:id="ic7200.foil.title">ICOM IC-7200 transceiver</title>
-      <itemizedlist>
-	<listitem>
-	  <para>Covers 0-54 MHz</para>
-	</listitem>
-	<listitem>
-	  <para>
-	    &cw;, &ssb;, &am;, &rtty;, digital modes, but no &fm;
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    Up to 100 watts output power
-	  </para>
-	</listitem>
-      </itemizedlist>
+      <para>
+	Covers 0-54 MHz.
+      </para>
+      <para>
+	&cw;, &ssb;, &am;, &rtty;, digital modes, but no &fm;.
+      </para>
+      <para>
+	Up to 100 watts output power.
+      </para>
+      <imageobject>
+	<imagedata fileref="img/ic-7200_back_panel.jpg" scale="50"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="ftm3100.foil">
       <title xml:id="ftm3100.foil.title">Yaesu FTM-3100 transceiver</title>
-      <itemizedlist>
-	<listitem>
-	  <para>
-	    Covers 136-174 MHz
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    Analog &fm; only!
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    5 to 65 watts output power
-	  </para>
-	</listitem>
-      </itemizedlist>
+      <para>
+	Covers 136-174 MHz.
+      </para>
+      <para>
+	Analog &fm; only!
+      </para>
+      <para>
+	5 to 65 watts output power.
+      </para>
     </dbs:foil>
     <dbs:foil xml:id="mfj949e.foil">
       <title xml:id="mfj949e.foil.title">MFJ-949E transmatch</title>
       <!-- photo of MFJ-949E -->
-      <itemizedlist>
-	<listitem>
-	  <para>
-	    Totally manual and passive
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    2 antennas, 12-position inductor, 2 variable capacitors
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    Integrated dummy load and &swr; meter handy for testing
-	  </para>
-	</listitem>
-      </itemizedlist>
+      <para>
+	Totally manual and passive.
+      </para>
+      <para>
+	2 antennas, 12-position inductor, 2 variable capacitors.
+      </para>
+      <para>
+	Connectors for coax or balanced line.
+      </para>
+      <para>
+	Can handle up to 300 watts.
+      </para>
+      <para>
+	Integrated dummy load and &swr; meter; handy for testing!
+      </para>
     </dbs:foil>
     <dbs:foil xml:id="nomic.foil">
       <title xml:id="nomic.foil.title">RigBlaster nomic</title>
       <!-- photo of nomic -->
       <para>
-	Enables digital modes for older or less featureful transceivers
+	Enables digital modes for older or less featureful transceivers.
       </para>
       <para>
 	While testing, make sure to have a dummy load handy!
@@ -446,38 +516,28 @@ output on the screen</screen>
     <dbs:foil xml:id="ldc103.foil">
       <title xml:id="ldc103.foil.title">SODIAL LD-C103 &usb; &cw; interface</title>
       <!-- photo of LD-C103 -->
-      <itemizedlist>
-	<listitem>
-	  <para>
-	    Turns a &usb; port into a software-controlled straight key
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    Earn dirty looks from hard-core mechanical key enthusiasts!
-	  </para>
-	</listitem>
-      </itemizedlist>
+      <para>
+	Turns a &usb; port into a software-controlled straight key.
+      </para>
+      <para>
+	Earn dirty looks from hard-core mechanical key enthusiasts!
+      </para>
+      <para>
+	Set up your rig to expect a straight key, or disable its
+	internal keyer.
+      </para>
     </dbs:foil>
     <dbs:foil xml:id="antennas.foil">
       <title xml:id="antennas.foil.title">Antennas</title>
-      <itemizedlist>
-	<listitem>
-	  <para>
-	    Alpha-Delta DX-EE multi-band dipole, covers 40-6 meters
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    Copper pipe J-pole, 2 meters &amp; 70 centimeters
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    End-fed 120-foot long wire, covers 160-60 meters
-	  </para>
-	</listitem>
-      </itemizedlist>
+      <para>
+	Alpha-Delta DX-EE multi-band dipole, covers 40-6 meters.
+      </para>
+      <para>
+	Copper pipe J-pole, covers 2 meters &amp; 70 centimeters.
+      </para>
+      <para>
+	End-fed 120-foot long wire, covers 160-60 meters.
+      </para>
     </dbs:foil>
   </dbs:foilgroup>
 
@@ -488,26 +548,28 @@ output on the screen</screen>
     <dbs:foil xml:id="computerspecs.foil">
       <title xml:id="computerspecs.foil.title">Computer specifications</title>
       <para>
-	16 &gb; memory -- probably too much
+	16 &gb; memory.  Probably too much, but software only grows
+	over time...
       </para>
       <para>
 	250 &gb; solid-state disk -- definitely too much, but far
 	faster and quieter than spinning platters of rust!
       </para>
       <para>
-	&intel; Core i5, 2.7 GHz, 4 cores -- probably overkill
+	&intel; Core i5, 2.7 GHz, 4 cores -- probably overkill.
       </para>
       <para>
-	Mini-&itx; form factor motherboard and case -- nice and compact
+	Mini-&itx; form factor motherboard and case -- nice and
+	compact!
       </para>
     </dbs:foil>
     <dbs:foil title="ubuntu.foil">
       <title xml:id="ubuntu.foil.title">Ubuntu Linux</title>
       <link xlink:href="https://www.ubuntu.com/"/>
       <para>
-	Possibly the best combination of user-friendly desktop
+	Probably the best combination of user-friendly desktop
 	environment plus all the low-level command-line power tools
-	you could want.
+	you could want, with a very low price (your time and effort).
       </para>
       <para>
 	Can take advantage of packaging work done by &debian; -- very
@@ -515,8 +577,8 @@ output on the screen</screen>
       </para>
       <para>
 	Not actually my preferred operating system (&freebsd;) but
-	more popular and thus better supported.  Besides, most ham
-	software is written for Linux first.
+	more popular and thus better supported.  Besides, much
+	open-source software is written for &linux; first.
       </para>
       <para>
 	Download an image from the web site, burn it to &usb; stick or
@@ -546,6 +608,9 @@ output on the screen</screen>
 	  </para>
 	</listitem>
       </itemizedlist>
+      <imageobject>
+	<imagedata fileref="img/ubuntu_software_app.png"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="keyboard.foil">
       <title xml:id="keyboard.foil.title">A word about keyboards</title>
@@ -571,7 +636,8 @@ output on the screen</screen>
 	</listitem>
 	<listitem>
 	  <para>
-	    You must get comfortable entering commands at a shell.
+	    Even if you have a nice graphical environment,
+	    you must get comfortable entering commands at a shell.
 	  </para>
 	</listitem>
 	<listitem>
@@ -611,12 +677,6 @@ output on the screen</screen>
       <itemizedlist>
 	<listitem>
 	  <para>
-	    For a lot of software:
-	    <literal>ppa:ubuntu-hams-updates/ppa</literal>
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
 	    &wsjtx; for weak signal work:
 	    <literal>ppa:ki7mt/wsjtx</literal>
 	  </para>
@@ -633,10 +693,16 @@ output on the screen</screen>
 	    <literal>ppa:kamalmostafa/fldigi</literal>
 	  </para>
 	</listitem>
+	<listitem>
+	  <para>
+	    A lot of other software related to amateur radio:
+	    <literal>ppa:ubuntu-hams-updates/ppa</literal>
+	  </para>
+	</listitem>
       </itemizedlist>
     </dbs:foil>
-    <dbs:foil xml:id="serialports.foil">
-      <title xml:id="serialports.foil.title">Serial ports</title>
+    <dbs:foil xml:id="serialports0.foil">
+      <title xml:id="serialports0.foil.title">Serial ports</title>
       <para>
 	Serial ports are commonly used by amateur radio hardware to
 	allow computer control.
@@ -648,20 +714,18 @@ output on the screen</screen>
 	Most serial ports have boring, indistinct names that are
 	allocated as the devices are plugged in and/or powered on.
       </para>
-      
-      <screen>&ps1; <userinput>ls -l /dev/ttyUSB*</userinput>
-crw-rw---- 1 root dialout 188, 0 Dec  9 20:56 /dev/ttyUSB0
-crw-rw---- 1 root dialout 188, 1 Dec  2 17:59 /dev/ttyUSB1
-crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</screen>
-
+      &ls.ttyusb;
       <para>
 	However your operating system may also provide more
 	descriptive names that are not based on when the device was
 	plugged in.
       </para>
-
+      &ls.serial.by-id;
+    </dbs:foil>
+    <dbs:foil xml:id="serialports1.foil">
+      <title xml:id="serialports1.foil.title">Serial ports</title>
       &ls.ttyusb;
-      
+      &ls.serial.by-id;
       <para>
 	Remember where to find these!  You may need to put them in
 	configuration files later.
@@ -671,6 +735,18 @@ crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</screen>
 	you can access those serial ports as yourself, without being
 	the <literal>root</literal> superuser!
       </para>
+      <warning>
+	<para>
+	  If you attach two devices that use the same very popular
+	  chip set, they may be indistinguishable by name.  You will
+	  have to resort to number instead.
+	</para>
+	<para>
+	  The chip set from &prolific; appears in many &usb;-to-serial
+	  cables as well as some &usb; &gps; devices...and probably
+	  a lot of other stuff too!
+	</para>
+      </warning>
     </dbs:foil>
     <dbs:foil xml:id="soundcard.foil">
       <title xml:id="soundcard.foil.title">Working with sound cards</title>
@@ -737,8 +813,23 @@ crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</screen>
     <info>
       <title>Capabilities Achieved</title>
     </info>
-    <dbs:foil title="scanner.foil">
-      <title xml:id="scanner.foil.title">Scanner and pandapter</title>
+    <dbs:foil xml:id="scanner-hw.foil">
+      <title xml:id="scanner-hw.foil.title">Scanner and pandapter: hardware</title>
+      <para>
+	Many programs can read from an attached &sdr; dongle.
+      </para>
+      <imageobject>
+	<imagedata fileref="nooelec.svg"/>
+      </imageobject>
+      <warning>
+	<para>
+	  If you run a transmitting rig near this hardware, put
+	  ferrite chokes on the &usb; cables!
+	</para>
+      </warning>
+    </dbs:foil>
+    <dbs:foil xml:id="scanner-sw.foil">
+      <title xml:id="scanner-sw.foil.title">Scanner and pandapter: software</title>
       <para>
 	The program &gqrx; will read from an attached &sdr; dongle.
       </para>
@@ -751,9 +842,8 @@ crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</screen>
 	available for other programs to consume, possibly over the
 	network!
       </para>
-      <!-- screen shot of gqrx -->
       <imageobject>
-	<imagedata fileref="nooelec.svg"/>
+	<imagedata fileref="img/gqrx_fm_broadcast.png"/>
       </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="hamlib.foil">
@@ -829,50 +919,216 @@ crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</screen>
 	<imagedata fileref="hamlib-rigctld.svg"/>
       </imageobject>
     </dbs:foil>
-    <dbs:foil xml:id="cqrlog.foil">
-      <title xml:id="cqrlog.foil.title">Logging with &cqrlog;</title>
+    <dbs:foil xml:id="cqrlog0.foil">
+      <title xml:id="cqrlog0.foil.title">Logging with &cqrlog;</title>
+      <para>
+	If &cqrlog; has a work-alike in the &windows; space, it is
+	&n1mm; or &hrd;.
+      </para>
+      <para>
+	&rigctld;, &cwdaemon;, &rbn.link;, &dx; cluster, &xplanet;,
+	grayline map, &hamqth.link;, &qrz.link;, &lotw.link;,
+	&eqsl.link;, &clublog.link;...too many capabilities to count!
+      </para>
+      <imageobject>
+	<imagedata fileref="img/cqrlog_overview.png"/>
+      </imageobject>
+    </dbs:foil>
+    <dbs:foil xml:id="cqrlog1.foil">
+      <title xml:id="cqrlog1.foil.title">&cqrlog; features</title>
+      <para>
+	The preferences window has multiple tabs.  Yes, it is a deep
+	rabbit hole.
+      </para>
+      <imageobject>
+	<imagedata fileref="img/cqrlog_preferences.png"/>
+      </imageobject>
+    </dbs:foil>
+    <dbs:foil xml:id="cqrlog2.foil">
+      <title xml:id="cqrlog2.foil.title">&cqrlog; features of note</title>
       <!-- integration with rigctld -->
-      <!-- remote mode for fldigi -->
-      <!-- remote mode for wsjtx -->
-      <!-- contest mode -->
+      <para>
+	Launch &rigctld; on startup, and use it for rig control and
+	logging assistance.
+      </para>
+      <para>
+	Slurp over logs from &fldigi; or &wsjtx;.  (But not
+	simultaneously.)
+      </para>
+      <para>
+	&cw; macros and a contest entry window, with support for
+	serial numbers!
+      </para>
+      <para>
+	From the online help:
+      </para>
+      <blockquote>
+	<para>
+	  This is <emphasis>NOT</emphasis> a contest logging add-on!!!
+	  It is meant to be a tool for "Sunday contesters working in
+	  Tourist Class". Do not expect wonders!
+	</para>
+      </blockquote>
     </dbs:foil>
     <dbs:foil xml:id="logexport.foil">
       <title xml:id="logexport.foil.title">Exporting logs from &cqrlog;</title>
       <!-- exporting logs from CQRLog to other programs/services -->
       <!-- trustedqsl for LotW -->
+      <para>
+	If you use &lotw; and have &tqsl; installed, &cqrlog; can make
+	the signing and uploading process easier.
+      </para>
+      <imageobject>
+	<imagedata fileref="img/cqrlog_lotw_upload.png" scale="50"/>
+      </imageobject>
       <!-- eqsl.cc -->
-      <!-- clublog -->
-      <!-- qrz -->
-      <!-- qrzcq -->
+      <para>
+	And then afterwards, you can find the individual &adif; file
+	and upload it to your favorite logbook site (e.g. &qrz.link;,
+	&eqsl.link;, &clublog.link;, &qrzcq.link;).
+      </para>
+      <imageobject>
+	<imagedata fileref="img/cqrlog_post_lotw_adif_upload_qrz.png" scale="90"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="qtel.foil">
       <title xml:id="qtel.foil.title">&qtel; for EchoLink</title>
+      <para>
+	Not much to say.  Enter your credentials, set up the audio
+	devices, and go!
+      </para>
+      <imageobject>
+	<imagedata fileref="img/qtel.png"/>
+      </imageobject>
     </dbs:foil>
-    <!-- Qtel for EchoLink -->
     <dbs:foil xml:id="wsjtx.foil">
       <title xml:id="wsjtx.foil.title">Weak signal modes with &wsjtx;</title>
-      <!-- remote mode back to cqrlog -->
-      <!-- Best to set for exclusive control of rig, not shared -->
+      <para>
+	In &cqrlog;, first set &remote.wsjtx.guimenuitem; then launch
+	&wsjtx;.
+      </para>
+      <para>
+	&wsjtx; doesn't like sharing the rig; make sure it's the only
+	process using it!
+      </para>
+      <para>
+	After you're done with &wsjtx;, remember to disable
+	&remote.wsjtx.guimenuitem;.
+      </para>
+      <imageobject>
+	<imagedata fileref="img/wsjtx.png"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="fldigi.foil">
       <title xml:id="fldigi.foil.title">Digital modes and contests with &fldigi;</title>
       <!-- remote mode back to cqrlog -->
       <!-- rigcat, not hamlib rigctld -->
       <!-- cabrillo log export -->
+      <para>
+	&fldigi; can use &hamlib; but its own &rigcat; system seems to
+	work better in my case.
+      </para>
+      <para>
+	Still have to manually set the rig to take modulation from
+	computer.  Annoying on band changes!
+      </para>
+      <para>
+	Set &cqrlog; to &remote.fldigi.guimenuitem; before launching
+	&fldigi;, then communication between the two should work fine.
+      </para>
+      <para>
+	Remember to disable &remote.fldigi.guimenuitem; after you're
+	done with &fldigi;.
+      </para>
+      <imageobject>
+	<imagedata fileref="img/fldigi_rtty.png"/>
+      </imageobject>
+    </dbs:foil>
+    <dbs:foil xml:id="packethw.foil">
+      <title xml:id="packethw.foil.title">Hardware setup for packet radio</title>
+      <imageobject>
+	<imagedata fileref="nomic.svg"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="direwolf.foil">
       <title xml:id="direwolf.foil.title">Packet radio with &direwolf;</title>
+      <para>
+	&direwolf; is a software &tnc; that can interface with a sound
+	card and a serial port.
+      </para>
+      <filename><varname>$HOME</varname>/direwolf.conf</filename>
+      <programlisting><![CDATA[# see  /usr/share/doc/direwolf/examples/direwolf.conf.gz
+ADEVICE sysdefault:CARD=PCH
+ACHANNELS 1
+CHANNEL 0
+MYCALL W6SFI-1
+MODEM 1200
+PTT /dev/ttyUSB0 RTS DTR
+AGWPORT 8000
+KISSPORT 8001]]></programlisting>
+      <para>
+	You can run &direwolf; silently in the background, or watch it
+	scroll in a terminal.
+      </para>
+      <imageobject>
+	<imagedata fileref="img/direwolf_terminal.png"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="xastir.foil">
       <title xml:id="xastir.foil.title">&aprs; with &xastir;</title>
-      <!-- use direwolf to T/R packets -->
-      <!-- can also set up GPS dongle -->
-      <!-- many projects about building RPi + Direwolf + Xastir + GPS dongle -->
+      <para>
+	&direwolf; is much better when you combine it with other
+	programs that actually know what to do with packets, like
+	&xastir;.
+      </para>
+      <para>
+	&xastir; gets even better when you attach it to a &gps; dongle
+	and a weather station.
+      </para>
+      <para>
+	For those who don't like to buy purpose-built tracker
+	hardware, there are many guides on the internet about how to
+	combine a Raspberry Pi, &direwolf;, &xastir;, and a &gps;
+	dongle into a portable &aprs; solution.
+      </para>
+      <imageobject>
+	<imagedata fileref="img/xastir_direwolf_alsamixer.png"/>
+      </imageobject>
+    </dbs:foil>
+    <dbs:foil xml:id="kisstnc.foil">
+      <title xml:id="kisstnc.foil.title">&direwolf; for &ax25;</title>
+      <para>
+	With a slightly different configuration, &direwolf; can be
+	convinced to be a &kiss; &tnc; for generic &ax25; operation.
+      </para>
+      <filename><varname>$HOME</varname>/direwolf.conf.packet</filename>
+      <programlisting><![CDATA[# see  /usr/share/doc/direwolf/examples/direwolf.conf.gz
+ADEVICE sysdefault:CARD=PCH
+ACHANNELS 1
+CHANNEL 0
+MYCALL W6SFI-2
+MODEM 1200
+FIX_BITS 1 AX25
+PTT /dev/ttyUSB0 RTS DTR
+AGWPORT 8000
+KISSPORT 8001]]></programlisting>
+      <filename>/etc/ax25/axports</filename>
+      <programlisting><![CDATA[packet	W6SFI-2	1200	255	2	1200 BPS packet]]></programlisting>
+      <imageobject>
+	<imagedata fileref="img/direwolf_kissattach.png"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="linpac.foil">
       <title xml:id="linpac.foil.title">Packet radio with &linpac;</title>
+      <para>
+	&linpac; can spew packets out into the ether, or connect to a
+	packet &bbs;.
+      </para>
       <!-- primarily for connecting to a packet bbs -->
       <!-- can also be used as a free-form packet radio terminal -->
+      <imageobject>
+	<imagedata fileref="img/linpac_direwolf.png"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="cwdaemon.foil">
       <title xml:id="cwdaemon.foil.title">Computer-generated &cw; with &cwdaemon;</title>
@@ -889,6 +1145,13 @@ crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</screen>
       <!-- exporting logs in cabrillo for submission -->
       <!-- exporting logs in adif, back to cqrlog -->
     </dbs:foil>
+
+  </dbs:foilgroup>
+
+  <dbs:foilgroup>
+    <info>
+      <title>Future Plans</title>
+    </info>
     <dbs:foil xml:id="tlfssb.foil">
       <title xml:id="tlfssb.foil.title">&ssb; contesting with &tlf;</title>
       <!-- recording .wav -->
@@ -896,12 +1159,6 @@ crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</screen>
       <!-- don't forget USB data mode on txcvr -->
       <!-- determining appropriate sound devices -->
     </dbs:foil>
-  </dbs:foilgroup>
-
-  <dbs:foilgroup>
-    <info>
-      <title>Future Plans</title>
-    </info>
     <!-- QSSTV -->
     <!-- FreeDV digital voice over HF -->
     <!-- IPv4 over packet radio: AMPR -->
@@ -928,7 +1185,7 @@ crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</screen>
       <para>
 	Should you wish to see how this presentation was assembled:
       </para>
-      <screen>&ps1h; <userinput>git clone https://github.com/tnalpgge/presentations</userinput>
+      <screen>&ps1h; <userinput>git clone https://github.com/tnalpgge/presentations.git</userinput>
 &ps1h; <userinput>cd &subdir;</userinput>
 <prompt>[you@workstation &subdir;]$</prompt> <userinput>make</userinput>
       </screen>

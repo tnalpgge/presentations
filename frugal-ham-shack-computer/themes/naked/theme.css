@@ -128,3 +128,14 @@ div.slide {
 }
 
 
+.literal { color: blue; }
+.filename { color: red; }
+.warning { background-color: #ffa; }
+.note { background-color: #aaf; }
+.screen { background-color: black; color: #999; }
+.prompt { color: #ccc; }
+.userinput { color: white; }
+.blockquote { background-color: #faf; }
+.informalexample { background-color: #afa; }
+.application { color: #a0a; }
+.varname { color: #f80; }

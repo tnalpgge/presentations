@@ -1,0 +1,30 @@
+graph nomic {
+      Antenna [label=""; shape="invtriangle"];
+
+      subgraph cluster_nomic {
+      	       label="RIGblaster nomic";
+	       serial [label="SERIAL IN"; shape="invtrapezium"; style="filled"; color="blue"; fontcolor="white"];
+	       audio_in [label="AUDIO\nIN"; shape="circle"; fixedsize="true"; style="filled"; color="red";];
+	       mic_out [label="MIC. OUT"; shape="box"];
+      };
+
+      subgraph cluster_txcvr {
+      	       label="Yaesu FTM-3100";
+	       rig_audio [label="EXT SP"; shape="circle"; style="filled"; color="yellow"; fixedsize="true"];
+	       mic [label="microphone"; shape="box"];
+	       rig_ant [label="SO-239"; shape="circle"; style="filled"; color="gray"];
+      };
+
+      subgraph cluster_computer {
+      	       label="Computer";
+	       usb [label="USB port"; shape="box"];
+	       line_in [label="line\nin"; shape="circle"; style="filled"; color="pink"; fixedsize="true"];
+	       line_out [label="line\nout"; shape="circle"; style="filled"; color="green"; fixedsize="true"];
+      };
+
+      Antenna -- rig_ant;
+      rig_audio -- line_in;
+      mic_out -- mic;
+      serial -- usb;
+      audio_in -- line_out;
+}
