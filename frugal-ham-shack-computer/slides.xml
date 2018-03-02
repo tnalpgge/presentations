@@ -75,6 +75,7 @@
 <!ENTITY bbs '<acronym xmlns="http://docbook.org/ns/docbook">BBS</acronym>'>
 <!ENTITY linpac '<application xmlns="http://docbook.org/ns/docbook">linpac</application>'>
 <!ENTITY tlf '<application xmlns="http://docbook.org/ns/docbook">tlf</application>'>
+<!ENTITY tlf.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://github.com/Tlf/tlf/">&tlf;</link>'>
 <!ENTITY cwdaemon '<application xmlns="http://docbook.org/ns/docbook">cwdaemon</application>'>
 <!ENTITY hamlib.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://hamlib.sourceforge.net/">&hamlib;</link>'>
 <!ENTITY ls.ttyusb '<screen xmlns="http://docbook.org/ns/docbook">&ps1; <userinput>ls -l /dev/ttyUSB*</userinput>
@@ -116,7 +117,29 @@ lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridg
 <!ENTITY kiss '<acronym xmlns="http://docbook.org/ns/docbook">KISS</acronym>'>
 <!ENTITY ax25 '<acronym xmlns="http://docbook.org/ns/docbook">AX.25</acronym>'>
 <!ENTITY bbs '<acronym xmlns="http://docbook.org/ns/docbook">BBS</acronym>'>
+<!ENTITY adif '<acronym xmlns="http://docbook.org/ns/docbook">ADIF</acronym>'>
+<!ENTITY qsstv '<application xmlns="http://docbook.org/ns/docbook">QSSTV</application>'>
+<!ENTITY sstv '<acronym xmlns="http://docbook.org/ns/docbook">SSTV</acronym>'>
+<!ENTITY qso '<acronym xmlns="http://docbook.org/ns/docbook">QSO</acronym>'>
+<!ENTITY freedv '<application xmlns="http://docbook.org/ns/docbook">FreeDV</application>'>
+<!ENTITY freedv.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://freedv.org/">&freedv;</link>'>
+<!ENTITY qso.freedv.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://qso.freedv.org/"/>'>
+<!ENTITY hf '<acronym xmlns="http://docbook.org/ns/docbook">HF</acronym>'>
+<!ENTITY ampr '<acronym xmlns="http://docbook.org/ns/docbook">AMPR</acronym>'>
+<!ENTITY ampr.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ampr.org/">&ampr;</link>'>
+<!ENTITY pat '<acronym xmlns="http://docbook.org/ns/docbook">Pat</acronym>'>
+<!ENTITY pat.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://getpat.io/">&pat;</link>'>
+<!ENTITY winlink '<acronym xmlns="http://docbook.org/ns/docbook">Winlink</acronym>'>
+<!ENTITY cqrlog.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://cqrlog.com/">&cqrlog;</link>'>
+<!ENTITY wsjtx.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.physics.princeton.edu/pulsar/K1JT/">&wsjtx;</link>'>
+<!ENTITY fldigi.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.w1hkj.com/">&fldigi;</link>'>
+<!ENTITY direwolf.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/wb2osz/direwolf">&direwolf;</link>'>
+<!ENTITY xastir.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://xastir.org/">&xastir;</link>'>
+<!ENTITY linpac.link '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://linpac.sourceforge.net/">&linpac;</link>'>
+<!ENTITY gqrx.link  '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://gqrx.dk/">&gqrx;</link>'>
+<!ENTITY home '<varname xmlns="http://docbook.org/ns/docbook">$HOME</varname>'>
 ]>
+
 <dbs:slides xmlns="http://docbook.org/ns/docbook"
 	    xmlns:dbs="http://docbook.org/ns/docbook-slides"
 	    xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -187,6 +210,9 @@ lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridg
       <para>
 	<database>Database, table, or column names</database>
       </para>
+      <para>
+	A <keycap>Specific Key</keycap> on your keyboard
+      </para>
     </dbs:foil>
     <dbs:foil xml:id="typographical2.foil">
       <title xml:id="typographical2.foil.title">Typographical Conventions</title>
@@ -256,7 +282,9 @@ output on the screen</screen>
 	operating system, or perform basic administration tasks.
       </para>
       <para>
-	How to use the individual programs highlighted here.
+	Copious detail on how to use the individual programs
+	highlighted here.  Some programs will have more detail than
+	others.
       </para>
     </dbs:foil>
     <dbs:foil xml:id="warnings.foil">
@@ -831,11 +859,11 @@ output on the screen</screen>
     <dbs:foil xml:id="scanner-sw.foil">
       <title xml:id="scanner-sw.foil.title">Scanner and pandapter: software</title>
       <para>
-	The program &gqrx; will read from an attached &sdr; dongle.
+	The program &gqrx.link; will read from an attached &sdr; dongle.
       </para>
       <para>
 	It can detect the presence of any RF signal, and can
-	demodulate analog &am;, &fm;, and &ssb; in software.
+	demodulate analog &am;, &fm;, &cw;, and &ssb; in software.
       </para>
       <para>
 	It can also record audio or raw I/Q to a file, and make audio
@@ -1025,12 +1053,13 @@ output on the screen</screen>
       <!-- rigcat, not hamlib rigctld -->
       <!-- cabrillo log export -->
       <para>
-	&fldigi; can use &hamlib; but its own &rigcat; system seems to
-	work better in my case.
+	&fldigi; can use its own &rigcat; system, but &hamlib; without
+	&rigctld; seems to work better in my case.
       </para>
       <para>
 	Still have to manually set the rig to take modulation from
-	computer.  Annoying on band changes!
+	computer.  Can be annoying on band changes!  Perhaps newer
+	&hamlib; solves this?
       </para>
       <para>
 	Set &cqrlog; to &remote.fldigi.guimenuitem; before launching
@@ -1056,7 +1085,7 @@ output on the screen</screen>
 	&direwolf; is a software &tnc; that can interface with a sound
 	card and a serial port.
       </para>
-      <filename><varname>$HOME</varname>/direwolf.conf</filename>
+      <filename>&home;/direwolf.conf</filename>
       <programlisting><![CDATA[# see  /usr/share/doc/direwolf/examples/direwolf.conf.gz
 ADEVICE sysdefault:CARD=PCH
 ACHANNELS 1
@@ -1101,7 +1130,7 @@ KISSPORT 8001]]></programlisting>
 	With a slightly different configuration, &direwolf; can be
 	convinced to be a &kiss; &tnc; for generic &ax25; operation.
       </para>
-      <filename><varname>$HOME</varname>/direwolf.conf.packet</filename>
+      <filename>&home;/direwolf.conf.packet</filename>
       <programlisting><![CDATA[# see  /usr/share/doc/direwolf/examples/direwolf.conf.gz
 ADEVICE sysdefault:CARD=PCH
 ACHANNELS 1
@@ -1132,20 +1161,165 @@ KISSPORT 8001]]></programlisting>
     </dbs:foil>
     <dbs:foil xml:id="cwdaemon.foil">
       <title xml:id="cwdaemon.foil.title">Computer-generated &cw; with &cwdaemon;</title>
-      <!-- brief list of capabilites -->
-      <!-- configuration of serial device -->
-      <!-- testing with nc -->
+      <para>
+	Are you better at keyboards than straight keys or paddles?
+	This may be for you!
+      </para>
+      <filename>/etc/default/cwdaemon</filename>
+      <programlisting><![CDATA[START_CWDAEMON="YES"
+DEVICE="ttyUSB1"]]></programlisting>
+      <para>
+	Configuring your particular keyer device is beyond the scope
+	of this presentation; mine required none.
+      </para>
+      <para>
+	Start it up!
+      </para>
+      <screen>&ps1; <userinput>sudo service cwdaemon start</userinput>
+&ps1; <userinput>nc -u localhost 6789</userinput>
+<userinput>+- CQ DE W6SFI PSE K</userinput>
+<userinput><keysym>^C</keysym></userinput>
+      </screen>
+      <para>
+	Did it work?
+      </para>
+      <mediaobject>
+	<videoobject>
+	  <videodata fileref=""/>
+	</videoobject>
+      </mediaobject>
     </dbs:foil>
-    <dbs:foil xml:id="tlfcw.foil">
-      <title xml:id="tlfcw.foil.title">&cw; contesting with &tlf;</title>
-      <!-- launching in its own terminal -->
-      <!-- configuring your station in general in logcfg.dat -->
-      <!-- rules files: setting up for a particular contest -->
-      <!-- controlling rig -->
-      <!-- exporting logs in cabrillo for submission -->
-      <!-- exporting logs in adif, back to cqrlog -->
+    
+    <dbs:foil xml:id="tlf-intro.foil">
+      <title xml:id="tlf-intro.foil.title">Contesting with &tlf;</title>
+      <para>
+	&tlf.link; is a console-based contest logger.  Run it in an
+	80x25 terminal with a huge font.
+      </para>
+      <para>
+	&tlf; is operated
+	<emphasis>entirely by keyboard,</emphasis>
+	and configured
+	<emphasis>entirely by text files.</emphasis>
+      </para>
+      <para>
+	Best to configure things in advance, and read the
+	documentation thoroughly.
+      </para>
+      <para>
+	Most of the features you would expect in dedicated contest
+	software:
+      </para>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    Configurable preset CW messages available at single keystrokes
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Bind voice keyer messages to keys for SSB contests
+	  </para>
+	</listitem>
+	<listitem>	  
+	  <para>
+	    Smart <keycap>Enter</keycap> key often does what you want.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Band map, DX cluster, Super Check Partial, rig control,
+	    score window, log review, duplicate detection...
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    A few contests built in, plus facilities for handling
+	    unknown contests or just general non-contest logging.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Contest simulator!  (Not a pileup simulator.)
+	    You may want to switch to the dummy load for this.
+	  </para>
+	</listitem>
+      </itemizedlist>
     </dbs:foil>
 
+    <dbs:foil xml:id="tlf-config0.foil">
+      <title xml:id="tlf-config0.foil.title">Configuring &tlf;: main configuration file</title>
+      <filename>&home;/.config/tlf/logcfg.dat</filename>
+      <programlisting><![CDATA[CALL=W6SFI
+CWSPEED=20
+CLUSTER
+BANDMAP
+SCOREWINDOW
+CHECKWINDOW
+PARTIALS
+RIGMODEL=361
+RIGSPEED=9600
+RIGPORT=/dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_IC-7200_0205281-if00-port0
+RADIO_CONTROL
+CONTEST=arrldx
+NETKEYER
+NO_BANDSWITCH_ARROWKEYS]]></programlisting>
+    </dbs:foil>
+    <dbs:foil xml:id="tlf-config1.foil">
+      <title xml:id="tlf-config1.foil.title">Configuring &tlf;: the rules file</title>
+      <filename>&home;/.config/tlf/rules/arrldx</filename>
+      <programlisting><![CDATA[CONTEST=arrldx
+LOGFILE=arrldx.log
+CONTEST_MODE
+CABRILLO=UNIVERSAL
+THREE_POINTS
+MULT_LIST=arrl10m_mults
+MY_COUNTRY_POINTS=0
+COUNTRY_MULT
+F1=+- CQ % TEST
+F2=+-  %
+F3=+- @ +++5NN--- CA
+F4=+- TU
+F5=+- @
+F6=+- %
+F7=+- @ SRI QSO B4 GL
+F8=+- AGN
+F9=+- ?
+F10=+- QRZ?
+F11=+- PSE K
+F12=+- CQ % TEST
+CQ_TU_MSG=+- TU %
+S&P_TU_MSG=+- TU +++5NN--- CA
+ALT_1=+- CA CA CA
+ALT_2=+- PWR? PWR?
+S&P_CALL_MSG=+- %]]></programlisting>
+    </dbs:foil>
+    
+    <dbs:foil xml:id="tlf-action0.foil">
+      <title xml:id="tlf-action0.foil.title">&tlf; in action</title>
+      <imageobject>
+	<imagedata fileref="img/tlf-in-giant-terminal.png"/>
+      </imageobject>
+    </dbs:foil>
+    
+    <dbs:foil xml:id="tlf-action1.foil">
+      <title xml:id="tlf-action1.foil.title">&tlf; in action</title>
+      <imageobject>
+	<imagedata fileref="img/tlf-dup-qso.png"/>
+      </imageobject>
+    </dbs:foil>
+
+    <dbs:foil xml:id="tlf-post.foil">
+      <title xml:id="tlf-post.foil.title">&tlf; after a contest</title>
+      <para>
+	Export your data to Cabrillo format with <literal>:WRI</literal>
+	and send in your entry.
+      </para>
+      <para>
+	Export your contacts to &adif; format with <literal>:ADI</literal>
+	and load them back into &cqrlog;!
+      </para>
+    </dbs:foil>
   </dbs:foilgroup>
 
   <dbs:foilgroup>
@@ -1154,25 +1328,132 @@ KISSPORT 8001]]></programlisting>
     </info>
     <dbs:foil xml:id="tlfssb.foil">
       <title xml:id="tlfssb.foil.title">&ssb; contesting with &tlf;</title>
-      <!-- recording .wav -->
-      <!-- setting up play_vk -->
-      <!-- don't forget USB data mode on txcvr -->
-      <!-- determining appropriate sound devices -->
+      <para>
+	Need to prepare a bunch of <filename>.wav</filename> files
+	that &tlf;'s voice keyer can play automatically.
+      </para>
+      <para>
+	Also need to write a script that uses a recent-enough version
+	of &hamlib; to put the rig into all the right modes, plays the
+	<filename>.wav</filename> to it, and then puts the rig back!
+      </para>
+      <para>
+	I know this can be done, because &wsjtx; knows all the right
+	buttons to push, and it uses &hamlib;.
+      </para>
     </dbs:foil>
-    <!-- QSSTV -->
+    <dbs:foil xml:id="sstv.foil">
+      <title xml:id="sstv.foil.title">Slow-Scan TeleVision</title>
+      <para>
+	I've spent too much time wrestling with bugs in the &qsstv;
+	image editor to complete an actual &sstv; &qso;.
+      </para>
+      <imageobject>
+	<imagedata fileref="img/qsstv_rx_gallery.png"/>
+      </imageobject>
+      <para>
+	Still, I have managed to at least decode a few transmissions.
+	Some are even intelligible!
+      </para>
+    </dbs:foil>
     <!-- FreeDV digital voice over HF -->
+    <dbs:foil xml:id="freedv.foil">
+      <title xml:id="freedv.foil.title">&freedv;: digital voice over &hf;</title>
+      <para>
+	&freedv.link; is a digital voice application, primarily for &hf; use.
+      </para>
+      <para>
+	&freedv; uses open-source non-proprietary codecs.
+      </para>
+      <para>
+	&qso.freedv.link; can help you find other operators using &freedv;.
+      </para>
+      <imageobject>
+	<imagedata fileref="img/freedv-no-signal.png"/>
+      </imageobject>
+    </dbs:foil>
     <!-- IPv4 over packet radio: AMPR -->
-    <!-- Winlink 2000 via Pat -->
+    <dbs:foil xml:id="ampr.foil">
+      <title xml:id="ampr.foil.title">&ampr;: Internet Protocol over packet radio</title>
+      <para>
+	Forward-thinking radio amateurs allocated an entire class A
+	block 44.0.0.0/8 for internet use!
+      </para>
+      <para>
+	It is not meant to replace regular internet access.  It is
+	mostly meant for research, experimentation, and advancing the
+	state of the art.
+      </para>
+      <para>
+	&ampr.link; manages subnet allocations and provides pointers
+	to other information.
+      </para>
+    </dbs:foil>
+    <dbs:foil xml:id="winlink-pat.foil">
+      <title xml:id="winlink-pat.foil.title">&winlink; and &pat;</title>
+      <para>
+	Who says &winlink; is limited to &windows; users? 
+      </para>
+      <para>
+	&pat; is a cross-platform &winlink; client that should run on
+	any widely-used operating system.
+      </para>
+      <para>
+	I hear &winlink; is pretty nifty when it works, but I'm mostly
+	uninformed about it.
+      </para>
+    </dbs:foil>
   </dbs:foilgroup>
 
   <dbs:foilgroup xml:id="backmatter.foilgroup">
     <title xml:id="backmatter.foilgroup.title">Back Matter</title>
     <dbs:foil xml:id="resources.foil">
       <title xml:id="resources.foil.title">More Resources</title>
-      <link xlink:href="http://www.trinityos.com/HAM/CentosDigitalModes/hampacketizing-centos.html"/>
-      <link xlink:href="https://www.debian.org/blends/hamradio/"/>
-      <link xlink:href="https://launchpad.net/~ubuntu-hams-updates"/>
+      <itemizedlist>
+	<listitem>
+	  <link xlink:href="http://www.trinityos.com/HAM/CentosDigitalModes/hampacketizing-centos.html"/>
+	</listitem>
+	<listitem>
+	  <link xlink:href="https://www.debian.org/blends/hamradio/"/>
+	</listitem>
+	<listitem>
+	  <link xlink:href="https://launchpad.net/~ubuntu-hams-updates"/>
+	</listitem>
+	<listitem>
+	  &cqrlog.link;
+	</listitem>
+	<listitem>
+	  &wsjtx.link;
+	</listitem>
+	<listitem>
+	  &fldigi.link;
+	</listitem>
+	<listitem>
+	  &direwolf.link;
+	</listitem>
+	<listitem>
+	  &xastir.link;
+	</listitem>
+	<listitem>
+	  &linpac.link;
+	</listitem>
+	<listitem>
+	  &tlf.link;
+	</listitem>
+	<listitem>
+	  &hamlib.link;
+	</listitem>
 
+	<listitem>
+	  &freedv.link;
+	</listitem>
+	<listitem>
+	  &ampr.link;
+	</listitem>
+	<listitem>
+	  &pat.link;
+	</listitem>
+      </itemizedlist>
     </dbs:foil>
     <dbs:foil xml:id="presentation.foil">
       <title xml:id="presentation.foil.title">About This Presentation</title>
