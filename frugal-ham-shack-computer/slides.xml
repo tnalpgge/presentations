@@ -145,7 +145,7 @@ lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridg
 	    xmlns:xlink="http://www.w3.org/1999/xlink">
   <info>
     <title>Ham Shack Computer for the Frugal</title>
-    <subtitle>When a Commercial Operating System is Too Expensive</subtitle>
+<!--    <subtitle>When a Commercial Operating System is Too Expensive</subtitle> -->
     <author>
       <personname>
 	<firstname>Tony</firstname>
@@ -155,13 +155,13 @@ lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridg
 	<orgname>W6SFI</orgname>
       </affiliation>
     </author>
-    <pubdate>April 2018</pubdate>
+    <pubdate>March 2018</pubdate>
     <copyright>
       <year>2017-2018</year>
       <holder>Tony Monroe</holder>
     </copyright>
     <confgroup>
-      <confdates>April 2018</confdates>
+      <confdates>March 2018</confdates>
       <conftitle>General Meeting</conftitle>
       <address>Fremont, California</address>
       <confsponsor>South Bay Amateur Radio Association</confsponsor>
@@ -820,17 +820,17 @@ output on the screen</screen>
       <itemizedlist>
 	<listitem>
 	  <para>
-	    For playback only: <command>aplay -l</command>
+	    For playback only: <code>aplay -l</code>
 	  </para>
 	</listitem>
 	<listitem>
 	  <para>
-	    For recording only: <command>arecord -l</command>
+	    For recording only: <code>arecord -l</code>
 	  </para>
 	</listitem>
 	<listitem>
 	  <para>
-	    For an exhaustive list: <command>aplay -L</command>
+	    For an exhaustive list: <code>aplay -L</code>
 	  </para>
 	</listitem>
       </itemizedlist>
@@ -1468,7 +1468,7 @@ S&P_CALL_MSG=+- %]]></programlisting>
       </para>
       <screen>&ps1h; <userinput>git clone https://github.com/tnalpgge/presentations.git</userinput>
 &ps1h; <userinput>cd &subdir;</userinput>
-<prompt>[you@workstation &subdir;]$</prompt> <userinput>make</userinput>
+<prompt>[yourself@workstation &subdir;]$</prompt> <userinput>make</userinput>
       </screen>
       <para>
 	And start reading at <filename>slides.html</filename>.

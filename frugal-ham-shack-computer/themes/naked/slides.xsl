@@ -1,5 +1,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:db="http://docbook.org/ns/docbook"
+		xmlns="http://www.w3.org/1999/xhtml"
 		exclude-result-prefixes="db"
 		version="1.0">
 
@@ -12,9 +13,12 @@
   <div class="titles">
     <h1 class="slideshowtitle">
       <xsl:call-template name="get.title"/>
-      <br/>
-      <xsl:call-template name="get.subtitle"/>
     </h1>
+    <!--
+    <h2 class="slideshowsubtitle">
+      <xsl:call-template name="get.subtitle"/>
+      </h2>
+    -->
   </div>
 </xsl:template>
 
@@ -22,17 +26,23 @@
   <xsl:comment> slides.titlepage.verso </xsl:comment>
   <xsl:comment> context: <xsl:value-of select="local-name()"/> </xsl:comment>
   <div class="attribution">
-  <h3 class="author">
-    <xsl:value-of select="db:info/db:author/db:personname/db:firstname"/>
-    <xsl:call-template name="gentext.space"/>
-    <xsl:value-of select="db:info/db:author/db:personname/db:surname"/>
-  </h3>
-  <h3 class="affiliation">
-    <xsl:value-of select="db:info/db:author/db:affiliation/db:orgname"/>
-  </h3>
-  <h4 class="pubdate">
-    <xsl:value-of select="db:info/db:pubdate"/>
-  </h4>
+    <h3 class="author">
+      <xsl:value-of select="db:info/db:author/db:personname/db:firstname"/>
+      <xsl:call-template name="gentext.space"/>
+      <xsl:value-of select="db:info/db:author/db:personname/db:surname"/>
+      <xsl:call-template name="gentext.space"/>
+      <xsl:value-of select="db:info/db:author/db:affiliation/db:orgname"/>
+    </h3>
+  </div>
+  <div class="publication"/>
+  <div class="conference">
+    <h4>
+      <xsl:value-of select="db:info/db:confgroup/db:confsponsor"/>
+      <br/>
+      <xsl:value-of select="db:info/db:confgroup/db:conftitle"/>
+      <br/>
+      <xsl:value-of select="db:info/db:confgroup/db:confdates"/>
+    </h4>
   </div>
 </xsl:template>
 
@@ -51,6 +61,7 @@
 
 <xsl:template name="slides.titlepage.before.verso">
   <xsl:comment> slides.titlepage.before.verso </xsl:comment>
+  <div class="publication"/>
 </xsl:template>
 
 <xsl:template name="slideshow.head">

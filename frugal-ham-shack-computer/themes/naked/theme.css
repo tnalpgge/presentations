@@ -5,12 +5,14 @@ Naked look and feel (i.e. mostly whatever slidy wants to give you)
 /* for all slides */
 
 body {
+    font-family: Helvetica, sans-serif;
 }
 
 /* displaying behind all slides */
 
 div.background {
     z-index: 1;
+    float: right;
 }
 
 /* for specific elements on the cover slide */
@@ -27,15 +29,14 @@ div.background {
 /* for the titles on individual slides */
 
 div.slide h1 {
-}
-
-.title {
+    text-align: center;
 }
 
 /* main slide content is in front of background */
 
 div.slide {
     z-index: 20;
+    width: 90%;
 }
 
 /* convenience for placement */
@@ -57,6 +58,7 @@ div.slide {
 
 #head-logo {
     z-index: 2;
+    border: 1em solid white;
 }
 
 /* logo on cover slide only */
@@ -67,11 +69,13 @@ div.slide {
 /* container for #cover-logo */
 
 .cover-logo {
+    float: right;
 }
 
 /* an empty bar above the titles on the cover slide */
 
 .blanktop {
+    height: 10%;
 }
 
 /* contains title and subtitle of presentation */
@@ -82,6 +86,9 @@ div.slide {
 /* the actual title */
 
 .slideshowtitle {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* the actual subtitle */
@@ -92,6 +99,8 @@ div.slide {
 /* container for author, affiliation, and presentation date */
 
 .attribution {
+    font-family: Times, serif;
+    text-align: center;
 }
 
 /* slide show author */
@@ -130,12 +139,28 @@ div.slide {
 
 .literal { color: blue; }
 .filename { color: red; }
-.warning { background-color: #ffa; }
-.note { background-color: #aaf; }
+.warning {
+    background-color: #ffa;
+    font-family: Times, serif;
+    font-weight: bold;
+}
+.note { background-color: #aaf; font-family: Times, serif; }
 .screen { background-color: black; color: #999; }
 .prompt { color: #ccc; }
-.userinput { color: white; }
-.blockquote { background-color: #faf; }
-.informalexample { background-color: #afa; }
+.userinput { color: white; font-weight: bold; }
+.blockquote {
+    background-color: #faf;
+    font-family: Times, serif;
+}
+.informalexample { background-color: #afa; font-family: Times, serif; }
 .application { color: #a0a; }
 .varname { color: #f80; }
+.publication { height: 10%; }
+code { font-family: Courier, monospace; }
+pre { font-family: Courier, monspace; }
+.guimenu { background-color: #eee; font-weight: bold; }
+.guimenuitem { background-color: #eee; }
+.guilabel { background-color: #eee; font-weight: bold; }
+.guibutton { background-color: #eee; border: 1px solid black; }
+.conference { text-align: center; }
+.incremental { visibility: hidden; }
