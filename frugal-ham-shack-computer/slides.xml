@@ -142,7 +142,8 @@ lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridg
 
 <dbs:slides xmlns="http://docbook.org/ns/docbook"
 	    xmlns:dbs="http://docbook.org/ns/docbook-slides"
-	    xmlns:xlink="http://www.w3.org/1999/xlink">
+	    xmlns:xlink="http://www.w3.org/1999/xlink"
+	    xmlns:html="http://www.w3.org/1999/xhtml">
   <info>
     <title>Ham Shack Computer for the Frugal</title>
 <!--    <subtitle>When a Commercial Operating System is Too Expensive</subtitle> -->
@@ -157,7 +158,8 @@ lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridg
     </author>
     <pubdate>March 2018</pubdate>
     <copyright>
-      <year>2017-2018</year>
+      <year>2017</year>
+      <year>2018</year>
       <holder>Tony Monroe</holder>
     </copyright>
     <confgroup>
@@ -323,7 +325,7 @@ output on the screen</screen>
       </para>
       <para>
 	Electronics kits.  Connect jumper wires to components to
-	create semi-useful gadgets!
+	create semi-useful gadgets, including radio receivers!
       </para>
       <para>
 	Isaac Asimov (Foundation, Robots), Franklin W. Dixon (Hardy
@@ -332,6 +334,9 @@ output on the screen</screen>
     </dbs:foil>
     <dbs:foil xml:id="maurice.foil">
       <title xml:id="maurice.foil.title">Papa Maurice</title>
+      <imageobject>
+	<imagedata fileref="img/maurice.jpg"/>
+      </imageobject>
       <para>
 	Worked on aircraft and their engines at Edwards
 	<acronym>AFB</acronym> in the high desert of Southern
@@ -374,6 +379,18 @@ output on the screen</screen>
       <para>
 	Actively encouraged my interest in computers.
       </para>
+      <imageobject>
+	<imagedata fileref="img/scm_hamshack.jpg"/>
+      </imageobject>
+      <imageobject>
+	<imagedata fileref="img/granddads_shack_left.jpg" scale="50"/>
+      </imageobject>
+      <imageobject>
+	<imagedata fileref="img/granddads_shack_center.jpg" scale="50"/>
+      </imageobject>
+      <imageobject>
+	<imagedata fileref="img/granddads_shack_right.jpg" scale="50"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="highschool.foil">
       <title xml:id="highschool.foil.title">High School: Moody Nerd in Denial</title>
@@ -409,8 +426,7 @@ output on the screen</screen>
 	science instead.
       </para>
       <para>
-	When working on a computer science degree at UC Berkeley,
-	difficult to avoid the deep computing history there.
+	Difficult to avoid the deep computing history there.
       </para>
       <para>
 	Joined a student computing club that was most likely to get in
@@ -483,6 +499,15 @@ output on the screen</screen>
       <para>
 	With transverter shift of -125 MHz, can also receive 0-24 MHz!
       </para>
+      <imageobject>
+	<imagedata fileref="img/nooelec_dongle_ferrite.jpg" scale="50"/>
+      </imageobject>
+      <imageobject>
+	<imagedata fileref="img/nooelec_dongle_hamitup.jpg" scale="50"/>
+      </imageobject>
+      <imageobject>
+	<imagedata fileref="img/nooelec_squid.jpg" scale="50"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="ic7200.foil">
       <title xml:id="ic7200.foil.title">ICOM IC-7200 transceiver</title>
@@ -495,6 +520,9 @@ output on the screen</screen>
       <para>
 	Up to 100 watts output power.
       </para>
+      <imageobject>
+	<imagedata fileref="img/ic-7200_front.jpg" scale="50"/>
+      </imageobject>
       <imageobject>
 	<imagedata fileref="img/ic-7200_back_panel.jpg" scale="50"/>
       </imageobject>
@@ -510,10 +538,15 @@ output on the screen</screen>
       <para>
 	5 to 65 watts output power.
       </para>
+      <imageobject>
+	<imagedata fileref="img/ftm3100_front_panel.jpg" scale="50"/>
+      </imageobject>
+      <imageobject>
+	<imagedata fileref="img/ftm3100_back_panel.jpg" scale="50"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="mfj949e.foil">
       <title xml:id="mfj949e.foil.title">MFJ-949E transmatch</title>
-      <!-- photo of MFJ-949E -->
       <para>
 	Totally manual and passive.
       </para>
@@ -529,17 +562,27 @@ output on the screen</screen>
       <para>
 	Integrated dummy load and &swr; meter; handy for testing!
       </para>
+      <imageobject>
+	<imagedata fileref="img/mfj_powersupply_transmatch.jpg" scale="50"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="nomic.foil">
       <title xml:id="nomic.foil.title">RigBlaster nomic</title>
-      <!-- photo of nomic -->
       <para>
 	Enables digital modes for older or less featureful transceivers.
       </para>
+      <imageobject>
+	<imagedata fileref="img/nomic_mic_end.jpg" scale="50"/>
+      </imageobject>
+      <imageobject>
+	<imagedata fileref="img/nomic_serial_end.jpg" scale="50"/>
+      </imageobject>
       <para>
 	While testing, make sure to have a dummy load handy!
       </para>
-      <!-- photo of MFJ-260C -->
+      <imageobject>
+	<imagedata fileref="img/mfj_dummy_load.jpg" scale="50"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="ldc103.foil">
       <title xml:id="ldc103.foil.title">SODIAL LD-C103 &usb; &cw; interface</title>
@@ -554,6 +597,9 @@ output on the screen</screen>
 	Set up your rig to expect a straight key, or disable its
 	internal keyer.
       </para>
+      <imageobject>
+	<imagedata fileref="img/sodial_cw_usb.jpg" scale="50"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="antennas.foil">
       <title xml:id="antennas.foil.title">Antennas</title>
@@ -566,6 +612,12 @@ output on the screen</screen>
       <para>
 	End-fed 120-foot long wire, covers 160-60 meters.
       </para>
+      <imageobject>
+	<imagedata fileref="img/dipole_longwire.jpg" scale="50"/>
+      </imageobject>
+      <imageobject>
+	<imagedata fileref="img/jpole.jpg" scale="50"/>
+      </imageobject>
     </dbs:foil>
   </dbs:foilgroup>
 
@@ -590,6 +642,9 @@ output on the screen</screen>
 	Mini-&itx; form factor motherboard and case -- nice and
 	compact!
       </para>
+      <imageobject>
+	<imagedata fileref="img/hamshack_pc.jpg" scale="50"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil title="ubuntu.foil">
       <title xml:id="ubuntu.foil.title">Ubuntu Linux</title>
@@ -637,7 +692,7 @@ output on the screen</screen>
 	</listitem>
       </itemizedlist>
       <imageobject>
-	<imagedata fileref="img/ubuntu_software_app.png"/>
+	<imagedata fileref="img/ubuntu_software_app.png" scale="50"/>
       </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="keyboard.foil">
@@ -855,6 +910,12 @@ output on the screen</screen>
 	  ferrite chokes on the &usb; cables!
 	</para>
       </warning>
+      <imageobject>
+	<imagedata fileref="img/nooelec_dongle_ferrite.jpg" scale="50"/>
+      </imageobject>
+      <imageobject>
+	<imagedata fileref="img/ferrite_usb_pc.jpg" scale="50"/>
+      </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="scanner-sw.foil">
       <title xml:id="scanner-sw.foil.title">Scanner and pandapter: software</title>
@@ -870,8 +931,19 @@ output on the screen</screen>
 	available for other programs to consume, possibly over the
 	network!
       </para>
+      <para>
+	With a transverter shift of -125 MHz, you can listen down into
+	MF and HF.
+      </para>
+      <note>
+	<para>
+	  Listening to rock 'n roll music on negative frequencies does
+	  not play it backwards, and does not reveal hidden messages
+	  from Delta Echo Victor India Lima.
+	</para>
+      </note>
       <imageobject>
-	<imagedata fileref="img/gqrx_fm_broadcast.png"/>
+	<imagedata fileref="img/gqrx_fm_broadcast.png" scale="50"/>
       </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="hamlib.foil">
@@ -959,7 +1031,7 @@ output on the screen</screen>
 	&eqsl.link;, &clublog.link;...too many capabilities to count!
       </para>
       <imageobject>
-	<imagedata fileref="img/cqrlog_overview.png"/>
+	<imagedata fileref="img/cqrlog_overview.png" scale="50"/>
       </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="cqrlog1.foil">
@@ -969,7 +1041,7 @@ output on the screen</screen>
 	rabbit hole.
       </para>
       <imageobject>
-	<imagedata fileref="img/cqrlog_preferences.png"/>
+	<imagedata fileref="img/cqrlog_preferences.png" scale="50"/>
       </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="cqrlog2.foil">
@@ -1026,7 +1098,7 @@ output on the screen</screen>
 	devices, and go!
       </para>
       <imageobject>
-	<imagedata fileref="img/qtel.png"/>
+	<imagedata fileref="img/qtel.png" scale="50"/>
       </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="wsjtx.foil">
@@ -1044,7 +1116,7 @@ output on the screen</screen>
 	&remote.wsjtx.guimenuitem;.
       </para>
       <imageobject>
-	<imagedata fileref="img/wsjtx.png"/>
+	<imagedata fileref="img/wsjtx.png" scale="50"/>
       </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="fldigi.foil">
@@ -1070,7 +1142,7 @@ output on the screen</screen>
 	done with &fldigi;.
       </para>
       <imageobject>
-	<imagedata fileref="img/fldigi_rtty.png"/>
+	<imagedata fileref="img/fldigi_rtty.png" scale="50"/>
       </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="packethw.foil">
@@ -1121,7 +1193,7 @@ KISSPORT 8001]]></programlisting>
 	dongle into a portable &aprs; solution.
       </para>
       <imageobject>
-	<imagedata fileref="img/xastir_direwolf_alsamixer.png"/>
+	<imagedata fileref="img/xastir_direwolf_alsamixer.png" scale="50"/>
       </imageobject>
     </dbs:foil>
     <dbs:foil xml:id="kisstnc.foil">
@@ -1181,13 +1253,8 @@ DEVICE="ttyUSB1"]]></programlisting>
 <userinput><keysym>^C</keysym></userinput>
       </screen>
       <para>
-	Did it work?
+	<link xlink:href="https://vimeo.com/258740213">Did it work?</link>
       </para>
-      <mediaobject>
-	<videoobject>
-	  <videodata fileref=""/>
-	</videoobject>
-      </mediaobject>
     </dbs:foil>
     
     <dbs:foil xml:id="tlf-intro.foil">
@@ -1481,6 +1548,17 @@ S&P_CALL_MSG=+- %]]></programlisting>
     </dbs:foil>
     <dbs:foil>
       <title>Any Questions?</title>
+    </dbs:foil>
+    <dbs:foil>
+      <title>QRT</title>
+      <para>
+	<code>
+	  TNX 73 ES GL
+	</code>
+      </para>
+      <para>
+	<link xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+      </para>
     </dbs:foil>
   </dbs:foilgroup>
 
