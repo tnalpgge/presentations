@@ -1,0 +1,1246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ham Shack Computer for the Frugal</title>
+<meta name="copyright" content="Copyright &copy; 2017 Tony Monroe">
+<link rel="stylesheet" href="files/slidy/styles/slidy.css" type="text/css">
+<link rel="stylesheet" href="themes/naked/theme.css" type="text/css">
+<script src="files/slidy/scripts/slidy.js" charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div class="background"><img id="head-logo" alt="logo" src="img/qsl1small.png"></div>
+<div xmlns:dbs="http://docbook.org/ns/docbook-slides" class="slide cover title">
+<div>
+<!-- slides.titlepage.before.recto --><div class="cover-logo"><img id="cover-logo" alt="cover image" src="img/qsl1.png"></div>
+<!-- slides.titlepage.recto --><!-- context: slides--><div class="blanktop"></div>
+<div class="titles"><h1 class="slideshowtitle">Ham Shack Computer for the Frugal</h1></div>
+</div>
+<div>
+<!-- slides.titlepage.before.verso --><div class="publication"></div>
+<!-- slides.titlepage.verso --><!-- context: slides--><div class="attribution"><h3 class="author">Tony Monroe W6SFI</h3></div>
+<div class="publication"></div>
+<div class="conference"><h4>South Bay Amateur Radio Association<br>General Meeting<br>March 2018</h4></div>
+</div>
+</div>
+<a name="frontmatter.foilgroup"></a><div class="slide">
+<h1 class="title">Front Matter</h1>
+<ol>
+<li>Typographical Conventions</li>
+<li>Typographical Conventions</li>
+</ol>
+</div>
+<a name="typographical1.foil"></a><div class="slide">
+      <h1 class="title">Typographical Conventions</h1>
+
+      <p>
+	Names of <span class="application">applications</span> or 
+	<span class="application">software packages</span>
+      </p>
+      <p>
+        <code class="literal">Literal text</code>
+      </p>
+      <p>
+        <code class="filename">File and directory names</code>
+      </p>
+	
+      <p>
+	Names of <span class="command"><strong>commands</strong></span>
+      </p>
+      <p>
+	Names of <code class="varname">variables</code> and their <code class="varname">${expansions}</code>
+      </p>
+      <p>
+        <code class="code">inline(codeFragment);</code>
+      </p>
+      <p>
+	<acronym class="acronym">GUI</acronym> <span class="guimenu">Menu Names</span>,
+	<span class="guimenuitem">Menu Items</span>,
+	<span class="guilabel">Labels</span>, and
+	<span class="guibutton">Buttons</span>
+      </p>
+	
+      <p>
+	A <span class="keycap"><strong>Specific Key</strong></span> on your keyboard
+      </p>
+    </div>
+<a name="typographical2.foil"></a><div class="slide">
+      <h1 class="title">Typographical Conventions</h1>
+
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Note</h3>
+<p>Take note of this.</p>
+</div>
+      <div class="blockquote"><blockquote class="blockquote"><p>
+	  A block quotation from someone or somewhere...
+	</p></blockquote></div>
+      <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p>Dire consequences ahead!</p>
+</div>
+
+      <pre class="programlisting">
+10 PRINT "PROGRAM LISTING"
+20 GOTO 10    
+      </pre>
+      <pre class="screen"><code class="prompt">command-prompt$</code> <strong class="userinput"><code>user-supplied input</code></strong>
+output on the screen</pre>
+    </div>
+<a name="meta.foilgroup"></a><div class="slide">
+<h1 class="title">About this presentation</h1>
+<ol>
+<li>What this presentation covers</li>
+<li>What this presentation does not cover</li>
+<li>Warnings</li>
+</ol>
+</div>
+<a name="includes.foil"></a><div class="slide">
+      <h1 class="title">What this presentation covers</h1>
+      <p>
+	Capabilities of my station, given my particular combination of
+	hardware and software.
+      </p>
+      <p>
+	The personal experiences of one radio amateur.  Your mileage
+	may vary!
+      </p>
+      <p>
+	Mostly text, some pictures, and totally untested humor.
+      </p>
+    </div>
+<a name="excludes.foil"></a><div class="slide">
+      <h1 class="title">What this presentation does not cover</h1>
+      <p>
+	How to partition your disks, back up your data, install an
+	operating system, or perform basic administration tasks.
+      </p>
+      <p>
+	Copious detail on how to use the individual programs
+	highlighted here.  Some programs will have more detail than
+	others.
+      </p>
+      <p>
+	How to assemble a slide deck without using the right tool for
+	the job.
+      </p>
+    </div>
+<a name="warnings.foil"></a><div class="slide">
+      <h1 class="title">Warnings</h1>
+      <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p>
+	  Back up your data before doing anything drastic to your computer!
+	</p>
+</div>
+      <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p>
+	  Connect to a dummy load before experimenting with anything
+	  that could transmit!
+	</p>
+</div>
+      <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p>
+	  RF can cause weird things to happen on computers.  Be
+	  prepared to add RF chokes to power and data cables.
+	</p>
+</div>
+    </div>
+<a name="aboutme.foilgroup"></a><div class="slide">
+<h1 class="title">My journey to amateur radio</h1>
+<ol>
+<li>Papa Maurice</li>
+<li>Granddad Stephen</li>
+<li>Education</li>
+<li>Professional career</li>
+<li>Motivations</li>
+</ol>
+</div>
+<a name="maurice.foil"></a><div class="slide">
+      <h1 class="title">Papa Maurice</h1>
+      <img src="img/maurice.jpg">
+      <p>
+	Worked on aircraft and their engines at Edwards
+	<acronym class="acronym">AFB</acronym> in the high desert of Southern
+	California.
+      </p>
+      <p>
+	Took me and my brother to Mojave Airport many times to look at
+	airplanes.
+      </p>
+      <p>
+	Designed, planned, and built many of the additions to his house!
+      </p>
+      <p>
+	"Mechanically inclined" would be an understatement.
+      </p>
+      <p>
+	<a class="link" href="https://airandspace.si.edu/collection-objects/rutan-voyager" target="_top">Voyager Aircraft</a>
+	and
+	<a class="link" href="https://www.nasa.gov/centers/kennedy/shuttleoperations/orbiters/challenger-info.html" target="_top">Space Shuttle Challenger</a>
+	made quite an impression on a young mind!
+      </p>
+    </div>
+<a name="stephen.foil"></a><div class="slide">
+      <h1 class="title">Granddad Stephen</h1>
+      <p>
+	U.S. Army intelligence.
+      </p>
+      <p>
+	Initially licensed in Massachusetts as W1BAN in 1930.
+      </p>
+      <p>
+	Changed to W6SFI after moving to California in 1941.
+      </p>
+      <p>
+	Quarter Century Wireless Association #11,768.
+      </p>
+      <p>
+	Worked CW, SSB, local repeaters, SSTV.
+      </p>
+      <p>
+	Actively encouraged my interest in computers.
+      </p>
+      <img src="img/scm_hamshack.jpg">
+      <img src="img/granddads_shack_left.jpg" width="270">
+      <img src="img/granddads_shack_center.jpg" width="270">
+      <img src="img/granddads_shack_right.jpg" width="270">
+    </div>
+<a name="education.foil"></a><div class="slide">
+      <h1 class="title">Education</h1>
+      <p>
+	In high school, skipped mechanical physics, went straight for
+	electricity &amp; magnetism.
+      </p>
+      <p>
+	At UC Berkeley, Joined a student computing club that was most
+	likely to get in trouble with the campus system and network
+	administrators :-)
+      </p>
+      <p>
+	Learned a few computer langauges, actively pursued a
+	<span class="application">Windows</span>-free existence with heavy use of open-source
+	software.
+      </p>
+    </div>
+<a name="employment.foil"></a><div class="slide">
+      <h1 class="title">Professional career</h1>
+      <p>
+	Always trying to be versatile and curious, favoring <span class="application"><acronym class="acronym">UNIX</acronym></span>-like
+	computing environments and open-source tools.
+      </p>
+      <p>
+	Still haven't figured out how to balance in-house workers'
+	time versus paying a vendor for a product.
+      </p>
+      <p>
+	Combined with my curiosity about things...I'm not management
+	material yet :-)
+      </p>
+    </div>
+<a name="prelicense.foil"></a><div class="slide">
+      <h1 class="title">Motivations</h1>
+      <p>
+	Still curious about <acronym class="acronym">STEM</acronym> topics.  (Just look at my "Watch
+	Later" playlist on YouTube...)
+      </p>
+      <p>
+	Numbers stations on shortwave radio!  What's the deal with
+	that?
+      </p>
+      <p>
+	Can I build that?  (Physically, not in software)
+      </p>
+      <p>
+	How does that work?  What's underneath it?
+      </p>
+      <p>
+	How little do I need to maximize my capabilities?
+      </p>
+      <p>
+	Is there a book on it at my local public library?
+      </p>
+    </div>
+<a name="myshack.foilgroup"></a><div class="slide">
+<h1 class="title">About My Ham Shack</h1>
+<ol>
+<li>NooElec SDR and upconverter</li>
+<li>ICOM IC-7200 transceiver</li>
+<li>Yaesu FTM-3100 transceiver</li>
+<li>MFJ-949E transmatch</li>
+<li>RigBlaster nomic</li>
+<li>SODIAL LD-C103 USB CW interface</li>
+<li>Antennas</li>
+</ol>
+</div>
+<a name="nooelec.foil"></a><div class="slide">
+      <h1 class="title">NooElec SDR and upconverter</h1>
+      <p>
+	Receives 24-1766 MHz with external antenna.
+      </p>
+      <p>
+	Additional software required to demodulate what you receive.
+      </p>
+      <p>
+	With transverter shift of -125 MHz, can also receive 0-24 MHz!
+      </p>
+      <img src="img/nooelec_dongle_ferrite.jpg" width="270">
+      <img src="img/nooelec_dongle_hamitup.jpg" width="270">
+      <img src="img/nooelec_squid.jpg" width="270">
+    </div>
+<a name="ic7200.foil"></a><div class="slide">
+      <h1 class="title">ICOM IC-7200 transceiver</h1>
+      <p>
+	Covers 0-54 MHz.
+      </p>
+      <p>
+	<acronym class="acronym">CW</acronym>, <acronym class="acronym">SSB</acronym>, <acronym class="acronym">AM</acronym>, <acronym class="acronym">RTTY</acronym>, digital modes, but no <acronym class="acronym">FM</acronym>.
+      </p>
+      <p>
+	Up to 100 watts output power.
+      </p>
+      <img src="img/ic-7200_front.jpg" width="270">
+      <img src="img/ic-7200_back_panel.jpg" width="270">
+    </div>
+<a name="ftm3100.foil"></a><div class="slide">
+      <h1 class="title">Yaesu FTM-3100 transceiver</h1>
+      <p>
+	Covers 136-174 MHz.
+      </p>
+      <p>
+	Analog <acronym class="acronym">FM</acronym> only!
+      </p>
+      <p>
+	5 to 65 watts output power.
+      </p>
+      <img src="img/ftm3100_front_panel.jpg" width="270">
+      <img src="img/ftm3100_back_panel.jpg" width="270">
+    </div>
+<a name="mfj949e.foil"></a><div class="slide">
+      <h1 class="title">MFJ-949E transmatch</h1>
+      <p>
+	Totally manual and passive.
+      </p>
+      <p>
+	2 antennas, 12-position inductor, 2 variable capacitors.
+      </p>
+      <p>
+	Connectors for coax or balanced line.
+      </p>
+      <p>
+	Can handle up to 300 watts.
+      </p>
+      <p>
+	Integrated dummy load and <acronym class="acronym">SWR</acronym> meter; handy for testing!
+      </p>
+      <img src="img/mfj_powersupply_transmatch.jpg" width="270">
+    </div>
+<a name="nomic.foil"></a><div class="slide">
+      <h1 class="title">RigBlaster nomic</h1>
+      <p>
+	Enables digital modes for older or less featureful transceivers.
+      </p>
+      <img src="img/nomic_mic_end.jpg" width="270">
+      <img src="img/nomic_serial_end.jpg" width="270">
+      <p>
+	While testing, make sure to have a dummy load handy!
+      </p>
+      <img src="img/mfj_dummy_load.jpg" width="270">
+    </div>
+<a name="ldc103.foil"></a><div class="slide">
+      <h1 class="title">SODIAL LD-C103 USB CW interface</h1>
+      
+      <p>
+	Turns a <acronym class="acronym">USB</acronym> port into a software-controlled straight key.
+      </p>
+      <p>
+	Earn dirty looks from hard-core mechanical key enthusiasts!
+      </p>
+      <p>
+	Set up your rig to expect a straight key, or disable its
+	internal keyer.
+      </p>
+      <img src="img/sodial_cw_usb.jpg" width="270">
+    </div>
+<a name="antennas.foil"></a><div class="slide">
+      <h1 class="title">Antennas</h1>
+      <p>
+	Alpha-Delta DX-EE multi-band dipole, covers 40-6 meters.
+      </p>
+      <p>
+	Copper pipe J-pole, covers 2 meters &amp; 70 centimeters.
+      </p>
+      <p>
+	End-fed 120-foot long wire, covers 160-60 meters.
+      </p>
+      <img src="img/dipole_longwire.jpg" width="270">
+      <img src="img/jpole.jpg" width="270">
+    </div>
+<a name="computer-setup.foilgroup"></a><div class="slide">
+<h1 class="title">Setting Up the Computer</h1>
+<ol>
+<li>Computer specifications</li>
+<li>Ubuntu Linux</li>
+<li>Setting up the operating system</li>
+<li>A word about keyboards</li>
+<li>Adding additional software repositories</li>
+<li>Serial ports</li>
+<li>Serial ports</li>
+<li>Working with sound cards</li>
+</ol>
+</div>
+<a name="computerspecs.foil"></a><div class="slide">
+      <h1 class="title">Computer specifications</h1>
+      <p>
+	16 <acronym class="acronym">GB</acronym> memory.  Probably too much, but software only grows
+	over time...
+      </p>
+      <p>
+	250 <acronym class="acronym">GB</acronym> solid-state disk -- definitely too much, but far
+	faster and quieter than spinning platters of rust!
+      </p>
+      <p>
+	<span class="orgname">Intel</span> Core i5, 2.7 GHz, 4 cores -- probably overkill.
+      </p>
+      <p>
+	Mini-<acronym class="acronym">ITX</acronym> form factor motherboard and case -- nice and
+	compact!
+      </p>
+      <img src="img/hamshack_pc.jpg" width="270">
+    </div>
+<a name="idp140693683533752"></a><div class="slide">
+      <h1 class="title">Ubuntu Linux</h1>
+      <a class="link" href="https://www.ubuntu.com/" target="_top">https://www.ubuntu.com/</a>
+      <p>
+	Probably the best combination of user-friendly desktop
+	environment plus all the low-level command-line power tools
+	you could want, with a very low price (your time and effort).
+      </p>
+      <p>
+	Can take advantage of packaging work done by <span class="orgname">Debian</span> -- very
+	important for easy acquisition of ham-related software!
+      </p>
+      <p>
+	Not actually my preferred operating system (<span class="application">FreeBSD</span>) but
+	more popular and thus better supported.  Besides, much
+	open-source software is written for <span class="application">Linux</span> first.
+      </p>
+      <p>
+	Download an image from the web site, burn it to <acronym class="acronym">USB</acronym> stick or
+	<acronym class="acronym">DVD</acronym>, and install.
+      </p>
+    </div>
+<a name="ossetup.foil"></a><div class="slide">
+      <h1 class="title">Setting up the operating system</h1>
+      <p>
+	Most application software can be installed from the
+	<span class="application"><span class="orgname">Ubuntu</span> Software</span> application.
+      </p>
+      <ul class="">
+<li class="listitem"><p>
+	    Web browser: <span class="application">Chromium</span> or <span class="application">Firefox</span>
+	  </p></li>
+<li class="listitem"><p>
+	    Mail reader: <span class="application">Evolution</span> or <span class="application">Thunderbird</span>
+	  </p></li>
+<li class="listitem"><p>
+	    Office suite: <span class="application">LibreOffice</span>
+	  </p></li>
+</ul>
+      <img src="img/ubuntu_software_app.png" width="270">
+    </div>
+<a name="keyboard.foil"></a><div class="slide">
+      <h1 class="title">A word about keyboards</h1>
+      <p>
+	<span class="application">Linux</span> and <span class="application"><acronym class="acronym">UNIX</acronym></span>-like operating systems have a long history
+	of providing very focused tools that are very good at what
+	they do -- and nothing else -- and encouraging users to
+	combine those tools to accomplish their tasks.
+      </p>
+      <p>
+	This generally means that:
+      </p>
+      <ul class="">
+<li class="listitem"><p>
+	    You must get friendly with your keyboard.
+	  </p></li>
+<li class="listitem"><p>
+	    You must find where the terminal program is.
+	  </p></li>
+<li class="listitem"><p>
+	    Even if you have a nice graphical environment,
+	    you must get comfortable entering commands at a shell.
+	  </p></li>
+<li class="listitem"><p>
+	    You must learn a text editor: <span class="application">Vim</span> (descendant of
+	    the venerable <span class="application">vi</span>), <span class="application">Emacs</span> or <span class="application">nano</span>
+	  </p></li>
+</ul>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Note</h3>
+<p>
+	  You need not publicly take sides in the long-running <span class="application">Emacs</span>
+	  versus <span class="application">vi</span> holy war. :-)
+	</p>
+</div>
+    </div>
+<a name="ppa.foil"></a><div class="slide">
+      <h1 class="title">Adding additional software repositories</h1>
+      <p>
+	By adding additional software repositories beyond those that
+	come with <span class="orgname">Ubuntu</span>, you gain access to ham-related software
+	and you also make it easier to install updates later!
+      </p>
+      <a class="link" href="https://help.ubuntu.com/community/Repositories/Ubuntu" target="_top">https://help.ubuntu.com/community/Repositories/Ubuntu</a>
+      <p>
+	After you find an interesting repository, you can add it with
+	the instructions on that page.  If you're the command-line
+	type, you can (e.g.):
+      </p>
+      <pre class="screen"><code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>sudo apt-add-repository ppa:ubuntu-hams-updates/ppa</code></strong>
+<code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>sudo apt-get update</code></strong></pre>
+      
+      <p>
+	Since you are a radio amateur, you may want to look into these
+	repositories:
+      </p>
+      <ul class="">
+<li class="listitem"><p>
+	    <span class="application"><acronym class="acronym">WSJT-X</acronym></span> for weak signal work:
+	    <code class="literal">ppa:ki7mt/wsjtx</code>
+	  </p></li>
+<li class="listitem"><p>
+	    <span class="application">CQRLog</span> for logging:
+	    <code class="literal">ppa:ok2cqr/ppa</code>
+	  </p></li>
+<li class="listitem"><p>
+	    <span class="application">FLDigi</span> for digital modes:
+	    <code class="literal">ppa:kamalmostafa/fldigi</code>
+	  </p></li>
+<li class="listitem"><p>
+	    A lot of other software related to amateur radio:
+	    <code class="literal">ppa:ubuntu-hams-updates/ppa</code>
+	  </p></li>
+</ul>
+    </div>
+<a name="serialports0.foil"></a><div class="slide">
+      <h1 class="title">Serial ports</h1>
+      <p>
+	Serial ports are commonly used by amateur radio hardware to
+	allow computer control.
+      </p>
+      <p>
+	Lots of devices have <acronym class="acronym">USB</acronym>-to-serial hardware built in.
+      </p>
+      <p>
+	Most serial ports have boring, indistinct names that are
+	allocated as the devices are plugged in and/or powered on.
+      </p>
+      <pre class="screen"><code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>ls -l /dev/ttyUSB*</code></strong>
+crw-rw---- 1 root dialout 188, 0 Dec  9 20:56 /dev/ttyUSB0
+crw-rw---- 1 root dialout 188, 1 Dec  2 17:59 /dev/ttyUSB1
+crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</pre>
+      <p>
+	However your operating system may also provide more
+	descriptive names that are not based on when the device was
+	plugged in.
+      </p>
+      <pre class="screen"><code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>ls -l /dev/serial/by-id/</code></strong>
+total 0
+lrwxrwxrwx 1 root root 13 Dec  9 20:56 usb-1a86_USB2.0-Serial-if00-port0 -&gt; ../../ttyUSB0
+lrwxrwxrwx 1 root root 13 Dec  2 17:58 usb-Prolific_Technology_Inc._USB-Serial_Controller_D-if00-port0 -&gt; ../../ttyUSB1
+lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_IC-7200_0205281-if00-port0 -&gt; ../../ttyUSB3</pre>
+    </div>
+<a name="serialports1.foil"></a><div class="slide">
+      <h1 class="title">Serial ports</h1>
+      <pre class="screen"><code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>ls -l /dev/ttyUSB*</code></strong>
+crw-rw---- 1 root dialout 188, 0 Dec  9 20:56 /dev/ttyUSB0
+crw-rw---- 1 root dialout 188, 1 Dec  2 17:59 /dev/ttyUSB1
+crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</pre>
+      <pre class="screen"><code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>ls -l /dev/serial/by-id/</code></strong>
+total 0
+lrwxrwxrwx 1 root root 13 Dec  9 20:56 usb-1a86_USB2.0-Serial-if00-port0 -&gt; ../../ttyUSB0
+lrwxrwxrwx 1 root root 13 Dec  2 17:58 usb-Prolific_Technology_Inc._USB-Serial_Controller_D-if00-port0 -&gt; ../../ttyUSB1
+lrwxrwxrwx 1 root root 13 Dec  9 23:27 usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_IC-7200_0205281-if00-port0 -&gt; ../../ttyUSB3</pre>
+      <p>
+	Remember where to find these!  You may need to put them in
+	configuration files later.
+      </p>
+      <p>
+	Also add yourself to group <code class="literal">dialout</code> so that
+	you can access those serial ports as yourself, without being
+	the <code class="literal">root</code> superuser!
+      </p>
+      <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p>
+	  If you attach two devices that use the same very popular
+	  chip set, they may be indistinguishable by name.  You will
+	  have to resort to number instead.
+	</p>
+<p>
+	  The chip set from <span class="orgname">Prolific Technology Inc.</span> appears in many <acronym class="acronym">USB</acronym>-to-serial
+	  cables as well as some <acronym class="acronym">USB</acronym> <acronym class="acronym">GPS</acronym> devices...and probably
+	  a lot of other stuff too!
+	</p>
+</div>
+    </div>
+<a name="soundcard.foil"></a><div class="slide">
+      <h1 class="title">Working with sound cards</h1>
+      <p>
+	In addition to the built-in sound card on the motherboard, you
+	can add as many <acronym class="acronym">USB</acronym> sound cards as you want.
+      </p>
+      <p>
+	Newer amateur radio hardware that emits sound output or
+	accepts sound input can appear as a sound card when it is
+	attached.
+      </p>
+      <p>
+	Addressing individual sound devices is trickier than with
+	serial ports.  The operating system does some magic behind the
+	scenes to allow multiple programs to access them, and they
+	have funny addresses.
+      </p>
+      <p>
+	I have 3 sound cards on the computer right now:
+      </p>
+      <ul class="">
+<li class="listitem"><p>
+	    The built-in sound card on the motherboard
+	  </p></li>
+<li class="listitem"><p>
+	    Headset with microphone, attached via <acronym class="acronym">USB</acronym>
+	  </p></li>
+<li class="listitem"><p>
+	    <span class="orgname">ICOM</span> IC-7200 attached via <acronym class="acronym">USB</acronym>
+	  </p></li>
+</ul>
+      <p>
+	To find the addresses of individual sound devices, I find
+	myself using:
+      </p>
+      <ul class="">
+<li class="listitem"><p>
+	    For playback only: <code class="code">aplay -l</code>
+	  </p></li>
+<li class="listitem"><p>
+	    For recording only: <code class="code">arecord -l</code>
+	  </p></li>
+<li class="listitem"><p>
+	    For an exhaustive list: <code class="code">aplay -L</code>
+	  </p></li>
+</ul>
+    </div>
+<a name="idp140693761223208"></a><div class="slide">
+<h1 class="title">Capabilities Achieved</h1>
+<ol>
+<li>Scanner and pandapter: hardware</li>
+<li>Scanner and pandapter: software</li>
+<li>Computer control of a rig with Hamlib</li>
+<li>Setting up Hamlib</li>
+<li>Many programs sharing one rig</li>
+<li>Logging with CQRLog</li>
+<li>CQRLog features</li>
+<li>CQRLog features of note</li>
+<li>Exporting logs from CQRLog</li>
+<li>Qtel for EchoLink</li>
+<li>Weak signal modes with WSJT-X</li>
+<li>Digital modes and contests with FLDigi</li>
+<li>Hardware setup for packet radio</li>
+<li>Packet radio with Direwolf</li>
+<li>APRS with Xastir</li>
+<li>Direwolf for AX.25</li>
+<li>Packet radio with linpac</li>
+<li>Computer-generated CW with cwdaemon</li>
+<li>Contesting with tlf</li>
+<li>Configuring tlf: main configuration file</li>
+<li>Configuring tlf: the rules file</li>
+<li>tlf in action</li>
+<li>tlf in action</li>
+<li>tlf after a contest</li>
+</ol>
+</div>
+<a name="scanner-hw.foil"></a><div class="slide">
+      <h1 class="title">Scanner and pandapter: hardware</h1>
+      <p>
+	Many programs can read from an attached <acronym class="acronym">SDR</acronym> dongle.
+      </p>
+      <img src="nooelec.svg">
+      <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p>
+	  If you run a transmitting rig near this hardware, put
+	  ferrite chokes on the <acronym class="acronym">USB</acronym> cables!
+	</p>
+</div>
+      <img src="img/nooelec_dongle_ferrite.jpg" width="270">
+      <img src="img/ferrite_usb_pc.jpg" width="270">
+    </div>
+<a name="scanner-sw.foil"></a><div class="slide">
+      <h1 class="title">Scanner and pandapter: software</h1>
+      <p>
+	The program <a class="link" href="http://gqrx.dk/" target="_top"><span class="application">gqrx</span></a> will read from an attached <acronym class="acronym">SDR</acronym> dongle.
+      </p>
+      <p>
+	It can detect the presence of any RF signal, and can
+	demodulate analog <acronym class="acronym">AM</acronym>, <acronym class="acronym">FM</acronym>, <acronym class="acronym">CW</acronym>, and <acronym class="acronym">SSB</acronym> in software.
+      </p>
+      <p>
+	It can also record audio or raw I/Q to a file, and make audio
+	available for other programs to consume, possibly over the
+	network!
+      </p>
+      <p>
+	With a transverter shift of -125 MHz, you can listen down into
+	MF and HF.
+      </p>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Note</h3>
+<p>
+	  Listening to rock 'n roll music on negative frequencies does
+	  not play it backwards, and does not reveal hidden messages
+	  from Delta Echo Victor India Lima.
+	</p>
+</div>
+      <img src="img/gqrx_fm_broadcast.png" width="270">
+    </div>
+<a name="hamlib.foil"></a><div class="slide">
+      <h1 class="title">Computer control of a rig with Hamlib</h1>
+      <p>
+	The nice folks at
+	<a class="link" href="http://hamlib.sourceforge.net/" target="_top"><span class="application">Hamlib</span></a>
+	wrote a library that gives a common interface to many
+	(hundreds of) rigs.
+      </p>
+      <p>
+	Many popular programs that control rigs are built on <span class="application">Hamlib</span>!
+      </p>
+      <img src="hamlib-rigctl.svg">
+    </div>
+<a name="hamlib-setup.foil"></a><div class="slide">
+      <h1 class="title">Setting up Hamlib</h1>
+      <p>
+	For most applications, all you need to find out are:
+      </p>
+      <ul class="">
+<li class="listitem"><p>
+	    A <span class="application">Hamlib</span> model id number
+	  </p></li>
+<li class="listitem"><p>
+	    The name of the serial port device
+	  </p></li>
+</ul>
+
+      <pre class="screen"><code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>rigctl -l | head -5</code></strong>
+ Rig #  Mfg                    Model                   Version         Status
+     1  Hamlib                 Dummy                   0.5             Beta
+     2  Hamlib                 NET rigctl              0.3             Beta
+   101  Yaesu                  FT-847                  0.5             Beta
+   103  Yaesu                  FT-1000D                0.0.6           Alpha
+<code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>rigctl -l | grep IC-7200</code></strong>
+   361  Icom                   IC-7200                 0.7             Beta</pre>
+      
+      <p>
+	We already found the serial port earlier!
+      </p>
+      <pre class="screen"><code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>ls -l /dev/ttyUSB*</code></strong>
+crw-rw---- 1 root dialout 188, 0 Dec  9 20:56 /dev/ttyUSB0
+crw-rw---- 1 root dialout 188, 1 Dec  2 17:59 /dev/ttyUSB1
+crw-rw---- 1 root dialout 188, 3 Dec  9 23:27 /dev/ttyUSB3</pre>
+    </div>
+<a name="rigctld.foil"></a><div class="slide">
+      <h1 class="title">Many programs sharing one rig</h1>
+      <p>
+	But what if you want multiple programs on one machine to use
+	your rig?
+      </p>
+      <p>
+	Or, even crazier yet, let a program elsewhere on the network
+	use your rig?
+      </p>
+      <p>
+	<span class="application">Hamlib</span> to the rescue again!
+      </p>
+      <p>
+	Set up the <span class="application">Hamlib</span> program <span class="application">rigctld</span> with the rig ID number
+	and the serial port device.
+      </p>
+      <p>
+	Set up the remote program with rig ID number 2
+	(<code class="literal">NET rigctl</code>)
+	and direct it to the host and port where <span class="application">rigctld</span> is running.
+      </p>
+      <img src="hamlib-rigctld.svg">
+    </div>
+<a name="cqrlog0.foil"></a><div class="slide">
+      <h1 class="title">Logging with CQRLog</h1>
+      <p>
+	If <span class="application">CQRLog</span> has a work-alike in the <span class="application">Windows</span> space, it is
+	<span class="application">N1MM</span> or <span class="application">HamRadio Deluxe</span>.
+      </p>
+      <p>
+	<span class="application">rigctld</span>, <span class="application">cwdaemon</span>, <a class="link" href="http://www.reversebeacon.net/" target="_top"><span class="orgname">Reverse Beacon Network</span></a>, <acronym class="acronym">DX</acronym> cluster, <span class="application">XPlanet</span>,
+	grayline map, <a class="link" href="http://www.hamqth.com/" target="_top"><span class="orgname">HamQTH</span></a>, <a class="link" href="http://www.qrz.com/" target="_top"><span class="orgname"><acronym class="acronym">QRZ</acronym></span></a>, <a class="link" href="http://lotw.arrl.org/" target="_top"><span class="application">Logbook of the World</span></a>,
+	<a class="link" href="http://eqsl.cc/" target="_top"><span class="orgname">eQSL</span></a>, <a class="link" href="http://www.clublog.org/" target="_top"><span class="orgname">ClubLog</span></a>...too many capabilities to count!
+      </p>
+      <img src="img/cqrlog_overview.png" width="270">
+    </div>
+<a name="cqrlog1.foil"></a><div class="slide">
+      <h1 class="title">CQRLog features</h1>
+      <p>
+	The preferences window has multiple tabs.  Yes, it is a deep
+	rabbit hole.
+      </p>
+      <img src="img/cqrlog_preferences.png" width="270">
+    </div>
+<a name="cqrlog2.foil"></a><div class="slide">
+      <h1 class="title">CQRLog features of note</h1>
+      
+      <p>
+	Launch <span class="application">rigctld</span> on startup, and use it for rig control and
+	logging assistance.
+      </p>
+      <p>
+	Slurp over logs from <span class="application">FLDigi</span> or <span class="application"><acronym class="acronym">WSJT-X</acronym></span>.  (But not
+	simultaneously.)
+      </p>
+      <p>
+	<acronym class="acronym">CW</acronym> macros and a contest entry window, with support for
+	serial numbers!
+      </p>
+      <p>
+	From the online help:
+      </p>
+      <div class="blockquote"><blockquote class="blockquote"><p>
+	  This is <span class="emphasis"><em>NOT</em></span> a contest logging add-on!!!
+	  It is meant to be a tool for "Sunday contesters working in
+	  Tourist Class". Do not expect wonders!
+	</p></blockquote></div>
+    </div>
+<a name="logexport.foil"></a><div class="slide">
+      <h1 class="title">Exporting logs from CQRLog</h1>
+      
+      
+      <p>
+	If you use <span class="application">Logbook of the World</span> and have <span class="application">TrustedQSL</span> installed, <span class="application">CQRLog</span> can make
+	the signing and uploading process easier.
+      </p>
+      <img src="img/cqrlog_lotw_upload.png" width="270">
+      
+      <p>
+	And then afterwards, you can find the individual <acronym class="acronym">ADIF</acronym> file
+	and upload it to your favorite logbook site (e.g. <a class="link" href="http://www.qrz.com/" target="_top"><span class="orgname"><acronym class="acronym">QRZ</acronym></span></a>,
+	<a class="link" href="http://eqsl.cc/" target="_top"><span class="orgname">eQSL</span></a>, <a class="link" href="http://www.clublog.org/" target="_top"><span class="orgname">ClubLog</span></a>, <a class="link" href="http://www.qrzcq.com/" target="_top"><span class="orgname">QRZCQ</span></a>).
+      </p>
+      <img src="img/cqrlog_post_lotw_adif_upload_qrz.png" width="486">
+    </div>
+<a name="qtel.foil"></a><div class="slide">
+      <h1 class="title">Qtel for EchoLink</h1>
+      <p>
+	Not much to say.  Enter your credentials, set up the audio
+	devices, and go!
+      </p>
+      <img src="img/qtel.png" width="270">
+    </div>
+<a name="wsjtx.foil"></a><div class="slide">
+      <h1 class="title">Weak signal modes with WSJT-X</h1>
+      <p>
+	In <span class="application">CQRLog</span>, first set <span class="guimenuitem">Remote mode for <span class="application"><acronym class="acronym">WSJT-X</acronym></span></span> then launch
+	<span class="application"><acronym class="acronym">WSJT-X</acronym></span>.
+      </p>
+      <p>
+	<span class="application"><acronym class="acronym">WSJT-X</acronym></span> doesn't like sharing the rig; make sure it's the only
+	process using it!
+      </p>
+      <p>
+	After you're done with <span class="application"><acronym class="acronym">WSJT-X</acronym></span>, remember to disable
+	<span class="guimenuitem">Remote mode for <span class="application"><acronym class="acronym">WSJT-X</acronym></span></span>.
+      </p>
+      <img src="img/wsjtx.png" width="270">
+    </div>
+<a name="fldigi.foil"></a><div class="slide">
+      <h1 class="title">Digital modes and contests with FLDigi</h1>
+      
+      
+      
+      <p>
+	<span class="application">FLDigi</span> can use its own <span class="application">RigCAT</span> system, but <span class="application">Hamlib</span> without
+	<span class="application">rigctld</span> seems to work better in my case.
+      </p>
+      <p>
+	Still have to manually set the rig to take modulation from
+	computer.  Can be annoying on band changes!  Perhaps newer
+	<span class="application">Hamlib</span> solves this?
+      </p>
+      <p>
+	Set <span class="application">CQRLog</span> to <span class="guimenuitem">Remote mode for <span class="application">FLDigi</span></span> before launching
+	<span class="application">FLDigi</span>, then communication between the two should work fine.
+      </p>
+      <p>
+	Remember to disable <span class="guimenuitem">Remote mode for <span class="application">FLDigi</span></span> after you're
+	done with <span class="application">FLDigi</span>.
+      </p>
+      <img src="img/fldigi_rtty.png" width="270">
+    </div>
+<a name="packethw.foil"></a><div class="slide">
+      <h1 class="title">Hardware setup for packet radio</h1>
+      <img src="nomic.svg">
+    </div>
+<a name="direwolf.foil"></a><div class="slide">
+      <h1 class="title">Packet radio with Direwolf</h1>
+      <p>
+	<span class="application">Direwolf</span> is a software <acronym class="acronym">TNC</acronym> that can interface with a sound
+	card and a serial port.
+      </p>
+      <code class="filename"><code class="varname">$HOME</code>/direwolf.conf</code>
+      <pre class="programlisting"># see  /usr/share/doc/direwolf/examples/direwolf.conf.gz
+ADEVICE sysdefault:CARD=PCH
+ACHANNELS 1
+CHANNEL 0
+MYCALL W6SFI-1
+MODEM 1200
+PTT /dev/ttyUSB0 RTS DTR
+AGWPORT 8000
+KISSPORT 8001</pre>
+      <p>
+	You can run <span class="application">Direwolf</span> silently in the background, or watch it
+	scroll in a terminal.
+      </p>
+      <img src="img/direwolf_terminal.png">
+    </div>
+<a name="xastir.foil"></a><div class="slide">
+      <h1 class="title">APRS with Xastir</h1>
+      <p>
+	<span class="application">Direwolf</span> is much better when you combine it with other
+	programs that actually know what to do with packets, like
+	<span class="application">Xastir</span>.
+      </p>
+      <p>
+	<span class="application">Xastir</span> gets even better when you attach it to a <acronym class="acronym">GPS</acronym> dongle
+	and a weather station.
+      </p>
+      <p>
+	For those who don't like to buy purpose-built tracker
+	hardware, there are many guides on the internet about how to
+	combine a Raspberry Pi, <span class="application">Direwolf</span>, <span class="application">Xastir</span>, and a <acronym class="acronym">GPS</acronym>
+	dongle into a portable <acronym class="acronym">APRS</acronym> solution.
+      </p>
+      <img src="img/xastir_direwolf_alsamixer.png" width="270">
+    </div>
+<a name="kisstnc.foil"></a><div class="slide">
+      <h1 class="title">Direwolf for AX.25</h1>
+      <p>
+	With a slightly different configuration, <span class="application">Direwolf</span> can be
+	convinced to be a <acronym class="acronym">KISS</acronym> <acronym class="acronym">TNC</acronym> for generic <acronym class="acronym">AX.25</acronym> operation.
+      </p>
+      <code class="filename"><code class="varname">$HOME</code>/direwolf.conf.packet</code>
+      <pre class="programlisting"># see  /usr/share/doc/direwolf/examples/direwolf.conf.gz
+ADEVICE sysdefault:CARD=PCH
+ACHANNELS 1
+CHANNEL 0
+MYCALL W6SFI-2
+MODEM 1200
+FIX_BITS 1 AX25
+PTT /dev/ttyUSB0 RTS DTR
+AGWPORT 8000
+KISSPORT 8001</pre>
+      <code class="filename">/etc/ax25/axports</code>
+      <pre class="programlisting">packet	W6SFI-2	1200	255	2	1200 BPS packet</pre>
+      <img src="img/direwolf_kissattach.png">
+    </div>
+<a name="linpac.foil"></a><div class="slide">
+      <h1 class="title">Packet radio with linpac</h1>
+      <p>
+	<span class="application">linpac</span> can spew packets out into the ether, or connect to a
+	packet <acronym class="acronym">BBS</acronym>.
+      </p>
+      
+      
+      <img src="img/linpac_direwolf.png">
+    </div>
+<a name="cwdaemon.foil"></a><div class="slide">
+      <h1 class="title">Computer-generated CW with cwdaemon</h1>
+      <p>
+	Are you better at keyboards than straight keys or paddles?
+	This may be for you!
+      </p>
+      <code class="filename">/etc/default/cwdaemon</code>
+      <pre class="programlisting">START_CWDAEMON="YES"
+DEVICE="ttyUSB1"</pre>
+      <p>
+	Configuring your particular keyer device is beyond the scope
+	of this presentation; mine required none.
+      </p>
+      <p>
+	Start it up!
+      </p>
+      <pre class="screen"><code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>sudo service cwdaemon start</code></strong>
+<code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>nc -u localhost 6789</code></strong>
+<strong class="userinput"><code>+- CQ DE W6SFI PSE K</code></strong>
+<strong class="userinput"><code><span class="keysym">^C</span></code></strong>
+      </pre>
+      <p>
+	<a class="link" href="https://vimeo.com/258740213" target="_top">Did it work?</a>
+      </p>
+    </div>
+<a name="tlf-intro.foil"></a><div class="slide">
+      <h1 class="title">Contesting with tlf</h1>
+      <p>
+	<a class="link" href="http://github.com/Tlf/tlf/" target="_top"><span class="application">tlf</span></a> is a console-based contest logger.  Run it in an
+	80x25 terminal with a huge font.
+      </p>
+      <p>
+	<span class="application">tlf</span> is operated
+	<span class="emphasis"><em>entirely by keyboard,</em></span>
+	and configured
+	<span class="emphasis"><em>entirely by text files.</em></span>
+      </p>
+      <p>
+	Best to configure things in advance, and read the
+	documentation thoroughly.
+      </p>
+      <p>
+	Most of the features you would expect in dedicated contest
+	software:
+      </p>
+      <ul class="">
+<li class="listitem"><p>
+	    Configurable preset CW messages available at single keystrokes
+	  </p></li>
+<li class="listitem"><p>
+	    Bind voice keyer messages to keys for SSB contests
+	  </p></li>
+<li class="listitem"><p>
+	    Smart <span class="keycap"><strong>Enter</strong></span> key often does what you want.
+	  </p></li>
+<li class="listitem"><p>
+	    Band map, DX cluster, Super Check Partial, rig control,
+	    score window, log review, duplicate detection...
+	  </p></li>
+<li class="listitem"><p>
+	    A few contests built in, plus facilities for handling
+	    unknown contests or just general non-contest logging.
+	  </p></li>
+<li class="listitem"><p>
+	    Contest simulator!  (Not a pileup simulator.)
+	    You may want to switch to the dummy load for this.
+	  </p></li>
+</ul>
+    </div>
+<a name="tlf-config0.foil"></a><div class="slide">
+      <h1 class="title">Configuring tlf: main configuration file</h1>
+      <code class="filename"><code class="varname">$HOME</code>/.config/tlf/logcfg.dat</code>
+      <pre class="programlisting">CALL=W6SFI
+CWSPEED=20
+CLUSTER
+BANDMAP
+SCOREWINDOW
+CHECKWINDOW
+PARTIALS
+RIGMODEL=361
+RIGSPEED=9600
+RIGPORT=/dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_IC-7200_0205281-if00-port0
+RADIO_CONTROL
+CONTEST=arrldx
+NETKEYER
+NO_BANDSWITCH_ARROWKEYS</pre>
+    </div>
+<a name="tlf-config1.foil"></a><div class="slide">
+      <h1 class="title">Configuring tlf: the rules file</h1>
+      <code class="filename"><code class="varname">$HOME</code>/.config/tlf/rules/arrldx</code>
+      <pre class="programlisting">CONTEST=arrldx
+LOGFILE=arrldx.log
+CONTEST_MODE
+CABRILLO=UNIVERSAL
+THREE_POINTS
+MULT_LIST=arrl10m_mults
+MY_COUNTRY_POINTS=0
+COUNTRY_MULT
+F1=+- CQ % TEST
+F2=+-  %
+F3=+- @ +++5NN--- CA
+F4=+- TU
+F5=+- @
+F6=+- %
+F7=+- @ SRI QSO B4 GL
+F8=+- AGN
+F9=+- ?
+F10=+- QRZ?
+F11=+- PSE K
+F12=+- CQ % TEST
+CQ_TU_MSG=+- TU %
+S&amp;P_TU_MSG=+- TU +++5NN--- CA
+ALT_1=+- CA CA CA
+ALT_2=+- PWR? PWR?
+S&amp;P_CALL_MSG=+- %</pre>
+    </div>
+<a name="tlf-action0.foil"></a><div class="slide">
+      <h1 class="title">tlf in action</h1>
+      <img src="img/tlf-in-giant-terminal.png">
+    </div>
+<a name="tlf-action1.foil"></a><div class="slide">
+      <h1 class="title">tlf in action</h1>
+      <img src="img/tlf-dup-qso.png">
+    </div>
+<a name="tlf-post.foil"></a><div class="slide">
+      <h1 class="title">tlf after a contest</h1>
+      <p>
+	Export your data to Cabrillo format with <code class="literal">:WRI</code>
+	and send in your entry.
+      </p>
+      <p>
+	Export your contacts to <acronym class="acronym">ADIF</acronym> format with <code class="literal">:ADI</code>
+	and load them back into <span class="application">CQRLog</span>!
+      </p>
+    </div>
+<a name="idp140693761407400"></a><div class="slide">
+<h1 class="title">Future Plans</h1>
+<ol>
+<li>SSB contesting with tlf</li>
+<li>Slow-Scan TeleVision</li>
+<li>FreeDV: digital voice over HF</li>
+<li>AMPR: Internet Protocol over packet radio</li>
+<li>Winlink and Pat</li>
+</ol>
+</div>
+<a name="tlfssb.foil"></a><div class="slide">
+      <h1 class="title">SSB contesting with tlf</h1>
+      <p>
+	Need to prepare a bunch of <code class="filename">.wav</code> files
+	that <span class="application">tlf</span>'s voice keyer can play automatically.
+      </p>
+      <p>
+	Also need to write a script that uses a recent-enough version
+	of <span class="application">Hamlib</span> to put the rig into all the right modes, plays the
+	<code class="filename">.wav</code> to it, and then puts the rig back!
+      </p>
+      <p>
+	I know this can be done, because <span class="application"><acronym class="acronym">WSJT-X</acronym></span> knows all the right
+	buttons to push, and it uses <span class="application">Hamlib</span>.
+      </p>
+    </div>
+<a name="sstv.foil"></a><div class="slide">
+      <h1 class="title">Slow-Scan TeleVision</h1>
+      <p>
+	I've spent too much time wrestling with bugs in the <span class="application">QSSTV</span>
+	image editor to complete an actual <acronym class="acronym">SSTV</acronym> <acronym class="acronym">QSO</acronym>.
+      </p>
+      <img src="img/qsstv_rx_gallery.png">
+      <p>
+	Still, I have managed to at least decode a few transmissions.
+	Some are even intelligible!
+      </p>
+    </div>
+<a name="freedv.foil"></a><div class="slide">
+      <h1 class="title">FreeDV: digital voice over HF</h1>
+      <p>
+	<a class="link" href="https://freedv.org/" target="_top"><span class="application">FreeDV</span></a> is a digital voice application, primarily for <acronym class="acronym">HF</acronym> use.
+      </p>
+      <p>
+	<span class="application">FreeDV</span> uses open-source non-proprietary codecs.
+      </p>
+      <p>
+	<a class="link" href="http://qso.freedv.org/" target="_top">http://qso.freedv.org/</a> can help you find other operators using <span class="application">FreeDV</span>.
+      </p>
+      <img src="img/freedv-no-signal.png">
+    </div>
+<a name="ampr.foil"></a><div class="slide">
+      <h1 class="title">AMPR: Internet Protocol over packet radio</h1>
+      <p>
+	Forward-thinking radio amateurs allocated an entire class A
+	block 44.0.0.0/8 for internet use!
+      </p>
+      <p>
+	It is not meant to replace regular internet access.  It is
+	mostly meant for research, experimentation, and advancing the
+	state of the art.
+      </p>
+      <p>
+	<a class="link" href="https://www.ampr.org/" target="_top"><acronym class="acronym">AMPR</acronym></a> manages subnet allocations and provides pointers
+	to other information.
+      </p>
+    </div>
+<a name="winlink-pat.foil"></a><div class="slide">
+      <h1 class="title">Winlink and Pat</h1>
+      <p>
+	Who says <acronym class="acronym">Winlink</acronym> is limited to <span class="application">Windows</span> users? 
+      </p>
+      <p>
+	<acronym class="acronym">Pat</acronym> is a cross-platform <acronym class="acronym">Winlink</acronym> client that should run on
+	any widely-used operating system.
+      </p>
+      <p>
+	I hear <acronym class="acronym">Winlink</acronym> is pretty nifty when it works, but I'm mostly
+	uninformed about it.
+      </p>
+    </div>
+<a name="backmatter.foilgroup"></a><div class="slide">
+<h1 class="title">Back Matter</h1>
+<ol>
+<li>More Resources</li>
+<li>About This Presentation</li>
+<li>Any Questions?</li>
+<li>QRT</li>
+</ol>
+</div>
+<a name="resources.foil"></a><div class="slide">
+      <h1 class="title">More Resources</h1>
+      <ul class="">
+<li class="listitem"><a class="link" href="http://www.trinityos.com/HAM/CentosDigitalModes/hampacketizing-centos.html" target="_top">http://www.trinityos.com/HAM/CentosDigitalModes/hampacketizing-centos.html</a></li>
+<li class="listitem"><a class="link" href="https://www.debian.org/blends/hamradio/" target="_top">https://www.debian.org/blends/hamradio/</a></li>
+<li class="listitem"><a class="link" href="https://launchpad.net/~ubuntu-hams-updates" target="_top">https://launchpad.net/~ubuntu-hams-updates</a></li>
+<li class="listitem"><a class="link" href="http://cqrlog.com/" target="_top"><span class="application">CQRLog</span></a></li>
+<li class="listitem"><a class="link" href="http://www.physics.princeton.edu/pulsar/K1JT/" target="_top"><span class="application"><acronym class="acronym">WSJT-X</acronym></span></a></li>
+<li class="listitem"><a class="link" href="http://www.w1hkj.com/" target="_top"><span class="application">FLDigi</span></a></li>
+<li class="listitem"><a class="link" href="https://github.com/wb2osz/direwolf" target="_top"><span class="application">Direwolf</span></a></li>
+<li class="listitem"><a class="link" href="https://xastir.org/" target="_top"><span class="application">Xastir</span></a></li>
+<li class="listitem"><a class="link" href="http://linpac.sourceforge.net/" target="_top"><span class="application">linpac</span></a></li>
+<li class="listitem"><a class="link" href="http://github.com/Tlf/tlf/" target="_top"><span class="application">tlf</span></a></li>
+<li class="listitem"><a class="link" href="http://hamlib.sourceforge.net/" target="_top"><span class="application">Hamlib</span></a></li>
+<li class="listitem"><a class="link" href="https://freedv.org/" target="_top"><span class="application">FreeDV</span></a></li>
+<li class="listitem"><a class="link" href="https://www.ampr.org/" target="_top"><acronym class="acronym">AMPR</acronym></a></li>
+<li class="listitem"><a class="link" href="http://getpat.io/" target="_top"><acronym class="acronym">Pat</acronym></a></li>
+</ul>
+    </div>
+<a name="presentation.foil"></a><div class="slide">
+      <h1 class="title">About This Presentation</h1>
+      <p>
+	This presentation is stored in <span class="application">GitHub</span>:
+      </p>
+      <p>
+	<a class="link" href="https://tnalpgge.github.io/presentations/frugal-ham-shack-computer/" target="_top">https://tnalpgge.github.io/presentations/frugal-ham-shack-computer/</a>
+      </p>
+      <p>
+	Should you wish to see how this presentation was assembled:
+      </p>
+      <pre class="screen"><code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>git clone https://github.com/tnalpgge/presentations.git</code></strong>
+<code class="prompt">[yourself@workstation ~]$</code> <strong class="userinput"><code>cd frugal-ham-shack-computer</code></strong>
+<code class="prompt">[yourself@workstation frugal-ham-shack-computer]$</code> <strong class="userinput"><code>make</code></strong>
+      </pre>
+      <p>
+	And start reading at <code class="filename">slides.html</code>.
+      </p>
+      <p>
+	You will need to follow the instructions in
+	<code class="filename">README.md</code> to set up your workspace to
+	properly build these slides.
+      </p>
+    </div>
+<a name="idp140693761481976"></a><div class="slide">
+      <h1 class="title">Any Questions?</h1>
+    </div>
+<a name="idp140693761482744"></a><div class="slide">
+      <h1 class="title">QRT</h1>
+      <p>
+	<code class="code">
+	  TNX 73 ES GL
+	</code>
+      </p>
+      <p>
+	<a class="link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_top">https://creativecommons.org/licenses/by-nc-sa/4.0/</a>
+      </p>
+    </div>
+</body>
+</html>

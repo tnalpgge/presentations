@@ -6,12 +6,5 @@
 # vim
 *.sw*
 
-# SVG generated from GraphViz or pic
-*.svg
-
 # Marker files for syntax checking
 *.lint
-
-# Output files
-slides.html
-files/
