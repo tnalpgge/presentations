@@ -1,0 +1,99 @@
+= Tales from Solo Portable Operations
+:Author: Tony Monroe W6SFI
+:Date: October 2018
+:backend: slidy
+:badges:
+:icons:
+:linkcss:
+:stylesheet: user.css
+:title-image: img/qsl1.png
+:subtitle: California QSO Party 2018
+:conference-sponsor: South Bay Amateur Radio Association
+:conference-title: General Meeting
+:conference-dates: Month Year
+
+== Primary Objectives
+
+[role="incremental"]
+- Give out a relatively rare county to out-of-state contesters
+- Operate at moderate power in a low-noise natural setting
+- Learn lessons for future portable operations
+- A satisfying number of QSOs
+
+
+== Targets of Opportunity
+
+[role="incremental"]
+- A large number of QSOs
+- Celebrate being a life-long California resident
+- More running time than search-and-pounce time
+- Eat bologna sandwiches for lunch
+- Bum crash space from my parents overnight
+ 
+== What to Avoid
+
+[role="incremental"]
+- QRP
+- 100% search-and-pounce time
+- Angry park rangers
+- Losing my voice by spending lots of time calling CQ and getting no answers
+- Injuries and illnesses
+- Wildfires
+
+== Selecting Locations
+
+== Equipment
+
+== Saturday: Turlock Lake State Recreation Area
+
+== Sunday: Woodward Reservoir County Park
+
+== Log Summary
+
+== Lessons Learned: Tools
+
+- Shade tent was a good idea.
+- Should have brought a hammer!
+- Should have brought a wagon!
+- Should have brought a tarp!
+- Should have brought corkscrew sand stakes for the shade tent!
+
+== Lessons Learned: Antenna
+
+[role="incremental"]
+- Vertical antenna low to the ground got good distance, but in-state was very difficult!
+- Holy Skip, Batman!  Out of state, nothing closer than Colorado.
+- Should have brought a dipole and supports to use NVIS to get more in-state QSOs.
+
+
+== Lessons Learned: Power
+
+[role="incremental"]
+- Between nearby power lines and the generator, 40 meters was useless at Turlock Lake :-(
+- Generators are useful but noisy and fussy.
+- For daylight-only operations, a big battery should be sufficient.
+- A solar panel could top up the battery during the day to extend nighttime operating hours.
+
+== Lessons Learned: Location
+[role="incremental"]
+- Visiting ahead of time is invaluable, but not always possible.
+- Hilltops covered with parched grass are not attractive to generator users.
+- Convenient bushes can allow flimsy verticals to remain upright on windy days!
+
+== Lessons Learned: Operating
+
+[role="incremental"]
+- Should have set up recordings to save my voice, at least for calling CQ.
+- Calling CQ in an empty spot on 15 meters got me most of my QSOs...
+- ...until all I got was a thin stream of Tennessee, and then it was time to change tactics.
+
+== Back Matter
+
+This presentation was written in http://asciidoc.org/[AsciiDoc] and
+presented with http://www.w3.org/Talks/Tools/Slidy2/[Slidy].
+
+Presentation source code: https://github.com/tnalpgge/presentations/tree/master/cqp-2018
+
+Link to presentation: https://tnalpgge.github.io/presentations/cqp-2018/
+
+== Any Questions?
