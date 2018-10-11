@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6, #revdate {
 }
 
 div.slide h1 {
+    text-align: center;
 }
 
 /* logo on cover slide only */
@@ -53,4 +54,10 @@ div.slide h1 {
     text-align: center;
     font-weight: bold;
     margin-top: 3%;
+}
+
+.cw {
+    font-family: Courier, monospace;
+    font-weight: bold;
+    font-size: xx-large;
 }

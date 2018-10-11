@@ -12,6 +12,7 @@
 :conference-title: General Meeting
 :conference-dates: Month Year
 
+
 == Primary Objectives
 
 [role="incremental"]
@@ -19,36 +20,140 @@
 - Operate at moderate power in a low-noise natural setting
 - Learn lessons for future portable operations
 - A satisfying number of QSOs
-
+- Enjoy a weekend out of the house!  But not too far out.
 
 == Targets of Opportunity
 
 [role="incremental"]
-- A large number of QSOs
 - Celebrate being a life-long California resident
+- A large number of QSOs
 - More running time than search-and-pounce time
-- Eat bologna sandwiches for lunch
-- Bum crash space from my parents overnight
+- Bum some overnight crash space from my parents :-)
  
 == What to Avoid
 
 [role="incremental"]
-- QRP
+- Operating QRP, or effectively so
 - 100% search-and-pounce time
 - Angry park rangers
-- Losing my voice by spending lots of time calling CQ and getting no answers
+- Losing my voice
 - Injuries and illnesses
 - Wildfires
 
 == Selecting Locations
 
+One week before the event I visited http://cqp.org/ and looked for
+unclaimed counties.
+
+[role="incremental"]
+- Hm, Stanislaus and Yolo aren't claimed yet...
+- I drive through northeastern Stanislaus County whenever I visit my parents...
+- I wonder if the contest organizers know any operating spots?
+
+== Mail from More Experienced Operators
+
+[quote, Bob N6TV]
+Any ideas Alan?
+
+[quote, Alan AD6E/KH6TU]
+I took a quick look at Google Earth, and there seems to
+be a nice little park called Orange Blossom Recreation Area about 4
+miles east of Oakdale...GL, I'm going to need STAN myself this time.
+
+[quote, Glen W6GJB]
+Tom,
+Glad to hear you will going to
+Stanislaus...Maybe someone on the email list will have a suggestion
+for a good location.
+
+Tom?  Who's Tom?!
+
 == Equipment
+
+[role="incremental"]
+- ICOM IC-7200 transceiver, covering 160m-6m
+- MFJ-902B transmatch
+- Outbacker 500 vertical, covering 75m-10m
+- Extremely sophisticated ground radial system
+- Modified camera tripod
+- Laptop computer with N1MM
+- Borrowed generator
+- Shade tent
+- Folding table
+- Folding chair
+- Toolbox
+- Overnight bag
+- 2011 Volkswagen Jetta TDI Sportwagen, without emissions modification
 
 == Saturday: Turlock Lake State Recreation Area
 
+[role="TODO"]
+- General location
+  - East of Modesto on CA-132
+  - A stone's throw from the Tuolumne River
+- Specific operating location - not bad, but not that good either
+  - Northwest shore of lake
+  - southeast corner of CM97qp
+  - 37.625737 North 120.588798 West
+  - Narrow strip of beach with lots of parched grass nearby
+  - Power lines across the road
+  - Not really flat and level
+  - Almost completely exposed to the elements
+- Setup was a drag
+  - Lacked suitable stakes for sandy ground
+  - Lacked hammer to drive in what stakes I did have
+  - Too many trips on a sloped path between the beach and the car
+- Weather was pleasant, partly cloudy and breezy
+- Operating
+  - Noisy all day; don't know if it was power lines or generator
+  - Chair was perhaps better for tailgating than operating
+- Teardown was faster than setup but just as much of a drag
+
+== Sightseeing Sunday: Knight's Ferry
+
+[role="TODO"]
+- One of the Stanislaus River parks.  https://www.stanislausriver.com/parks/
+- Longest covered bridge west of the Mississippi River!
+- Former grain mill and hydroelectric generator station.
+- Managed by the Army Corps of Engineers.
+
 == Sunday: Woodward Reservoir County Park
 
+[role="TODO"]
+- General location
+  - North of Oakdale
+- Specific location
+  - West shore of lake, in a picnic area
+  - Middle of CM97nu
+  - 37.849548 North 120.876965 West
+  - Green grass, shade trees, concrete picnic tables
+  - Definitely more flat and more level
+- Setup was easier
+  - Table, seating, and shade were already taken care of
+  - Used one of the tables to block acoustic and RF noise from generator
+  - Used a bush to shield the antenna from the wind
+- Weather was very windy!
+- Operating
+  - Noise floor was much lower
+  - Easier to make those contacts
+  - Skip just as bad, but heard more in-state stations
+  - Called CQ on 21373 and held it for a lot longer than I expected
+- Teardown was 15 minutes or so
+- Back home within 3 hours of contest end
+
 == Log Summary
+
+[role="TODO"]
+- 85 QSO
+- 30 Saturday, 55 Sunday
+- 35 on 20m, 49 on 15m
+- 1 CW, 84 Phone
+- 1 in-state -- very weak and in same county
+- 84 out-of-state, none closer than Colorado, but got all the way to Alaska, Florida, and Maine!
+- About a dozen "thanks for the new county" :-)
+- 36 QSO in 55 minutes from running on 21373 on Sunday
+
+
 
 == Lessons Learned: Tools
 
@@ -86,6 +191,7 @@
 - Should have set up recordings to save my voice, at least for calling CQ.
 - Calling CQ in an empty spot on 15 meters got me most of my QSOs...
 - ...until all I got was a thin stream of Tennessee, and then it was time to change tactics.
+- N1MM is actually good software.
 
 == Back Matter
 
@@ -97,3 +203,9 @@ Presentation source code: https://github.com/tnalpgge/presentations/tree/master/
 Link to presentation: https://tnalpgge.github.io/presentations/cqp-2018/
 
 == Any Questions?
+
+== QRT
+[role="cw"]
+TNX 73 ES GL
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/
