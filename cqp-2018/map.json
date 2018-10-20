@@ -1,0 +1,25 @@
+{
+   "center" : {
+      "lat" : 45.0,
+      "lng" : -100.0
+   },
+   "legend" : {
+      "exact" : {
+         "description" : "Exact location",
+         "icon" : "blue-dot"
+      },
+      "guess" : {
+         "description" : "Approximate location",
+         "icon" : "info_circle"
+      },
+      "home" : {
+         "description" : "Home QTH",
+         "icon" : "homegardenbusiness"
+      },
+      "portable" : {
+         "description" : "Portable QTH",
+         "icon" : "campground"
+      }
+   },
+   "zoom" : 4
+}
