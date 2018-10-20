@@ -13,33 +13,44 @@
 :conference-dates: Month Year
 :favicon: favicon.ico
 
+== Agenda
+
+[role="incremental"]
+* Share my experiences operating portable in the 2018 link:http://cqp.org/[California QSO Party]
+* Show off some photos taken along the way &#x1f4f8;
+* Present without presentation software &#x1f60e;
+* Don't use any emoji more than once &#x1f913;
 
 == Primary Objectives
 
+What did I want to accomplish for this portable operation?
+
 [role="incremental"]
-- Give out a relatively rare county to out-of-state contesters
-- Operate at moderate power in a low-noise natural setting
-- Learn lessons for future portable operations
-- A satisfying number of QSOs
-- Enjoy a weekend out of the house!  But not too far out.
+- Celebrate being a life-long California resident &#x1f389;
+- Give out a relatively rare county to out-of-state contesters.
+- Operate at moderate power in a low-noise natural setting. &#x1f332;
+- Learn lessons for future portable operations.
+- A _satisfying_ number of QSOs.
+- Enjoy a weekend out of the house! &#x1f334; But not too far out.
 
 == Targets of Opportunity
 
+What would make things better if it happened, but no worse if it didn't?
+
 [role="incremental"]
-- Celebrate being a life-long California resident
-- A large number of QSOs
-- More running time than search-and-pounce time
-- Bum some overnight crash space from my parents :-)
+- A _large_ number of QSOs. &#x1f633;
+- More running time than search-and-pounce time.
+- Bum some overnight crash space from my parents! &#x1f606;
  
 == What to Avoid
 
 [role="incremental"]
-- Operating QRP, or effectively so
+- Operating QRP, or effectively so &#x1f910;
 - 100% search-and-pounce time
 - Angry park rangers
-- Losing my voice
-- Injuries and illnesses
-- Wildfires
+- Losing my voice &#x1f636;
+- Injuries &#x1f915; and illnesses &#x1f912;
+- Wildfires &#x1f525;
 
 == Selecting Locations
 
@@ -47,9 +58,9 @@ One week before the event I visited http://cqp.org/ and looked for
 unclaimed counties.
 
 [role="incremental"]
-- Hm, Stanislaus and Yolo aren't claimed yet...
+- Hm, Stanislaus and Yolo aren't claimed yet... 
 - I drive through northeastern Stanislaus County whenever I visit my parents...
-- I wonder if the contest organizers know any operating spots?
+- I wonder if the contest organizers know any operating spots? &#x1f914;
 
 == Mail from More Experienced Operators
 
@@ -71,24 +82,24 @@ Stanislaus...Maybe someone on the email list will have a suggestion
 for a good location.
 
 [role="incremental"]
-Tom?  Who's Tom?!
+Tom?  Who's Tom?! &#x1f620;
 
 == Equipment
 
 [role="incremental"]
-- ICOM IC-7200 transceiver, covering 160m-6m
+- ICOM IC-7200 transceiver, covering 160m-6m &#x1f4fb;
 - MFJ-902B transmatch
-- Outbacker 500 vertical, covering 75m-10m
-- Extremely Sophisticated *(cough)* Radial System
+- Outbacker 500 vertical, covering 75m-10m &#x1f4e1;
 - Modified camera tripod
-- Laptop computer with N1MM
-- Borrowed generator
-- Shade tent
+- Extremely Sophisticated *(cough)* Radial System
+- Laptop computer with N1MM &#x1f4bb;
+- Borrowed generator &#x26a1;
+- Shade tent &#x26fa;
 - Folding table
 - Folding chair
-- Toolbox
-- Overnight bag
-- 2011 Volkswagen Jetta TDI Sportwagen, without emissions modification
+- Toolbox &#x1f527;
+- Overnight bag &#x1f634;
+- 2011 Volkswagen Jetta TDI Sportwagen &#x1f699;
 
 == Scouting Saturday: Turlock Lake
 
@@ -101,10 +112,10 @@ image::img/modesto-turlock-sra-map.png[width=1024,link="img/modesto-turlock-sra-
 
 [role="incremental"]
 * Northwest shore of lake, southeast corner of CM97qp
-* Narrow strip of beach with lots of parched grass nearby
+* Narrow strip of beach &#x1f3d6; with lots of parched grass nearby 
 * Power lines across the road
 * Not really flat and level
-* Almost completely exposed to the elements
+* Almost completely exposed to the elements &#x1f31e;
 
 image::img/turlock-sra-north-shore.png[width=1024,link="img/turlock-sra-north-shore.png"]
 
@@ -113,7 +124,9 @@ image::img/turlock-sra-north-shore.png[width=1024,link="img/turlock-sra-north-sh
 A local grandmother who brought her two grandchildren said the lake
 was very full!
 
-image::img/turlock-lake-panorama.jpg[width=1024,link="img/turlock-lake-panorama.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637281290/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1913/43637281290_a6174367d6_b.jpg" width="1024" height="265" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
 == Setting Up Saturday: Turlock Lake
 
@@ -121,46 +134,55 @@ image::img/turlock-lake-panorama.jpg[width=1024,link="img/turlock-lake-panorama.
 * Weather was pleasant, partly cloudy and breezy...
 * ...but setup was a drag!
 * I didn't have suitable stakes for sandy ground.
-* Of all the tools in the world, why did I forget a hammer to drive the stakes that I did have?
+* Of all the tools in the world, why did I forget a hammer &#x1f528; to drive the stakes that I did have? 
 * Too many trips on a sloped path between the beach and the car, without a wagon or dolly.
 
-image::img/turlock-shade-tent.jpg[width=1024,link="img/turlock-shade-tent.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45454474741/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1968/45454474741_1ed2ce1259_z.jpg" width="640" height="480" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45454474591/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1933/45454474591_9225e8698e_z.jpg" width="640" height="480" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
-image::img/turlock-tent-on-shore.jpg[width=1024,link="img/turlock-tent-on-shore.jpg"]
+
 
 == Operating Saturday: Turlock Lake
 
 But we're here to operate, so let's operate!
 
-image::img/turlock-operating-in-tent.jpg[width=1024,link="img/turlock-operating-in-tent.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/44729591214/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1901/44729591214_ea56a6fbdb_b.jpg" width="1024" height="769" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
 == Operating Saturday: Turlock Lake
 
 My antenna and Extremely Sophisticated *(cough)* Radial System.
 
-image::img/turlock-radial-system.jpg[height=768,link="img/turlock-radial-system.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/44729592024/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1933/44729592024_923e707035_b.jpg" width="768" height="1024" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
 == Saturday Operating Summary
 [role="incremental"]
 
-* Noisy all day (S4-S5 on 15 and 20 meters).  Was it the power lines or the generator?
-* 40 meters was useless (S9 noise floor).
+* Noisy all day (S4-S5 on 15 and 20 meters). &#x1f4a5;  Was it the power lines or the generator?
+* 40 meters was useless (S9 noise floor). &#x1f4a3;
 * Chair was perhaps better for tailgating than operating.
 * Teardown was faster than setup but possibly more of a drag...
-* ...because my car was up a hill and I didn't have a wagon!
+* ...because my car was up a hill and I didn't have a wagon! &#x1f3cb;
 
 == Relaxing Saturday Evening
 
 Dog tax!  Meet Misty, my parents' 8-pound toy poodle, who wouldn't
 smile for the camera.
 
-image::img/dog-tax.jpg[width=1024,link="img/dog-tax.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/44539760085/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1978/44539760085_79c08ce18b_b.jpg" width="1024" height="769" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
 == Sightseeing Sunday: Knights Ferry
 
 [role="incremental"]
 - East of Oakdale on CA-108/CA-120, straddles CM97pt and CM97qt
-- One of the Stanislaus River parks.  https://www.stanislausriver.com/parks/
+- One of the link:https://www.stanislausriver.com/parks/[Stanislaus River Parks]
 - Longest covered bridge west of the Mississippi River!
 - Former grain mill and hydroelectric generator station.
 - Popular site for river rafters to put in, but possibly not that day
@@ -169,25 +191,33 @@ image::img/dog-tax.jpg[width=1024,link="img/dog-tax.jpg"]
 
 The covered bridge, viewed from the south end.
 
-image::img/knights-ferry-bridge-south.jpg[width=1024,link="img/knights-ferry-bridge-south.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637280440/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1912/43637280440_8be396f4e7_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
 == Sightseeing Sunday: Knights Ferry
 
 The office building across the path from the mill.
 
-image::img/knights-ferry-mill-office.jpg[width=1024,link="img/knights-ferry-mill-office.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637280680/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1906/43637280680_f575b2441b_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
 == Sightseeing Sunday: Knights Ferry
 
 Panorama of the bridge, from underneath on the west side.
 
-image::img/knights-ferry-bridge-panorama.jpg[width=1024,link="img/knights-ferry-bridge-panorama.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45402367322/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1904/45402367322_4b24f81aae_b.jpg" width="1024" height="373" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
 == Sightseeing Sunday: Knights Ferry
 
 Looking up the Stanislaus River in the morning.
 
-image::img/knights-ferry-stanislaus-river.jpg[width=1024,link="img/knights-ferry-stanislaus-river.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45454474371/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1957/45454474371_dcdc06ebdb_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
 == Scouting Sunday: Orange Blossom Park
 
@@ -196,6 +226,7 @@ image::img/knights-ferry-stanislaus-river.jpg[width=1024,link="img/knights-ferry
 * Northeast corner of CM97os
 * Right next to the river, but basically in a valley.
 * Nice place for a picnic, but possibly not for daytime HF operating.
+* We had another place in mind anyway, let's move on.
 
 == Scouting Sunday: Woodward Reservoir
 
@@ -212,9 +243,17 @@ So where to operate here?
 * How about picnic areas on the west shore?
 * Definitely more flat and more level than yesterday!
 * Green grass, shade trees, concrete picnic tables...
-* ...but very windy today.  Maybe we can make use of bushes and trees.
+* ...but very windy today.  &#x1f32c;  Maybe we can make use of bushes and trees.
 
 image::img/woodward-res-west-shore.png[width=1024,link="img/woodward-res-west-shore.png"]
+
+== Scouting Sunday: Woodward Reservoir
+
+Well this looks like a pleasant spot, even if we're not operating.
+
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637281140/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1928/43637281140_c7f3203a2a_b.jpg" width="1024" height="298" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
 == Setup Sunday: Woodward Reservoir
 
@@ -228,46 +267,54 @@ image::img/woodward-res-west-shore.png[width=1024,link="img/woodward-res-west-sh
 
 Flimsy camera tripod not falling over in the wind, thanks to a nearby bush.
 
-image:img/woodward-antenna-wind.jpg[width=768,link="img/woodward-antenna-wind.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/31579278388/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1952/31579278388_cb17c2f419_b.jpg" width="768" height="1024" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
 == Operating Sunday: Woodward Reservoir
 
 The antenna hasn't fallen over yet, let's try some operating!
 
-image::img/woodward-rig-table.jpg[width=1024,link="img/woodward-rig-table.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45402367032/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1907/45402367032_dd1b05be3c_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
+
 
 == Operating Sunday: Woodward Reservoir
+
 No visitors all day!  Well, almost.
 
-image::img/woodward-tuner-bee.jpg[width=1024,link="img/woodward-tuner-bee.jpg"]
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/31579277898/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1968/31579277898_0ea9f0d6a6_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
 
 == Sunday Operating Summary
 
 [role="incremental"]
 * Noise floor was much lower, S0.  Easier to make those contacts!
-* Got most of my contacts for the contest from calling CQ on 21373 and holding it for a lot longer than I expected!
+* Got most of my contacts for the contest from calling CQ on 21373 and holding it for a lot longer than I expected! &#x1f929;
 * No pileup, but it was fun to be a wanted station.
 * Maybe this solo portable operating thing is really a thing!
 * Teardown was only about 15 minutes.  Back home within 3 hours of contest end.
 
 == Log Summary
 
-[role="incremental"]
-- 85 QSO
-- 30 on Saturday, 55 on Sunday
-- 35 on 20m, 49 on 15m
-- 84 phone, 1 CW
-- 84 out-of-state, 1 in-state -- very weak and in same county
-
 link:map.html[Map of completed QSOs]
+
+[role="incremental"]
+- 85 QSOs, 74 unique calls
+- 30 on Saturday, 55 on Sunday
+- 35 on 20 meters, 49 on 15 meters
+- 84 via phone, 1 via CW
+- 84 out-of-state, 1 in-state (but enough to claim the multiplier!)
 
 == Log Highlights
 [role="incremental"]
-- 36 QSO in 55 minutes from running on 21373 on Sunday :-)
+- 36 QSO in 55 minutes from calling CQ and running on 21373 on Sunday &#x1f600;
 - Stopped running when only Tennessee was answering, and not often.
 - Made it as far as Alaska, Maine, and Florida.
-- Nothing off-continent.  Where were Hawaii and Japan? :-(
-- About a dozen "thanks for the new county" :-)
+- Nothing off-continent.  Where were Hawaii and Japan? &#x1f61e;
+- About a dozen "thanks for the new county" &#x1f44d;
 
 == Lessons Learned: Tools
 
@@ -284,22 +331,25 @@ link:map.html[Map of completed QSOs]
 * Vertical antenna low to the ground got good distance...
 * ...but in-state was very difficult!
 * Holy Skip, Batman!  Out of state, nothing closer than Colorado.
-* Should have brought an NVIS dipole to get most of 6- and 7-land.
+* Should have brought an NVIS dipole to get 6- and 7-land.
 * Unknown if Extremely Sophisticated *(cough)* Radial System had any effect.  It probably didn't hurt.
 
 == Lessons Learned: Power
 
 [role="incremental"]
 
-- Generators are useful but noisy and smelly and fussy.
+- Generators are useful but noisy and smelly and fussy. &#x26fd;
 - For daylight-only operations with 100 watts, a battery and solar setup should be sufficient.
-- For less than 5 hours per day at 100 watts, a big battery should be sufficient.
+- For less than 5 hours per day at 100 watts, a big battery should be sufficient. &#x1f50b;
 
 == Lessons Learned: Location
 [role="incremental"]
-* Visiting ahead of time is invaluable, but not always possible (day use fees).
-* Prior research with a web browser can help.  link:https://www.google.com/maps/[Google Maps] link:https://www.openstreetmap.org/[OpenStreetMap] link:https://www.google.com/earth/[Google Earth]
-* Hilltops covered with parched grass are not attractive to generator users.
+* Visiting ahead of time is invaluable, but not always possible. &#x1f4b8;
+* Prior research with a web browser can help.
+  - link:https://www.google.com/maps/[Google Maps]
+  - link:https://www.openstreetmap.org/[OpenStreetMap]
+  - link:https://www.google.com/earth/[Google Earth]
+* Hilltops covered with parched grass are not attractive to generator users.  &#x1f692;
 * Convenient bushes can help flimsy verticals remain upright on windy days...
 * ...but a weight system is probably a better idea!
 * Operating portable can help you meet the locals...
@@ -308,11 +358,11 @@ link:map.html[Map of completed QSOs]
 == Lessons Learned: Operating
 
 [role="incremental"]
-* Should have set up recordings to save my voice, at least for calling CQ.
+* Should have set up recordings to save my voice, at least for calling CQ.  &#x1f399;
 * Calling CQ in an empty spot on 15 meters got me most of my QSOs...
-* ...until all I got was a thin stream of Tennessee, and then it was time to change tactics.
-* N1MM is actually good software. :-O
-* Being a desirable station can be fun!
+* ...until all I got was a thin stream of Tennessee.  Time to change tactics.
+* N1MM is actually good software. &#x1f632;  Surprising for someone who wrote link:https://tnalpgge.github.io/presentations/frugal-ham-shack-computer/[this presentation].
+* Being a desirable station can be fun! &#x1f601;
 
 == Back Matter
 
@@ -326,6 +376,9 @@ Map page source code: Not public yet.  Maybe some day!
 Link to presentation: https://tnalpgge.github.io/presentations/cqp-2018/
 
 == Any Questions?
+
+[role="bleepinghuge"]
+&#x2753;
 
 == QRT
 [role="cw"]
