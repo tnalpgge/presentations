@@ -11,6 +11,7 @@
 :conference-sponsor: South Bay Amateur Radio Association
 :conference-title: General Meeting
 :conference-dates: Month Year
+:favicon: favicon.ico
 
 
 == Primary Objectives
