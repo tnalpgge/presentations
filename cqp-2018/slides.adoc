@@ -384,4 +384,9 @@ Link to presentation: https://tnalpgge.github.io/presentations/cqp-2018/
 [role="cw"]
 TNX 73 ES GL
 
+++++
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45453759461/in/datetaken-public/" title="IMG_7143"><img src="https://farm2.staticflickr.com/1909/45453759461_2f53285fb1_z.jpg" width="640" height="423" alt="IMG_7143"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/28465044345/in/datetaken-public/" title="IMG_5655"><img src="https://farm9.staticflickr.com/8592/28465044345_6caf73cc18_z.jpg" width="640" height="480" alt="IMG_5655"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+++++
+
 https://creativecommons.org/licenses/by-nc-sa/4.0/
