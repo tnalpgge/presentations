@@ -1,0 +1,67 @@
+/*
+Naked look and feel (i.e. mostly whatever slidy wants to give you)
+*/
+
+/* for all slides */
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+/* for the titles on individual slides */
+
+h1, h2, h3, h4, h5, h6, #revdate {
+    border-bottom-style: none;
+    color: black;
+    font-family: Helvetica, sans-serif;
+}
+
+div.slide h1 {
+    text-align: center;
+}
+
+/* logo on cover slide only */
+
+#cover-logo {
+}
+
+/* container for #cover-logo */
+
+.cover-logo {
+    float: right;
+}
+
+/* contains title and subtitle of presentation */
+
+.titles {
+    text-align: center;
+    margin-top: 10%;
+}
+
+/* container for author, affiliation, and presentation date */
+
+.attribution {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#author {
+    font-family: Times, serif;
+    color: black;
+}
+
+.conference {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.cw {
+    font-family: Courier, monospace;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.bleepinghuge {
+    font-size: xxx-large;
+}

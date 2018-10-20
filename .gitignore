@@ -8,3 +8,10 @@
 
 # Marker files for syntax checking
 *.lint
+
+# Output files
+slides.html
+files/
+
+# MacOS
+.DS_Store

@@ -1,0 +1,1325 @@
+{
+   "features" : [
+      {
+         "geometry" : {
+            "coordinates" : [
+               -120.858085,
+               37.5956
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WA6JRZ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">CM97no</span>\n    <span class=\"qsolatlong\">37.595600 -120.858085</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Hughson, CA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WA6JRZ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -83.726506,
+               32.885885
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N4PN</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM82dv</span>\n    <span class=\"qsolatlong\">32.885885 -83.726506</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Macon, GA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N4PN"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -74.705178,
+               39.807541
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N2MM</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FM29pt</span>\n    <span class=\"qsolatlong\">39.807541 -74.705178</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Shamong, NJ, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N2MM"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -96.84808,
+               32.739297
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WD5K</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM12nr</span>\n    <span class=\"qsolatlong\">32.739297 -96.848080</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Dallas, TX, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WD5K"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -97.430948,
+               38.13894
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K0HC</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM18gd</span>\n    <span class=\"qsolatlong\">38.138940 -97.430948</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Hesston, KS, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K0HC"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -104.766375,
+               40.37314
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K2KR</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">DN70oi</span>\n    <span class=\"qsolatlong\">40.373140 -104.766375</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Greeley, CO, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K2KR"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -98.293333,
+               30.228333
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K5TR</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM00uf</span>\n    <span class=\"qsolatlong\">30.228333 -98.293333</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Austin, TX, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K5TR"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -89.894254,
+               40.662421
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K9CT</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN50bp</span>\n    <span class=\"qsolatlong\">40.662421 -89.894254</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Trivoli, IL, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K9CT"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -86.750596,
+               36.418447
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">W4KW</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM66ok</span>\n    <span class=\"qsolatlong\">36.418447 -86.750596</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Greenbrier, TN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "W4KW"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -113.97706,
+               50.90785
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">VE6TN</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">DO30av</span>\n    <span class=\"qsolatlong\">50.907850 -113.977060</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Calgary, AB, Canada\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "VE6TN"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -113.5155,
+               53.4626
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">VE6WQ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">DO33fl</span>\n    <span class=\"qsolatlong\">53.462600 -113.515500</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Edmonton, AB, Canada\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "VE6WQ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -71.507912,
+               42.351931
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">W1UE</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FN42fi</span>\n    <span class=\"qsolatlong\">42.351931 -71.507912</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Marlborough, MA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "W1UE"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -149.863289,
+               61.204639
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">KL7SB</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">BP51be</span>\n    <span class=\"qsolatlong\">61.204639 -149.863289</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Nikiski, AK, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "KL7SB"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -105.064139,
+               39.651087
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K0EU</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">DM79lp</span>\n    <span class=\"qsolatlong\">39.651087 -105.064139</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Denver, CO, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K0EU"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -74.442184,
+               40.334563
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N2NT</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FN20si</span>\n    <span class=\"qsolatlong\">40.334563 -74.442184</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Dayton, NJ, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N2NT"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -71.304825,
+               42.820756
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WA1Z</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FN42it</span>\n    <span class=\"qsolatlong\">42.820756 -71.304825</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Windham, NH, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WA1Z"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -113.972064,
+               51.124248
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">VE6AO</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">DO31ac</span>\n    <span class=\"qsolatlong\">51.124248 -113.972064</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Calgary, AB, Canada\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "VE6AO"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -97.1761,
+               49.8615
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">VE4GV</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN19ju</span>\n    <span class=\"qsolatlong\">49.861500 -97.176100</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Winnipeg, MB, Canada\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "VE4GV"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -96.642689,
+               32.867121
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K5KJ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM12qu</span>\n    <span class=\"qsolatlong\">32.867121 -96.642689</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Garland, TX, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K5KJ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -70.262378,
+               43.660577
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K1JB</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FN43up</span>\n    <span class=\"qsolatlong\">43.660577 -70.262378</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Portland, ME, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K1JB"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -76.756094,
+               39.59712
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K3AJ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FM19oo</span>\n    <span class=\"qsolatlong\">39.597120 -76.756094</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Upperco, MD, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K3AJ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -89.306819,
+               44.447181
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N9NE</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN54ik</span>\n    <span class=\"qsolatlong\">44.447181 -89.306819</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Amherst, WI, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N9NE"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -79.111261,
+               43.206377
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">VE3DZ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FN03ke</span>\n    <span class=\"qsolatlong\">43.206377 -79.111261</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Etobicoke, ON, Canada\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "VE3DZ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -149.863289,
+               61.204639
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">KL7SB</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">BP51be</span>\n    <span class=\"qsolatlong\">61.204639 -149.863289</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Nikiski, AK, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "KL7SB"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -113.5155,
+               53.4626
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">VE6WQ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">DO33fl</span>\n    <span class=\"qsolatlong\">53.462600 -113.515500</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Edmonton, AB, Canada\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "VE6WQ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -87.586079,
+               32.396281
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K4WI</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM62ej</span>\n    <span class=\"qsolatlong\">32.396281 -87.586079</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Uniontown, AL, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K4WI"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -93.283181,
+               44.866932
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K0EA</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN34iu</span>\n    <span class=\"qsolatlong\">44.866932 -93.283181</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Minneapolis, MN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K0EA"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -93.414456,
+               32.994334
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N5II</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM32hx</span>\n    <span class=\"qsolatlong\">32.994334 -93.414456</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Springhill, LA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N5II"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -77.127134,
+               39.443317
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">W3MMM</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FM19kk</span>\n    <span class=\"qsolatlong\">39.443317 -77.127134</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Mount Airy, MD, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "W3MMM"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -88.710045,
+               37.010175
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">KB9BVL</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM57pa</span>\n    <span class=\"qsolatlong\">37.010175 -88.710045</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Paducah, KY, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "KB9BVL"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -104.832724,
+               41.148581
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N7MZW</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">DN71od</span>\n    <span class=\"qsolatlong\">41.148581 -104.832724</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Cheyenne, WY, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N7MZW"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -78.750183,
+               42.820926
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WB2WPM</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FN02ot</span>\n    <span class=\"qsolatlong\">42.820926 -78.750183</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    West Seneca, NY, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WB2WPM"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -95.420273,
+               47.184314
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WA0LJM</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN27ge</span>\n    <span class=\"qsolatlong\">47.184314 -95.420273</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Bagley, MN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WA0LJM"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -89.166662,
+               40.44675
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K9ZO</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN50kk</span>\n    <span class=\"qsolatlong\">40.446750 -89.166662</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Stanford, IL, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K9ZO"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -98.293333,
+               30.228333
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K5TR</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM00uf</span>\n    <span class=\"qsolatlong\">30.228333 -98.293333</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Austin, TX, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K5TR"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -87.45384,
+               30.86934
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N4OX</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM60gu</span>\n    <span class=\"qsolatlong\">30.869340 -87.453840</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Mc David, FL, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N4OX"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -85.934193,
+               41.620185
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WT9U</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN71ao</span>\n    <span class=\"qsolatlong\">41.620185 -85.934193</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Elkhart, IN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WT9U"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -88.212006,
+               35.143307
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WV4P</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM55vd</span>\n    <span class=\"qsolatlong\">35.143307 -88.212006</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Savannah, TN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WV4P"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -97.430948,
+               38.13894
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K0HC</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM18gd</span>\n    <span class=\"qsolatlong\">38.138940 -97.430948</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Hesston, KS, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K0HC"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -96.642689,
+               32.867121
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K5KJ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM12qu</span>\n    <span class=\"qsolatlong\">32.867121 -96.642689</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Garland, TX, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K5KJ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -87.890906,
+               44.589332
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N7ZZ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN64bo</span>\n    <span class=\"qsolatlong\">44.589332 -87.890906</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Green Bay, WI, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N7ZZ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -94.366635,
+               35.444145
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WA5SOG</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM25tk</span>\n    <span class=\"qsolatlong\">35.444145 -94.366635</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Van Buren, AR, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WA5SOG"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -87.138738,
+               33.797295
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WA1FCN</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM63kt</span>\n    <span class=\"qsolatlong\">33.797295 -87.138738</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Cordova, AL, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WA1FCN"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -99.155401,
+               29.974982
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WA5DSS</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EL09kx</span>\n    <span class=\"qsolatlong\">29.974982 -99.155401</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Kerrville, TX, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WA5DSS"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -79.111261,
+               43.206377
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">VE3DZ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FN03ke</span>\n    <span class=\"qsolatlong\">43.206377 -79.111261</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Etobicoke, ON, Canada\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "VE3DZ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -77.538376,
+               37.647206
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N3UA</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FM17fp</span>\n    <span class=\"qsolatlong\">37.647206 -77.538376</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Richmond, VA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N3UA"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -82.394212,
+               34.998607
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WT9B</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM84tx</span>\n    <span class=\"qsolatlong\">34.998607 -82.394212</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Travelers Rest, SC, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WT9B"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -84.973827,
+               32.500152
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K4BAI</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM72mm</span>\n    <span class=\"qsolatlong\">32.500152 -84.973827</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Columbus, GA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K4BAI"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -80.2379,
+               42.9097
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">VA3DF</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN92vv</span>\n    <span class=\"qsolatlong\">42.909700 -80.237900</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Waterford, ON, Canada\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "VA3DF"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -75.941196,
+               43.008539
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">W2PJ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FN23aa</span>\n    <span class=\"qsolatlong\">43.008539 -75.941196</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Manlius, NY, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "W2PJ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -87.991178,
+               42.376315
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">W9QL</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN62aj</span>\n    <span class=\"qsolatlong\">42.376315 -87.991178</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Gurnee, IL, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "W9QL"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -76.860052,
+               40.91834
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K3MD</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FN10nw</span>\n    <span class=\"qsolatlong\">40.918340 -76.860052</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Winfield, PA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K3MD"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -83.726506,
+               32.885885
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N4PN</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM82dv</span>\n    <span class=\"qsolatlong\">32.885885 -83.726506</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Macon, GA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N4PN"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -79.735706,
+               40.448449
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">AJ3O</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FN00dk</span>\n    <span class=\"qsolatlong\">40.448449 -79.735706</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Monroeville, PA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "AJ3O"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -95.672888,
+               29.590761
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K5IB</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EL29do</span>\n    <span class=\"qsolatlong\">29.590761 -95.672888</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    The Woodlands, TX, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K5IB"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -93.414456,
+               32.994334
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N5II</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM32hx</span>\n    <span class=\"qsolatlong\">32.994334 -93.414456</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Springhill, LA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N5II"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -94.426479,
+               39.249553
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K0OO</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM29sf</span>\n    <span class=\"qsolatlong\">39.249553 -94.426479</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Liberty, MO, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K0OO"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -81.398755,
+               41.328292
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K8BF</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN91hh</span>\n    <span class=\"qsolatlong\">41.328292 -81.398755</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Reminderville, OH, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K8BF"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -79.97117,
+               39.340998
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">NW8U</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FM09ai</span>\n    <span class=\"qsolatlong\">39.340998 -79.971170</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Grafton, WV, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "NW8U"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -93.966029,
+               35.988435
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K5XS</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM35ax</span>\n    <span class=\"qsolatlong\">35.988435 -93.966029</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Elkins, AR, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K5XS"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -88.321829,
+               41.777496
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WT2P</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN51us</span>\n    <span class=\"qsolatlong\">41.777496 -88.321829</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Chicago, IL, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WT2P"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -77.127134,
+               39.443317
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">W3MMM</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FM19kk</span>\n    <span class=\"qsolatlong\">39.443317 -77.127134</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Mount Airy, MD, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "W3MMM"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -87.983612,
+               41.526145
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N2BJ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN61am</span>\n    <span class=\"qsolatlong\">41.526145 -87.983612</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    New Lenox, IL, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N2BJ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -96.623079,
+               30.016667
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">NE5B</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM10qa</span>\n    <span class=\"qsolatlong\">30.016667 -96.623079</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Round Top, TX, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "NE5B"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -87.624465,
+               38.005264
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">KD0EE</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM68ea</span>\n    <span class=\"qsolatlong\">38.005264 -87.624465</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Evansville, IN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "KD0EE"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -87.751736,
+               41.123178
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K9NR</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN61cc</span>\n    <span class=\"qsolatlong\">41.123178 -87.751736</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Kankakee, IL, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K9NR"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -96.696529,
+               32.98053
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">AD5XD</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM12px</span>\n    <span class=\"qsolatlong\">32.980530 -96.696529</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Richardson, TX, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "AD5XD"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -89.039884,
+               42.237175
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">AI9R</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN52lf</span>\n    <span class=\"qsolatlong\">42.237175 -89.039884</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Rockford, IL, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "AI9R"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -88.290508,
+               43.310617
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">W9XT</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EN53uh</span>\n    <span class=\"qsolatlong\">43.310617 -88.290508</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Slinger, WI, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "W9XT"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -93.295083,
+               33.0848
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WB5FKG</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM33ic</span>\n    <span class=\"qsolatlong\">33.084800 -93.295083</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Emerson, AR, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WB5FKG"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -84.863886,
+               34.040725
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K4ELI</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM74na</span>\n    <span class=\"qsolatlong\">34.040725 -84.863886</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Dallas, GA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K4ELI"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -84.30525,
+               34.009835
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">KM4IK</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM74ua</span>\n    <span class=\"qsolatlong\">34.009835 -84.305250</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Roswell, GA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "KM4IK"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -86.741311,
+               36.188843
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">WF7T</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM66pe</span>\n    <span class=\"qsolatlong\">36.188843 -86.741311</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Nashville, TN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "WF7T"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -85.109123,
+               35.00329
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">W4NZ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM75ka</span>\n    <span class=\"qsolatlong\">35.003290 -85.109123</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Chattanooga, TN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "W4NZ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -87.565542,
+               36.239462
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">NG4V</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM66ff</span>\n    <span class=\"qsolatlong\">36.239462 -87.565542</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Erin, TN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "NG4V"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -98.232818,
+               30.770794
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">KG5LAA</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM00vs</span>\n    <span class=\"qsolatlong\">30.770794 -98.232818</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Burnet, TX, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "KG5LAA"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -82.385326,
+               36.371832
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N4ARO</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM86ti</span>\n    <span class=\"qsolatlong\">36.371832 -82.385326</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Johnson City, TN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N4ARO"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -87.426308,
+               36.63772
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">KT4FQ</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM66gp</span>\n    <span class=\"qsolatlong\">36.637720 -87.426308</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Clarksville, TN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "KT4FQ"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -84.910083,
+               35.99173
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">KJ4KKD</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM75nx</span>\n    <span class=\"qsolatlong\">35.991730 -84.910083</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Crossville, TN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "KJ4KKD"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -80.315294,
+               36.146123
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K7JNX</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM96ud</span>\n    <span class=\"qsolatlong\">36.146123 -80.315294</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Winston Salem, NC, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K7JNX"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -87.377175,
+               36.076801
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">NY4N</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM66hb</span>\n    <span class=\"qsolatlong\">36.076801 -87.377175</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Dickson, TN, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "NY4N"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -77.538376,
+               37.647206
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">N3UA</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">FM17fp</span>\n    <span class=\"qsolatlong\">37.647206 -77.538376</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Richmond, VA, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "N3UA"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -82.548387,
+               27.273636
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K5KG</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EL87rg</span>\n    <span class=\"qsolatlong\">27.273636 -82.548387</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Sarasota, FL, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K5KG"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -80.786853,
+               34.973702
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K4FTU</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM94ox</span>\n    <span class=\"qsolatlong\">34.973702 -80.786853</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Marvin, NC, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K4FTU"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -94.426479,
+               39.249553
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"qso\">\n    <div class=\"qsohead\">\n    <span class=\"callsign\">K0OO</span>\n    </div> <!-- qsohead -->\n    <div class=\"qsobody\">\n    <div class=\"qsolocation\">\n    <span class=\"qsogrid\">EM29sf</span>\n    <span class=\"qsolatlong\">39.249553 -94.426479</span>\n    </div> <!-- qsolocation -->\n    <div class=\"qsoqth\">\n    <span class=\"dxqth\">\n    \n    Liberty, MO, United States\n    \n    </span>\n    </div> <!-- qsoqth -->\n    </div> <!-- qsobody -->\n    </div> <!-- qso -->\n    ",
+            "icon" : "blue-dot",
+            "title" : "K0OO"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -120.5888,
+               37.62574
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"opqth\">\n    <div class=\"ophead\">\n    <span class=\"callsign\">Operating location</span>\n    </div> <!-- ophead -->\n    <div class=\"opbody\">\n    \n    <span class=\"gridsquare\">CM97rp</span>\n    \n    \n    <span class=\"latlon\">37.62574 -120.5888</span>\n    \n    </div> <!-- opbody -->\n    </div> <!-- opqth -->\n    ",
+            "icon" : "campground",
+            "title" : "QTH"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -120.87694,
+               37.84943
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"opqth\">\n    <div class=\"ophead\">\n    <span class=\"callsign\">Operating location</span>\n    </div> <!-- ophead -->\n    <div class=\"opbody\">\n    \n    <span class=\"gridsquare\">CM97nu</span>\n    \n    \n    <span class=\"latlon\">37.84943 -120.87694</span>\n    \n    </div> <!-- opbody -->\n    </div> <!-- opqth -->\n    ",
+            "icon" : "campground",
+            "title" : "QTH"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -122.01578,
+               37.55356
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "description" : "\n    <div class=\"homeqth\">\n    <div class=\"homehead\">\n    <span class=\"callsign\">W6SFI</span>\n    </div> <!-- homehead -->\n    <div class=\"homebody\">\n    <span class=\"gridsquare\">CM87xn</span>\n    <span class=\"latlon\">37.553560 -122.015780</span>\n    </div> <!-- homebody -->\n    </div> <!-- homeqth -->\n    ",
+            "icon" : "homegardenbusiness",
+            "title" : "W6SFI"
+         },
+         "type" : "Feature"
+      }
+   ],
+   "type" : "FeatureCollection"
+}
