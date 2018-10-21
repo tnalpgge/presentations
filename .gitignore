@@ -10,8 +10,18 @@
 *.lint
 
 # Output files
-slides.html
 files/
 
 # MacOS
 .DS_Store
+
+# cqp-2018 detritus
+ASCIIMathML.js
+LaTeXMathML.js
+asciidoc.css
+asciidoc.js
+docbook-xsl.css
+pygments.css
+toc.js
+toc2.css
+xhtml11-quirks.css
