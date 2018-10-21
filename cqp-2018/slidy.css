@@ -7,12 +7,6 @@
    http://www.w3.org/Consortium/Legal/copyright-documents
    http://www.w3.org/Consortium/Legal/copyright-software
 */
-
-/*
-   SJR: 2010-09-29: Modified for AsciiDoc slidy backend.
-   Mostly just commented out stuff that is handled by AsciiDoc's CSS files.
-*/
-
 body
 {
   margin: 0 0 0 0;
@@ -21,9 +15,7 @@ body
   height: 100%;
   color: black;
   background-color: white;
-/*
   font-family: "Gill Sans MT", "Gill Sans", GillSans, sans-serif;
-*/
   font-size: 14pt;
 }
 
@@ -48,7 +40,7 @@ div.initial_prompt {
   position: absolute;
   z-index: 1000;
   bottom: 1.2em;
-  width: 90%;
+  width: 100%;
   background-color: rgb(200,200,200);
   opacity: 0.35;
   background-color: rgb(200,200,200, 0.35);
@@ -122,8 +114,9 @@ div.slide.titlepage {
   text-align: center;
 }
 
-div.slide.titlepage.h1 {
+div.slide.titlepage h1 {
   padding-top: 10%;
+  margin-right: 0;
 }
 
 div.slide h1 {
@@ -167,7 +160,10 @@ div.toc-heading {
   text-align: center;
 }
 
-/*
+img {
+  image-rendering: optimize-quality;
+}
+
 pre {
  font-size: 80%;
  font-weight: bold;
@@ -185,9 +181,7 @@ pre {
  color: #00428C;
  background-color: #E4E5E7;
 }
-*/
 
-/*
 li pre { margin-left: 0; }
 
 blockquote { font-style: italic }
@@ -195,14 +189,11 @@ blockquote { font-style: italic }
 img { background-color: transparent }
 
 p.copyright { font-size: smaller }
-*/
 
 .center { text-align: center }
 .footnote { font-size: smaller; margin-left: 2em; }
 
-/*
 a img { border-width: 0; border-style: none }
-*/
 
 a:visited { color: navy }
 a:link { color: navy }
@@ -215,7 +206,6 @@ a {text-decoration: none}
 .navbar a:active {color: red}
 .navbar a:hover {color: red}
 
-/*
 ul { list-style-type: square; }
 ul ul { list-style-type: disc; }
 ul ul ul { list-style-type: circle; }
@@ -223,7 +213,6 @@ ul ul ul ul { list-style-type: disc; }
 li { margin-left: 0.5em; margin-top: 0.5em; }
 li li { font-size: 85%; font-style: italic }
 li li li { font-size: 85%; font-style: normal }
-*/
 
 div dt
 {
@@ -239,21 +228,17 @@ div dd
 }
 
 
-/*
 p,pre,ul,ol,blockquote,h2,h3,h4,h5,h6,dl,table {
   margin-left: 1em;
   margin-right: 1em;
 }
-*/
 
 p.subhead { font-weight: bold; margin-top: 2em; }
 
 .smaller { font-size: smaller }
 .bigger { font-size: 130% }
 
-/*
 td,th { padding: 0.2em }
-*/
 
 ul {
   margin: 0.5em 1.5em 0.5em 1.5em;
@@ -270,7 +255,6 @@ ul ul { list-style-type: disc; }
 ul ul ul { list-style-type: circle; }
 ul ul ul ul { list-style-type: disc; }
 
-/*
 ul li { 
   list-style: square;
   margin: 0.1em 0em 0.6em 0;
@@ -313,10 +297,9 @@ li ol li {
 li li ol li {
   list-style-type: decimal;
 }
-*/
 
 /*
- setting class="outline" on ol or ul makes it behave as an
+ setting class="outline on ol or ul makes it behave as an
  ouline list where blocklevel content in li elements is
  hidden by default and can be expanded or collapsed with
  mouse click. Set class="expand" on li to override default
@@ -411,9 +394,7 @@ div.initial_prompt { display: none; visibility: hidden }
 @media print {
   .hidden { display: block; visibility: visible }
 
-/*
   div.slide pre { font-size: 60%; padding-left: 0.5em; }
-*/
   div.toolbar { display: none; visibility: hidden; }
   div.slidy_toc { display: none; visibility: hidden; }
   div.background { display: none; visibility: hidden; }
@@ -422,24 +403,3 @@ div.initial_prompt { display: none; visibility: hidden }
   div.slide.first-slide { page-break-before: avoid }
 }
 
-
-/* SJR: AsciiDoc slidy backend tweaks */
-
-ol, ul {
-  margin: 0.8em 1.5em 0.8em 1.8em;
-}
-li > ul, li > ol {
-  margin-top: 0.5em;
-}
-
-.outline > li.folded,
-.outline > li.unfolded {
-  color: #527bbd;
-}
-ul > li{ color: #aaa; }
-ul > li > *, ol > li > * { color: black; }
-
-li {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
