@@ -20,14 +20,7 @@ files/
 .DS_Store
 
 # cqp-2018 detritus
-ASCIIMathML.js
-LaTeXMathML.js
-asciidoc.css
-asciidoc.js
-docbook-xsl.css
-pygments.css
-slidy.css
-slidy.js
-toc.js
-toc2.css
-xhtml11-quirks.css
+
+# reveal
+reveal.js/
+revealjs-*.tar.gz
