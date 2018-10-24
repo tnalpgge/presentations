@@ -115,10 +115,10 @@ Tom?  Who's Tom?! &#x1f620;
 
 ::: incremental
 
-- ICOM IC-7200 transceiver, covering 160m-6m &#x1f4fb;
+- ICOM IC-7200 transceiver, covering 160 thru 6 meters &#x1f4fb;
 - MFJ-902B transmatch
-- Outbacker 500 vertical, covering 75m-10m &#x1f4e1;
-- Modified camera tripod
+- Outbacker 500 vertical antenna, covering 75 thru 10 meters &#x1f4e1;
+- Hamstick mount on slightly modified modified camera tripod
 - Extremely Sophisticated *(cough)* Radial System
 - Laptop computer with N1MM &#x1f4bb;
 - Borrowed generator &#x26a1;
@@ -127,7 +127,7 @@ Tom?  Who's Tom?! &#x1f620;
 - Folding chair
 - Toolbox &#x1f527;
 - Overnight bag &#x1f634;
-- 2011 Volkswagen Jetta TDI Sportwagen &#x1f699;
+- 2011 Volkswagen Jetta TDI Sportwagen &#x1f40e;
 
 :::
 
@@ -138,9 +138,7 @@ Tom?  Who's Tom?! &#x1f620;
 East of Modesto on CA-132.  A (metaphorical) stone's throw from the
 Tuolumne River.
 
-## 
-
-![Map showing Modesto and Turlock Lake State Recreation Area](img/modesto-turlock-sra-map.png)
+<iframe width="1024" height="768" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-121.10195159912111%2C37.51435549247755%2C-120.52860260009767%2C37.80544394934274&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=12/37.6600/-120.8153">View Larger Map</a></small>
 
 ## What would make a decent location?
 
@@ -281,7 +279,7 @@ Looking up the Stanislaus River in the morning.
 
 A few miles north of Oakdale on county highway J14. Takes up a lot of CM97nu.
 
-![Map of Oakdale and Woodward Reservoir County Park](img/oakdale-woodward-res-map.png)
+<iframe width="1024" height="768" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-120.99260330200197%2C37.7342043518508%2C-120.70592880249025%2C37.879460301422576&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=13/37.8069/-120.8493">View Larger Map</a></small>
 
 ## A Closer Look at Woodward Reservoir
 

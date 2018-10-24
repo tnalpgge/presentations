@@ -12,13 +12,16 @@ BACKEND_DIR=reveal.js
 BACKEND_SUBDIRS=css js lib plugin
 BACKEND_EXTRACT=$(BACKEND_SUBDIRS:%=$(BACKEND_DIR)-$(BACKEND_VERSION)/%)
 THEME=custom
+PANDOC_DATA_DIR=$(PANDOC)
 
 all: html browser-support
 
-html: $(HTMLOBJ)
+template: $(PANDOC_DATA_DIR)/templates/default.$(BACKEND)
+
+html: $(HTMLOBJ) template
 
 %.html: %.md
-	$(PANDOC) --from $(FORMAT) --to $(BACKEND) --standalone --output $@ $<
+	$(PANDOC) --data-dir $(PANDOC_DATA_DIR) --from $(FORMAT) --to $(BACKEND) --standalone --output $@ $<
 
 browser-support: backend-dir custom-theme
 
@@ -42,5 +45,8 @@ clean:
 	rm -f *~
 	rm -f #*#
 	rm -f *.sw*
+
+
+distclean: clean
 	rm -f $(BACKEND_LOCAL_COPY)
 	rm -rf $(BACKEND_DIR)
