@@ -25,3 +25,7 @@ pygments.css
 toc.js
 toc2.css
 xhtml11-quirks.css
+
+# reveal
+reveal.js/
+revealjs-*.tar.gz
