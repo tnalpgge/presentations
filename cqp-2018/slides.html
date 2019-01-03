@@ -1,948 +1,468 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/x
-html1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"
->
+<!DOCTYPE html>
+<html>
 <head>
-<title>Tales from Solo Portable Operations</title>
-<meta http-equiv="Content-Type" content="application/xhtml+xml{quirks?t
-ext/html}; charset=UTF-8" />
-<meta name="copyright" content="Copyright &#169; Tony Monroe W6SFI" />
-<meta name="generator" content="AsciiDoc 8.6.9" />
-<link rel="stylesheet" href="./asciidoc.css" type="text/css"
- />
-<link rel="stylesheet" href="./slidy.css" type="text/css" />
-<link rel="stylesheet" href="./user.css" type="text/css" />
-<script src="./slidy.js" charset="utf-8" type="text/javascript"></script>
-<link rel="icon" href="favicon.ico"/>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Tony Monroe W6SFI">
+  <title>Tales from Solo Portable Operations</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/custom.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
 </head>
-<body class="article">
-<div id="header" class="slide">
-<div class="cover-logo">
-<img id="cover-logo" alt="title image" src="img/qsl1.png"/>
-</div>
-<div class="titles">
-<h1>
-Tales from Solo Portable Operations
-<br/>California QSO Party 2018
-</h1>
-<div class="attribution">
-<span id="author" class="author">Tony Monroe W6SFI</span><br />
-</div>
-<div class="conference">
-<span id="conference-sponsor">South Bay Amateur Radio Association</span><br/>
-<span id="conference-title">General Meeting</span><br/>
-<span id="conference-dates">Month Year</span><br/>
-</div>
-<div class="revision">
-</div>
-</div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_agenda">Agenda</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Share my experiences operating portable in the 2018 <a href="http://cqp.org/">California QSO Party</a>
-</span>
-</li>
-<li>
-<span>
-Show off some photos taken along the way &#x1f4f8;
-</span>
-</li>
-<li>
-<span>
-Present without presentation software &#x1f60e;
-</span>
-</li>
-<li>
-<span>
-Don&#8217;t use any emoji more than once &#x1f913;
-</span>
-</li>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Tales from Solo Portable Operations</h1>
+  <h2 class="subtitle">California QSO Party 2018</p>
+  <h3 class="author">Tony Monroe W6SFI</p>
+  <h3 class="date">October 2018</p>
+</section>
+
+<section><section id="front-matter" class="title-slide slide level1"><h1>Front Matter</h1></section><section id="agenda" class="slide level2">
+<h2>Agenda</h2>
+<div>
+<ul>
+<li class="fragment">Share my experiences operating portable in the 2018 <a href="http://cqp.org/">California QSO Party</a></li>
+<li class="fragment">Show off some photos taken along the way 📸</li>
+<li class="fragment">Present without presentation software 😎</li>
+<li class="fragment">Don’t use any emoji more than once 🤓 (except 📸)</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_primary_objectives">Primary Objectives</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>What did I want to accomplish for this portable operation?</p></div>
-<ul class=" incremental">
-<li>
-<span>
-Celebrate being a life-long California resident &#x1f389;
-</span>
-</li>
-<li>
-<span>
-Give out a relatively rare county to out-of-state contesters.
-</span>
-</li>
-<li>
-<span>
-Operate at moderate power in a low-noise natural setting. &#x1f332;
-</span>
-</li>
-<li>
-<span>
-Learn lessons for future portable operations.
-</span>
-</li>
-<li>
-<span>
-A <em>satisfying</em> number of QSOs.
-</span>
-</li>
-<li>
-<span>
-Enjoy a weekend out of the house! &#x1f334; But not too far out.
-</span>
-</li>
+</section><section id="primary-objectives" class="slide level2">
+<h2>Primary Objectives</h2>
+<p>What did I want to accomplish for this portable operation?</p>
+<div>
+<ul>
+<li class="fragment">Celebrate being a life-long California resident 🎉</li>
+<li class="fragment">Give out a relatively rare county to out-of-state contesters.</li>
+<li class="fragment">Operate at moderate power in a low-noise natural setting. 🌲</li>
+<li class="fragment">Learn lessons for future portable operations.</li>
+<li class="fragment">A <em>satisfying</em> number of QSOs.</li>
+<li class="fragment">Enjoy a weekend out of the house! 🌴 But not too far out.</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_targets_of_opportunity">Targets of Opportunity</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>What would make things better if it happened, but no worse if it didn&#8217;t?</p></div>
-<ul class=" incremental">
-<li>
-<span>
-A <em>large</em> number of QSOs. &#x1f633;
-</span>
-</li>
-<li>
-<span>
-More running time than search-and-pounce time.
-</span>
-</li>
-<li>
-<span>
-Bum some overnight crash space from my parents! &#x1f606;
-</span>
-</li>
+</section><section id="targets-of-opportunity" class="slide level2">
+<h2>Targets of Opportunity</h2>
+<p>What would make things better if it happened, but no worse if it didn’t?</p>
+<div>
+<ul>
+<li class="fragment">A <em>large</em> number of QSOs. 😳</li>
+<li class="fragment">More running time than search-and-pounce time.</li>
+<li class="fragment">Bum some overnight crash space from my parents! 😆</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_what_to_avoid">What to Avoid</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Operating QRP, or effectively so &#x1f910;
-</span>
-</li>
-<li>
-<span>
-100% search-and-pounce time
-</span>
-</li>
-<li>
-<span>
-Angry park rangers
-</span>
-</li>
-<li>
-<span>
-Losing my voice &#x1f636;
-</span>
-</li>
-<li>
-<span>
-Injuries &#x1f915; and illnesses &#x1f912;
-</span>
-</li>
-<li>
-<span>
-Wildfires &#x1f525;
-</span>
-</li>
+</section><section id="what-to-avoid" class="slide level2">
+<h2>What to Avoid</h2>
+<div>
+<ul>
+<li class="fragment">Operating QRP, or effectively so 🤐</li>
+<li class="fragment">100% search-and-pounce time</li>
+<li class="fragment">Angry park rangers</li>
+<li class="fragment">Losing my voice 😶</li>
+<li class="fragment">Injuries 🤕 and illnesses 🤒</li>
+<li class="fragment">Wildfires 🔥</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_selecting_locations">Selecting Locations</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>One week before the event I visited <a href="http://cqp.org/">http://cqp.org/</a> and looked for
-unclaimed counties.</p></div>
-<ul class=" incremental">
-<li>
-<span>
-Hm, Stanislaus and Yolo aren&#8217;t claimed yet&#8230;
-</span>
-</li>
-<li>
-<span>
-I drive through northeastern Stanislaus County whenever I visit my parents&#8230;
-</span>
-</li>
-<li>
-<span>
-I wonder if the contest organizers know any operating spots? &#x1f914;
-</span>
-</li>
+</section></section>
+<section><section id="preparation" class="title-slide slide level1"><h1>Preparation</h1></section><section id="selecting-locations" class="slide level2">
+<h2>Selecting Locations</h2>
+<p>One week before the event I visited <a href="http://cqp.org/">http://cqp.org/</a> and looked for unclaimed counties.</p>
+<div>
+<ul>
+<li class="fragment">Stanislaus and Yolo are not claimed yet.</li>
+<li class="fragment">I drive through northeastern Stanislaus County whenever I visit my parents.</li>
+<li class="fragment">I wonder if the contest organizers know any operating spots? 🤔</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_mail_from_more_experienced_operators">Mail from More Experienced Operators</h1>
-<div class="sectionbody">
-<div class="quoteblock incremental">
-<div class="content">Any ideas Alan?</div>
-<div class="attribution">
-&#8212; Bob N6TV
-</div></div>
-<div class="quoteblock incremental">
-<div class="content">I took a quick look at Google Earth, and there seems to
-be a nice little park called Orange Blossom Recreation Area about 4
-miles east of Oakdale&#8230;GL, I&#8217;m going to need STAN myself this time.</div>
-<div class="attribution">
-&#8212; Alan AD6E/KH6TU
-</div></div>
-<div class="quoteblock incremental">
-<div class="content">Tom,
-Glad to hear you will going to
-Stanislaus&#8230;Maybe someone on the email list will have a suggestion
-for a good location.</div>
-<div class="attribution">
-&#8212; Glen W6GJB
-</div></div>
-<div class="paragraph incremental"><p>Tom?  Who&#8217;s Tom?! &#x1f620;</p></div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_equipment">Equipment</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-ICOM IC-7200 transceiver, covering 160m-6m &#x1f4fb;
-</span>
-</li>
-<li>
-<span>
-MFJ-902B transmatch
-</span>
-</li>
-<li>
-<span>
-Outbacker 500 vertical, covering 75m-10m &#x1f4e1;
-</span>
-</li>
-<li>
-<span>
-Modified camera tripod
-</span>
-</li>
-<li>
-<span>
-Extremely Sophisticated <strong>(cough)</strong> Radial System
-</span>
-</li>
-<li>
-<span>
-Laptop computer with N1MM &#x1f4bb;
-</span>
-</li>
-<li>
-<span>
-Borrowed generator &#x26a1;
-</span>
-</li>
-<li>
-<span>
-Shade tent &#x26fa;
-</span>
-</li>
-<li>
-<span>
-Folding table
-</span>
-</li>
-<li>
-<span>
-Folding chair
-</span>
-</li>
-<li>
-<span>
-Toolbox &#x1f527;
-</span>
-</li>
-<li>
-<span>
-Overnight bag &#x1f634;
-</span>
-</li>
-<li>
-<span>
-2011 Volkswagen Jetta TDI Sportwagen &#x1f699;
-</span>
-</li>
+</section><section id="mail-from-more-experienced-operators" class="slide level2">
+<h2>Mail from More Experienced Operators</h2>
+<p>So I sent mail to the contest organizers.</p>
+<blockquote>
+<p>I’m interested in operating from Stanislaus County. I would prefer to operate from a nature-oriented location somewhere near highway 120, as that’s how I would travel from my residence in Alameda County to visit family, but if there are better locations elsewhere I would like to hear about them.</p>
+</blockquote>
+<p>Certainly the members of the <a href="http://nccc.cc/">Northern California Contest Club</a> would know something about portable operating spots!</p>
+</section><section id="bob-n6tv" class="slide level2">
+<h2>Bob N6TV</h2>
+<blockquote>
+<p>Any ideas Alan?</p>
+</blockquote>
+</section><section id="alan-ad6ekh6tu" class="slide level2">
+<h2>Alan AD6E/KH6TU</h2>
+<blockquote>
+<p>I took a quick look at Google Earth, and there seems to be a nice little park called Orange Blossom Recreation Area about 4 miles east of Oakdale…GL, I’m going to need STAN myself this time.</p>
+</blockquote>
+</section><section id="glen-w6jb" class="slide level2">
+<h2>Glen W6JB</h2>
+<blockquote>
+<p>Tom, Glad to hear you will going to Stanislaus…Maybe someone on the email list will have a suggestion for a good location.</p>
+</blockquote>
+<p>Tom? Who’s Tom?! 😠</p>
+</section><section id="equipment" class="slide level2">
+<h2>Equipment</h2>
+<div>
+<ul>
+<li class="fragment">ICOM IC-7200 transceiver, covering 160 thru 6 meters 📻</li>
+<li class="fragment">MFJ-902B transmatch</li>
+<li class="fragment">Outbacker 500 vertical antenna, covering 75 thru 10 meters 📡</li>
+<li class="fragment">Hamstick mount on slightly modified modified camera tripod</li>
+<li class="fragment">Extremely Sophisticated <em>(cough)</em> Radial System</li>
+<li class="fragment">Laptop computer with N1MM 💻</li>
+<li class="fragment">Borrowed generator ⚡</li>
+<li class="fragment">Shade tent ⛺</li>
+<li class="fragment">Folding table</li>
+<li class="fragment">Folding chair</li>
+<li class="fragment">Toolbox 🔧</li>
+<li class="fragment">Overnight bag 😴</li>
+<li class="fragment">2011 Volkswagen Jetta TDI Sportwagen 🐎</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_scouting_saturday_turlock_lake">Scouting Saturday: Turlock Lake</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-East of Modesto on CA-132
-</span>
-</li>
-<li>
-<span>
-A (metaphorical) stone&#8217;s throw from the Tuolumne River
-</span>
-</li>
-</ul>
-<div class="imageblock">
-<div class="content">
-<a class="image" href="img/modesto-turlock-sra-map.png">
-<img src="img/modesto-turlock-sra-map.png" alt="img/modesto-turlock-sra-map.png" width="1024" />
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_scouting_saturday_turlock_lake_2">Scouting Saturday: Turlock Lake</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Northwest shore of lake, southeast corner of CM97qp
-</span>
-</li>
-<li>
-<span>
-Narrow strip of beach &#x1f3d6; with lots of parched grass nearby
-</span>
-</li>
-<li>
-<span>
-Power lines across the road
-</span>
-</li>
-<li>
-<span>
-Not really flat and level
-</span>
-</li>
-<li>
-<span>
-Almost completely exposed to the elements &#x1f31e;
-</span>
-</li>
-</ul>
-<div class="imageblock">
-<div class="content">
-<a class="image" href="img/turlock-sra-north-shore.png">
-<img src="img/turlock-sra-north-shore.png" alt="img/turlock-sra-north-shore.png" width="1024" />
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_scouting_saturday_turlock_lake_3">Scouting Saturday: Turlock Lake</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>A local grandmother who brought her two grandchildren said the lake
-was very full!</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637281290/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1913/43637281290_a6174367d6_b.jpg" width="1024" height="265" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_setting_up_saturday_turlock_lake">Setting Up Saturday: Turlock Lake</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Weather was pleasant, partly cloudy and breezy&#8230;
-</span>
-</li>
-<li>
-<span>
-&#8230;but setup was a drag!
-</span>
-</li>
-<li>
-<span>
-I didn&#8217;t have suitable stakes for sandy ground.
-</span>
-</li>
-<li>
-<span>
-Of all the tools in the world, why did I forget a hammer &#x1f528; to drive the stakes that I did have?
-</span>
-</li>
-<li>
-<span>
-Too many trips on a sloped path between the beach and the car, without a wagon or dolly.
-</span>
-</li>
-</ul>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45454474741/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1968/45454474741_1ed2ce1259_z.jpg" width="640" height="480" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45454474591/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1933/45454474591_9225e8698e_z.jpg" width="640" height="480" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_operating_saturday_turlock_lake">Operating Saturday: Turlock Lake</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>But we&#8217;re here to operate, so let&#8217;s operate!</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/44729591214/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1901/44729591214_ea56a6fbdb_b.jpg" width="1024" height="769" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_operating_saturday_turlock_lake_2">Operating Saturday: Turlock Lake</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>My antenna and Extremely Sophisticated <strong>(cough)</strong> Radial System.</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/44729592024/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1933/44729592024_923e707035_b.jpg" width="768" height="1024" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_saturday_operating_summary">Saturday Operating Summary</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Noisy all day (S4-S5 on 15 and 20 meters). &#x1f4a5;  Was it the power lines or the generator?
-</span>
-</li>
-<li>
-<span>
-40 meters was useless (S9 noise floor). &#x1f4a3;
-</span>
-</li>
-<li>
-<span>
-Chair was perhaps better for tailgating than operating.
-</span>
-</li>
-<li>
-<span>
-Teardown was faster than setup but possibly more of a drag&#8230;
-</span>
-</li>
-<li>
-<span>
-&#8230;because my car was up a hill and I didn&#8217;t have a wagon! &#x1f3cb;
-</span>
-</li>
+</section></section>
+<section><section id="saturday" class="title-slide slide level1"><h1>Saturday</h1></section><section id="scouting-turlock-lake" class="slide level2">
+<h2>Scouting: Turlock Lake</h2>
+<p>East of Modesto on CA-132. A (metaphorical) stone’s throw from the Tuolumne River.</p>
+<iframe width="1024" height="768" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-121.10195159912111%2C37.51435549247755%2C-120.52860260009767%2C37.80544394934274&amp;layer=mapnik" style="border: 1px solid black">
+</iframe>
+<p><br/><small><a href="https://www.openstreetmap.org/#map=12/37.6600/-120.8153">View Larger Map</a></small></p>
+</section><section id="what-would-make-a-decent-location" class="slide level2">
+<h2>What would make a decent location?</h2>
+<div>
+<ul>
+<li class="fragment">Open to day use. Day use entrance is on northwest side.</li>
+<li class="fragment">Nearby bathroom.</li>
+<li class="fragment">Close to parking.</li>
+<li class="fragment">Plenty of lake view.</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_relaxing_saturday_evening">Relaxing Saturday Evening</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>Dog tax!  Meet Misty, my parents' 8-pound toy poodle, who wouldn&#8217;t
-smile for the camera.</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/44539760085/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1978/44539760085_79c08ce18b_b.jpg" width="1024" height="769" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_sightseeing_sunday_knights_ferry">Sightseeing Sunday: Knights Ferry</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-East of Oakdale on CA-108/CA-120, straddles CM97pt and CM97qt
-</span>
-</li>
-<li>
-<span>
-One of the <a href="https://www.stanislausriver.com/parks/">Stanislaus River Parks</a>
-</span>
-</li>
-<li>
-<span>
-Longest covered bridge west of the Mississippi River!
-</span>
-</li>
-<li>
-<span>
-Former grain mill and hydroelectric generator station.
-</span>
-</li>
-<li>
-<span>
-Popular site for river rafters to put in, but possibly not that day
-</span>
-</li>
+</section><section id="how-about-the-northwest-shore-of-the-lake" class="slide level2">
+<h2>How about the northwest shore of the lake?</h2>
+<div>
+<ul>
+<li class="fragment">Southeast corner of <code>CM97qp</code></li>
+<li class="fragment">Lots of parched grass nearby…</li>
+<li class="fragment">Power lines across the road…</li>
+<li class="fragment">Not really flat and level…</li>
+<li class="fragment">Almost completely exposed to the elements… 🌞</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_sightseeing_sunday_knights_ferry_2">Sightseeing Sunday: Knights Ferry</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>The covered bridge, viewed from the south end.</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637280440/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1912/43637280440_8be396f4e7_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_sightseeing_sunday_knights_ferry_3">Sightseeing Sunday: Knights Ferry</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>The office building across the path from the mill.</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637280680/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1906/43637280680_f575b2441b_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_sightseeing_sunday_knights_ferry_4">Sightseeing Sunday: Knights Ferry</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>Panorama of the bridge, from underneath on the west side.</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45402367322/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1904/45402367322_4b24f81aae_b.jpg" width="1024" height="373" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_sightseeing_sunday_knights_ferry_5">Sightseeing Sunday: Knights Ferry</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>Looking up the Stanislaus River in the morning.</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45454474371/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1957/45454474371_dcdc06ebdb_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_scouting_sunday_orange_blossom_park">Scouting Sunday: Orange Blossom Park</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-A few miles east of Oakdale, on the north side of the Stanislaus River.
-</span>
-</li>
-<li>
-<span>
-Northeast corner of CM97os
-</span>
-</li>
-<li>
-<span>
-Right next to the river, but basically in a valley.
-</span>
-</li>
-<li>
-<span>
-Nice place for a picnic, but possibly not for daytime HF operating.
-</span>
-</li>
-<li>
-<span>
-We had another place in mind anyway, let&#8217;s move on.
-</span>
-</li>
+</section><section id="well-take-it" class="slide level2">
+<h2>We’ll take it!</h2>
+<figure>
+<img data-src="img/turlock-sra-north-shore.png" alt="Northwest shore of Turlock Lake" /><figcaption>Northwest shore of Turlock Lake</figcaption>
+</figure>
+</section><section id="a-parking-lot-with-a-view" class="slide level2">
+<h2>A Parking Lot with a View 📸</h2>
+<p>A local grandmother who brought her two grandchildren said the lake was very full!</p>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637281290/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1913/43637281290_a6174367d6_b.jpg" width="1024" height="265" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="setting-up" class="slide level2">
+<h2>Setting Up</h2>
+<div>
+<ul>
+<li class="fragment">Weather was pleasant, partly cloudy and breezy…</li>
+<li class="fragment">…but setup was a drag!</li>
+<li class="fragment">I didn’t have suitable stakes for sandy ground.</li>
+<li class="fragment">Of all the tools in the world, why did I forget a hammer 🔨 to drive the stakes that I did have?</li>
+<li class="fragment">Too many trips on a sloped path between the beach and the car, without a wagon or dolly.</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_scouting_sunday_woodward_reservoir">Scouting Sunday: Woodward Reservoir</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>A few miles north of Oakdale on county highway J14. Takes up a lot of CM97nu.</p></div>
-<div class="imageblock">
-<div class="content">
-<a class="image" href="img/oakdale-woodward-res-map.png">
-<img src="img/oakdale-woodward-res-map.png" alt="img/oakdale-woodward-res-map.png" width="1024" />
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_scouting_sunday_woodward_reservoir_2">Scouting Sunday: Woodward Reservoir</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>So where to operate here?</p></div>
-<ul class=" incremental">
-<li>
-<span>
-Road to peninsula in the middle of the reservoir was closed.
-</span>
-</li>
-<li>
-<span>
-How about picnic areas on the west shore?
-</span>
-</li>
-<li>
-<span>
-Definitely more flat and more level than yesterday!
-</span>
-</li>
-<li>
-<span>
-Green grass, shade trees, concrete picnic tables&#8230;
-</span>
-</li>
-<li>
-<span>
-&#8230;but very windy today.  &#x1f32c;  Maybe we can make use of bushes and trees.
-</span>
-</li>
-</ul>
-<div class="imageblock">
-<div class="content">
-<a class="image" href="img/woodward-res-west-shore.png">
-<img src="img/woodward-res-west-shore.png" alt="img/woodward-res-west-shore.png" width="1024" />
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_scouting_sunday_woodward_reservoir_3">Scouting Sunday: Woodward Reservoir</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>Well this looks like a pleasant spot, even if we&#8217;re not operating.</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637281140/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1928/43637281140_c7f3203a2a_b.jpg" width="1024" height="298" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_setup_sunday_woodward_reservoir">Setup Sunday: Woodward Reservoir</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Setup was easier than yesterday!
-</span>
-</li>
-<li>
-<span>
-Table, seating, and shade were already provided.
-</span>
-</li>
-<li>
-<span>
-Used another table to block acoustic and possibly RF noise from the generator.
-</span>
-</li>
-<li>
-<span>
-Used a bush to shield the antenna from the stiff wind!
-</span>
-</li>
+</section><section id="shade-tents-are-made-for-days-like-this" class="slide level2">
+<h2>Shade tents are made for days like this 📸</h2>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45454474741/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1968/45454474741_1ed2ce1259_z.jpg" width="640" height="480" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="very-close-to-the-water" class="slide level2">
+<h2>Very close to the water 📸</h2>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45454474591/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1933/45454474591_9225e8698e_z.jpg" width="640" height="480" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="lets-operate" class="slide level2">
+<h2>Let’s operate! 📸</h2>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/44729591214/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1901/44729591214_ea56a6fbdb_b.jpg" width="1024" height="769" alt="IMG_8949"></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="antenna-setup" class="slide level2">
+<h2>Antenna setup 📸</h2>
+<p>With Extremely Sophisticated <em>(cough)</em> Radial System.</p>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/44729592024/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1933/44729592024_923e707035_b.jpg" width="768" height="1024" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="saturday-operating-summary" class="slide level2">
+<h2>Saturday Operating Summary</h2>
+<div>
+<ul>
+<li class="fragment">Noisy all day (S4-S5 on 15 and 20 meters). 💥</li>
+<li class="fragment">Was it the power lines or the generator?</li>
+<li class="fragment">40 meters was useless (S9 noise floor). 💣</li>
+<li class="fragment">Chair was perhaps better for tailgating than operating.</li>
+<li class="fragment">Teardown was faster than setup but possibly more of a drag…</li>
+<li class="fragment">…because my car was up a hill and I didn’t have a wagon! 🏋</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_setup_sunday_woodward_reservoir_2">Setup Sunday: Woodward Reservoir</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>Flimsy camera tripod not falling over in the wind, thanks to a nearby bush.</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/31579278388/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1952/31579278388_cb17c2f419_b.jpg" width="768" height="1024" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_operating_sunday_woodward_reservoir">Operating Sunday: Woodward Reservoir</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>The antenna hasn&#8217;t fallen over yet, let&#8217;s try some operating!</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45402367032/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1907/45402367032_dd1b05be3c_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_operating_sunday_woodward_reservoir_2">Operating Sunday: Woodward Reservoir</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>No visitors all day!  Well, almost.</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/31579277898/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1968/31579277898_0ea9f0d6a6_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_sunday_operating_summary">Sunday Operating Summary</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Noise floor was much lower, S0.  Easier to make those contacts!
-</span>
-</li>
-<li>
-<span>
-Got most of my contacts for the contest from calling CQ on 21373 and holding it for a lot longer than I expected! &#x1f929;
-</span>
-</li>
-<li>
-<span>
-No pileup, but it was fun to be a wanted station.
-</span>
-</li>
-<li>
-<span>
-Maybe this solo portable operating thing is really a thing!
-</span>
-</li>
-<li>
-<span>
-Teardown was only about 15 minutes.  Back home within 3 hours of contest end.
-</span>
-</li>
+</section><section id="relaxing-on-saturday-evening" class="slide level2">
+<h2>Relaxing on Saturday Evening 📸</h2>
+<p>Dog tax! Meet Misty, my parents’ 8-pound toy poodle, who wouldn’t smile for the camera.</p>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/44539760085/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1978/44539760085_79c08ce18b_b.jpg" width="1024" height="769" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section></section>
+<section><section id="sunday" class="title-slide slide level1"><h1>Sunday</h1></section><section id="morning-sightseeing-knights-ferry" class="slide level2">
+<h2>Morning Sightseeing: Knights Ferry</h2>
+<div>
+<ul>
+<li class="fragment">East of Oakdale on CA-108/CA-120, straddles <code>CM97pt</code> and <code>CM97qt</code></li>
+<li class="fragment">One of the <a href="https://www.stanislausriver.com/parks/">Stanislaus River Parks</a></li>
+<li class="fragment">Longest covered bridge west of the Mississippi River!</li>
+<li class="fragment">Former grain mill and hydroelectric generator station.</li>
+<li class="fragment">Popular site for river rafters to put in, but possibly not that day</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_log_summary">Log Summary</h1>
-<div class="sectionbody">
-<div class="paragraph"><p><a href="map.html">Map of completed QSOs</a></p></div>
-<ul class=" incremental">
-<li>
-<span>
-85 QSOs, 74 unique calls
-</span>
-</li>
-<li>
-<span>
-30 on Saturday, 55 on Sunday
-</span>
-</li>
-<li>
-<span>
-35 on 20 meters, 49 on 15 meters
-</span>
-</li>
-<li>
-<span>
-84 via phone, 1 via CW
-</span>
-</li>
-<li>
-<span>
-84 out-of-state, 1 in-state (but enough to claim the multiplier!)
-</span>
-</li>
+</section><section id="knights-ferry" class="slide level2">
+<h2>Knights Ferry 📸</h2>
+<p>The covered bridge, viewed from the south end.</p>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637280440/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1912/43637280440_8be396f4e7_b.jpg" width="1024" height="768" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="knights-ferry-1" class="slide level2">
+<h2>Knights Ferry 📸</h2>
+<p>The office building across the path from the mill.</p>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637280680/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1906/43637280680_f575b2441b_b.jpg" width="1024" height="768" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="knights-ferry-2" class="slide level2">
+<h2>Knights Ferry 📸</h2>
+<p>Panorama of the bridge, from underneath on the west side. It does not actually curve.</p>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45402367322/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1904/45402367322_4b24f81aae_b.jpg" width="1024" height="373" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="knights-ferry-3" class="slide level2">
+<h2>Knights Ferry 📸</h2>
+<p>Looking up the Stanislaus River in the morning.</p>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45454474371/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1957/45454474371_dcdc06ebdb_b.jpg" width="1024" height="768" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="scouting-orange-blossom-park" class="slide level2">
+<h2>Scouting: Orange Blossom Park</h2>
+<div>
+<ul>
+<li class="fragment">A few miles east of Oakdale, on the north side of the Stanislaus River.</li>
+<li class="fragment">Northeast corner of <code>CM97os</code></li>
+<li class="fragment">Right next to the river, but basically in a valley.</li>
+<li class="fragment">Nice place for a picnic, but possibly not for daytime HF operating.</li>
+<li class="fragment">We had another place in mind anyway, let’s move on.</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_log_highlights">Log Highlights</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-36 QSO in 55 minutes from calling CQ and running on 21373 on Sunday &#x1f600;
-</span>
-</li>
-<li>
-<span>
-Stopped running when only Tennessee was answering, and not often.
-</span>
-</li>
-<li>
-<span>
-Made it as far as Alaska, Maine, and Florida.
-</span>
-</li>
-<li>
-<span>
-Nothing off-continent.  Where were Hawaii and Japan? &#x1f61e;
-</span>
-</li>
-<li>
-<span>
-About a dozen "thanks for the new county" &#x1f44d;
-</span>
-</li>
+</section><section id="scouting-woodward-reservoir" class="slide level2">
+<h2>Scouting: Woodward Reservoir</h2>
+<p>A few miles north of Oakdale on county highway J14. Takes up a lot of <code>CM97nu</code>.</p>
+<iframe width="1024" height="768" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-120.99260330200197%2C37.7342043518508%2C-120.70592880249025%2C37.879460301422576&amp;layer=mapnik" style="border: 1px solid black">
+</iframe>
+<p><br/><small><a href="https://www.openstreetmap.org/#map=13/37.8069/-120.8493">View Larger Map</a></small></p>
+</section><section id="a-closer-look-at-woodward-reservoir" class="slide level2">
+<h2>A Closer Look at Woodward Reservoir</h2>
+<p>So where to operate here?</p>
+<div>
+<ul>
+<li class="fragment">The road to the peninsula in the middle of the reservoir was closed.</li>
+<li class="fragment">How about picnic areas on the west shore?</li>
+<li class="fragment">Definitely more flat and more level than yesterday!</li>
+<li class="fragment">Green grass, shade trees, concrete picnic tables…</li>
+<li class="fragment">…but very windy today. 🌬</li>
+<li class="fragment">Maybe we can make use of bushes and trees.</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_lessons_learned_tools">Lessons Learned: Tools</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Should have made a packing list and worked from it.
-</span>
-</li>
-<li>
-<span>
-Shade tent was a good idea.  Even better when you don&#8217;t need it!
-</span>
-</li>
-<li>
-<span>
-Should have brought a hammer for stakes.
-</span>
-</li>
-<li>
-<span>
-Should have brought corkscrew sand stakes.
-</span>
-</li>
-<li>
-<span>
-Should have brought a wagon to make hauling gear easier.
-</span>
-</li>
+</section><section id="well-take-it-1" class="slide level2">
+<h2>We’ll take it!</h2>
+<figure>
+<img data-src="img/woodward-res-west-shore.png" alt="Picnic area on west shore of Woodward Reservoir" /><figcaption>Picnic area on west shore of Woodward Reservoir</figcaption>
+</figure>
+</section><section id="view-from-the-waters-edge" class="slide level2">
+<h2>View from the Water’s Edge 📸</h2>
+<p>This looks like a pleasant spot, even if we’re not operating.</p>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637281140/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1928/43637281140_c7f3203a2a_b.jpg" width="1024" height="298" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="setting-up-1" class="slide level2">
+<h2>Setting Up</h2>
+<div>
+<ul>
+<li class="fragment">Setup was easier than yesterday!</li>
+<li class="fragment">Table, seating, and shade were already provided.</li>
+<li class="fragment">Used another concrete picnic table to block acoustic and possibly RF noise from the generator.</li>
+<li class="fragment">Used a bush to shield the antenna from the stiff wind!</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_lessons_learned_antenna">Lessons Learned: Antenna</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Vertical antenna low to the ground got good distance&#8230;
-</span>
-</li>
-<li>
-<span>
-&#8230;but in-state was very difficult!
-</span>
-</li>
-<li>
-<span>
-Holy Skip, Batman!  Out of state, nothing closer than Colorado.
-</span>
-</li>
-<li>
-<span>
-Should have brought an NVIS dipole to get 6- and 7-land.
-</span>
-</li>
-<li>
-<span>
-Unknown if Extremely Sophisticated <strong>(cough)</strong> Radial System had any effect.  It probably didn&#8217;t hurt.
-</span>
-</li>
+</section><section id="using-natural-features-to-my-advantage" class="slide level2">
+<h2>Using natural features to my advantage 📸</h2>
+<p>Flimsy camera tripod not falling over in the wind, thanks to a nearby bush.</p>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/31579278388/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1952/31579278388_cb17c2f419_b.jpg" width="768" height="1024" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="lets-operate-1" class="slide level2">
+<h2>Let’s operate! 📸</h2>
+<p>The antenna hasn’t fallen over after a few minutes, so let’s try to make some contacts!</p>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45402367032/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1907/45402367032_dd1b05be3c_b.jpg" width="1024" height="768" alt="IMG_8949"></a>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="nobody-came-to-visit" class="slide level2">
+<h2>Nobody came to visit 📸</h2>
+<p>No visitors all day! Well, almost.</p>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45862530734/in/datetaken/" title="IMG_9012"><img src="https://farm5.staticflickr.com/4875/45862530734_f37582836c_b.jpg" width="1024" height="768" alt="IMG_9012"></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="sunday-operating-summary" class="slide level2">
+<h2>Sunday Operating Summary</h2>
+<div>
+<ul>
+<li class="fragment">Noise floor was much lower, S0. Easier to make those contacts!</li>
+<li class="fragment">Got most of my contacts for the contest from calling CQ on 21373 and holding it for a lot longer than I expected! 🤩</li>
+<li class="fragment">No pileup, but it was fun to be a wanted station.</li>
+<li class="fragment">Maybe this solo portable operating thing is really a thing!</li>
+<li class="fragment">Teardown was only about 15 minutes.</li>
+<li class="fragment">Back home within 3 hours of contest end.</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_lessons_learned_power">Lessons Learned: Power</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Generators are useful but noisy and smelly and fussy. &#x26fd;
-</span>
-</li>
-<li>
-<span>
-For daylight-only operations with 100 watts, a battery and solar setup should be sufficient.
-</span>
-</li>
-<li>
-<span>
-For less than 5 hours per day at 100 watts, a big battery should be sufficient. &#x1f50b;
-</span>
-</li>
+</section></section>
+<section><section id="contest-log" class="title-slide slide level1"><h1>Contest Log</h1></section><section id="map-of-completed-contacts" class="slide level2">
+<h2>Map of Completed Contacts</h2>
+<iframe src="map.html" width="1480" height="800">
+</iframe>
+</section><section id="summary" class="slide level2">
+<h2>Summary</h2>
+<div>
+<ul>
+<li class="fragment">85 QSOs, 74 unique calls</li>
+<li class="fragment">30 on Saturday, 55 on Sunday</li>
+<li class="fragment">35 on 20 meters, 49 on 15 meters</li>
+<li class="fragment">84 via phone, 1 via CW</li>
+<li class="fragment">84 out-of-state, 1 in-state (but enough to claim the multiplier!)</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_lessons_learned_location">Lessons Learned: Location</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Visiting ahead of time is invaluable, but not always possible. &#x1f4b8;
-</span>
-</li>
-<li>
-<span>
-Prior research with a web browser can help.
-</span>
-<ul class="">
-<li>
-<span>
-<a href="https://www.google.com/maps/">Google Maps</a>
-</span>
-</li>
-<li>
-<span>
-<a href="https://www.openstreetmap.org/">OpenStreetMap</a>
-</span>
-</li>
-<li>
-<span>
-<a href="https://www.google.com/earth/">Google Earth</a>
-</span>
-</li>
-</ul>
-</li>
-<li>
-<span>
-Hilltops covered with parched grass are not attractive to generator users.  &#x1f692;
-</span>
-</li>
-<li>
-<span>
-Convenient bushes can help flimsy verticals remain upright on windy days&#8230;
-</span>
-</li>
-<li>
-<span>
-&#8230;but a weight system is probably a better idea!
-</span>
-</li>
-<li>
-<span>
-Operating portable can help you meet the locals&#8230;
-</span>
-</li>
-<li>
-<span>
-&#8230;if any locals are out and about.
-</span>
-</li>
+</section><section id="highlights" class="slide level2">
+<h2>Highlights</h2>
+<div>
+<ul>
+<li class="fragment">36 contacts in 55 minutes from calling CQ and running on 21373 on Sunday 😀</li>
+<li class="fragment">Stopped running when only Tennessee was answering, and not often.</li>
+<li class="fragment">Made it as far as Alaska, Maine, and Florida.</li>
+<li class="fragment">Nothing off-continent. Where were Hawaii and Japan? 😞</li>
+<li class="fragment">About a dozen “thanks for the new county!” 👍</li>
 </ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_lessons_learned_operating">Lessons Learned: Operating</h1>
-<div class="sectionbody">
-<ul class=" incremental">
-<li>
-<span>
-Should have set up recordings to save my voice, at least for calling CQ.  &#x1f399;
-</span>
-</li>
-<li>
-<span>
-Calling CQ in an empty spot on 15 meters got me most of my QSOs&#8230;
-</span>
-</li>
-<li>
-<span>
-&#8230;until all I got was a thin stream of Tennessee.  Time to change tactics.
-</span>
-</li>
-<li>
-<span>
-N1MM is actually good software. &#x1f632;  Surprising for someone who wrote <a href="https://tnalpgge.github.io/presentations/frugal-ham-shack-computer/">this presentation</a>.
-</span>
-</li>
-<li>
-<span>
-Being a desirable station can be fun! &#x1f601;
-</span>
-</li>
+</section></section>
+<section><section id="lessons-learned" class="title-slide slide level1"><h1>Lessons Learned</h1></section><section id="tools" class="slide level2">
+<h2>Tools</h2>
+<div>
+<ul>
+<li class="fragment">Should have made a packing list and worked from it.</li>
+<li class="fragment">Shade tent was a good idea. Even better when you don’t need it!</li>
+<li class="fragment">Should have brought a hammer for stakes.</li>
+<li class="fragment">Should have brought corkscrew sand stakes.</li>
+<li class="fragment">Should have brought a wagon to make hauling gear easier.</li>
 </ul>
 </div>
+</section><section id="antenna" class="slide level2">
+<h2>Antenna</h2>
+<div>
+<ul>
+<li class="fragment">Vertical antenna low to the ground got good distance…</li>
+<li class="fragment">…but in-state was very difficult!</li>
+<li class="fragment">Holy Skip, Batman! Out of state, nothing closer than Colorado.</li>
+<li class="fragment">Should have brought an NVIS dipole to get 6- and 7-land.</li>
+<li class="fragment">Unknown if Extremely Sophisticated <em>(cough)</em> Radial System had any effect. It probably didn’t hurt.</li>
+</ul>
 </div>
-<div class="sect1 slide">
-<h1 id="_back_matter">Back Matter</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>This presentation was written in <a href="http://asciidoc.org/">AsciiDoc</a> and
-presented with <a href="http://www.w3.org/Talks/Tools/Slidy2/">Slidy</a>.</p></div>
-<div class="paragraph"><p>Presentation source code: <a href="https://github.com/tnalpgge/presentations/tree/master/cqp-2018">https://github.com/tnalpgge/presentations/tree/master/cqp-2018</a></p></div>
-<div class="paragraph"><p>Map page source code: Not public yet.  Maybe some day!</p></div>
-<div class="paragraph"><p>Link to presentation: <a href="https://tnalpgge.github.io/presentations/cqp-2018/">https://tnalpgge.github.io/presentations/cqp-2018/</a></p></div>
+</section><section id="power" class="slide level2">
+<h2>Power</h2>
+<div>
+<ul>
+<li class="fragment">Generators are useful but noisy and smelly and fussy. ⛽</li>
+<li class="fragment">For daylight-only operations with 100 watts, a battery and solar setup should be sufficient.</li>
+<li class="fragment">For less than 5 hours per day at 100 watts, a big battery should be sufficient. 🔋</li>
+</ul>
 </div>
+</section><section id="location" class="slide level2">
+<h2>Location</h2>
+<div>
+<ul>
+<li class="fragment">Visiting ahead of time is invaluable, but not always possible. 💰</li>
+<li class="fragment">Prior research with a web browser can help.
+<ul>
+<li class="fragment"><a href="https://www.google.com/maps/">Google Maps</a></li>
+<li class="fragment"><a href="https://www.openstreetmap.org/">OpenStreetMap</a></li>
+<li class="fragment"><a href="https://www.google.com/earth/">Google Earth</a></li>
+</ul></li>
+<li class="fragment">Hilltops covered with parched grass are not attractive to generator users. 🚒</li>
+<li class="fragment">Convenient bushes can help flimsy verticals remain upright on windy days…</li>
+<li class="fragment">…but a weight system is probably a better idea!</li>
+<li class="fragment">Operating portable can help you meet the locals…</li>
+<li class="fragment">…if any locals are out and about.</li>
+</ul>
 </div>
-<div class="sect1 slide">
-<h1 id="_any_questions">Any Questions?</h1>
-<div class="sectionbody">
-<div class="paragraph bleepinghuge"><p>&#x2753;</p></div>
+</section><section id="operating" class="slide level2">
+<h2>Operating</h2>
+<div>
+<ul>
+<li class="fragment">Should have set up recordings to save my voice, at least for calling CQ. 🎙</li>
+<li class="fragment">Calling CQ in an empty spot on 15 meters got me most of my QSOs…</li>
+<li class="fragment">…until all I got was a thin stream of Tennessee. Time to change tactics.</li>
+<li class="fragment">N1MM is actually good software. 😲 Surprising for someone who wrote <a href="https://tnalpgge.github.io/presentations/frugal-ham-shack-computer/">this presentation</a>.</li>
+<li class="fragment">Being a desirable station can be fun! 😁</li>
+</ul>
 </div>
-</div>
-<div class="sect1 slide">
-<h1 id="_qrt">QRT</h1>
-<div class="sectionbody">
-<div class="paragraph cw"><p>TNX 73 ES GL</p></div>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45453759461/in/datetaken-public/" title="IMG_7143"><img src="https://farm2.staticflickr.com/1909/45453759461_2f53285fb1_z.jpg" width="640" height="423" alt="IMG_7143"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/28465044345/in/datetaken-public/" title="IMG_5655"><img src="https://farm9.staticflickr.com/8592/28465044345_6caf73cc18_z.jpg" width="640" height="480" alt="IMG_5655"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<div class="paragraph"><p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">https://creativecommons.org/licenses/by-nc-sa/4.0/</a></p></div>
-</div>
-</div>
-</body>
+</section></section>
+<section><section id="back-matter" class="title-slide slide level1"><h1>Back Matter</h1></section><section id="about-this-presentation" class="slide level2">
+<h2>About This Presentation</h2>
+<p>Written in a dialect of <a href="http://daringfireball.net/projects/markdown/">Markdown</a></p>
+<p>Built with <a href="http://pandoc.org/">Pandoc</a></p>
+<p>Styled and presented by <a href="https://revealjs.com/">reveal.js</a></p>
+<p><a href="https://github.com/tnalpgge/presentations/tree/master/cqp-2018/">Presentation source code</a></p>
+<p><a href="https://tnalpgge.github.io/presentations/cqp-2018/">Link to presentation</a></p>
+<p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a></p>
+<p>Map page source code: not public yet, maybe some day!</p>
+</section><section id="any-questions" class="slide level2">
+<h2>Any Questions?</h2>
+</section><section id="qrt" class="slide level2">
+<h2>QRT</h2>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45453759461/in/datetaken/" title="IMG_7143"><img src="https://farm2.staticflickr.com/1909/45453759461_2f53285fb1_z.jpg" width="640" height="423" alt="IMG_7143"></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section><section id="tnx-73-es-gl" class="slide level2">
+<h2><code>TNX 73 ES GL</code></h2>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/46586484371/in/datetaken/" title="IMG_5655"><img src="https://farm8.staticflickr.com/7877/46586484371_864a9fe84c_z.jpg" width="640" height="480" alt="IMG_5655"></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
 </html>
