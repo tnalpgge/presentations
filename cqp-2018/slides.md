@@ -19,7 +19,7 @@ theme: custom
 - Share my experiences operating portable in the 2018 [California QSO Party](http://cqp.org/)
 - Show off some photos taken along the way &#x1f4f8;
 - Present without presentation software &#x1f60e;
-- Don't use any emoji more than once &#x1f913;
+- Don't use any emoji more than once &#x1f913; (except &#x1f4f8;)
 
 :::
 
@@ -167,7 +167,7 @@ Tuolumne River.
 
 ![Northwest shore of Turlock Lake](img/turlock-sra-north-shore.png)
 
-## A Parking Lot with a View
+## A Parking Lot with a View &#x1f4f8;
 
 A local grandmother who brought her two grandchildren said the lake
 was very full!
@@ -186,19 +186,19 @@ was very full!
 
 :::
 
-## Shade tents are made for days like this
+## Shade tents are made for days like this &#x1f4f8;
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45454474741/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1968/45454474741_1ed2ce1259_z.jpg" width="640" height="480" alt="IMG_8949"></a><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-## Very close to the water
+## Very close to the water &#x1f4f8;
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45454474591/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1933/45454474591_9225e8698e_z.jpg" width="640" height="480" alt="IMG_8949"></a><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-## Let's operate!
+## Let's operate! &#x1f4f8;
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/44729591214/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1901/44729591214_ea56a6fbdb_b.jpg" width="1024" height="769" alt="IMG_8949"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-## Antenna setup
+## Antenna setup &#x1f4f8;
 
 With Extremely Sophisticated *(cough)* Radial System.
 
@@ -217,7 +217,7 @@ With Extremely Sophisticated *(cough)* Radial System.
 
 :::
 
-## Relaxing on Saturday Evening
+## Relaxing on Saturday Evening &#x1f4f8;
 
 Dog tax!  Meet Misty, my parents' 8-pound toy poodle, who wouldn't
 smile for the camera.
@@ -230,7 +230,7 @@ smile for the camera.
 
 ::: incremental
 
-- East of Oakdale on CA-108/CA-120, straddles CM97pt and CM97qt
+- East of Oakdale on CA-108/CA-120, straddles `CM97pt` and `CM97qt`
 - One of the [Stanislaus River Parks](https://www.stanislausriver.com/parks/)
 - Longest covered bridge west of the Mississippi River!
 - Former grain mill and hydroelectric generator station.
@@ -238,26 +238,26 @@ smile for the camera.
 
 :::
 
-## Knights Ferry
+## Knights Ferry &#x1f4f8;
 
 The covered bridge, viewed from the south end.
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637280440/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1912/43637280440_8be396f4e7_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-## Knights Ferry
+## Knights Ferry &#x1f4f8;
 
 The office building across the path from the mill.
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/43637280680/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1906/43637280680_f575b2441b_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-## Knights Ferry
+## Knights Ferry &#x1f4f8;
 
 Panorama of the bridge, from underneath on the west side.  It does not
 actually curve.
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45402367322/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1904/45402367322_4b24f81aae_b.jpg" width="1024" height="373" alt="IMG_8949"></a><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-## Knights Ferry
+## Knights Ferry &#x1f4f8;
 
 Looking up the Stanislaus River in the morning.
 
@@ -268,7 +268,7 @@ Looking up the Stanislaus River in the morning.
 ::: incremental
 
 * A few miles east of Oakdale, on the north side of the Stanislaus River.
-* Northeast corner of CM97os
+* Northeast corner of `CM97os`
 * Right next to the river, but basically in a valley.
 * Nice place for a picnic, but possibly not for daytime HF operating.
 * We had another place in mind anyway, let's move on.
@@ -277,7 +277,7 @@ Looking up the Stanislaus River in the morning.
 
 ## Scouting: Woodward Reservoir
 
-A few miles north of Oakdale on county highway J14. Takes up a lot of CM97nu.
+A few miles north of Oakdale on county highway J14. Takes up a lot of `CM97nu`.
 
 <iframe width="1024" height="768" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-120.99260330200197%2C37.7342043518508%2C-120.70592880249025%2C37.879460301422576&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=13/37.8069/-120.8493">View Larger Map</a></small>
 
@@ -300,7 +300,7 @@ So where to operate here?
 
 ![Picnic area on west shore of Woodward Reservoir](img/woodward-res-west-shore.png)
 
-## View from the Water's Edge
+## View from the Water's Edge &#x1f4f8;
 
 This looks like a pleasant spot, even if we're not operating.
 
@@ -317,25 +317,25 @@ This looks like a pleasant spot, even if we're not operating.
 
 :::
 
-## Using natural features to my advantage
+## Using natural features to my advantage &#x1f4f8;
 
 Flimsy camera tripod not falling over in the wind, thanks to a nearby
 bush.
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/31579278388/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1952/31579278388_cb17c2f419_b.jpg" width="768" height="1024" alt="IMG_8949"></a><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-## Let's operate!
+## Let's operate! &#x1f4f8;
 
 The antenna hasn't fallen over after a few minutes, so let's try to
 make some contacts!
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45402367032/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1907/45402367032_dd1b05be3c_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-## Nobody came to visit
+## Nobody came to visit &#x1f4f8;
 
 No visitors all day!  Well, almost.
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/31579277898/in/datetaken/" title="IMG_8949"><img src="https://farm2.staticflickr.com/1968/31579277898_0ea9f0d6a6_b.jpg" width="1024" height="768" alt="IMG_8949"></a><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45862530734/in/datetaken/" title="IMG_9012"><img src="https://farm5.staticflickr.com/4875/45862530734_f37582836c_b.jpg" width="1024" height="768" alt="IMG_9012"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 ## Sunday Operating Summary
 
@@ -467,8 +467,8 @@ Map page source code: not public yet, maybe some day!
 
 ## QRT
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45453759461/in/datetaken-public/" title="IMG_7143"><img src="https://farm2.staticflickr.com/1909/45453759461_2f53285fb1_z.jpg" width="640" height="423" alt="IMG_7143"></a><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/45453759461/in/datetaken/" title="IMG_7143"><img src="https://farm2.staticflickr.com/1909/45453759461_2f53285fb1_z.jpg" width="640" height="423" alt="IMG_7143"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 ## `TNX 73 ES GL`
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/28465044345/in/datetaken-public/" title="IMG_5655"><img src="https://farm9.staticflickr.com/8592/28465044345_6caf73cc18_z.jpg" width="640" height="480" alt="IMG_5655"></a><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/57994780@N04/46586484371/in/datetaken/" title="IMG_5655"><img src="https://farm8.staticflickr.com/7877/46586484371_864a9fe84c_z.jpg" width="640" height="480" alt="IMG_5655"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
