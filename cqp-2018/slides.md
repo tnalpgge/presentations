@@ -212,6 +212,7 @@ With Extremely Sophisticated *(cough)* Radial System.
 * Was it the power lines or the generator?
 * 40 meters was useless (S9 noise floor). &#x1f4a3;
 * Chair was perhaps better for tailgating than operating.
+* Still made 30 contacts.
 * Teardown was faster than setup but possibly more of a drag...
 * ...because my car was up a hill and I didn't have a wagon! &#x1f3cb;
 
@@ -364,7 +365,7 @@ No visitors all day!  Well, almost.
 * 30 on Saturday, 55 on Sunday
 * 35 on 20 meters, 49 on 15 meters
 * 84 via phone, 1 via CW
-* 84 out-of-state, 1 in-state (but enough to claim the multiplier!)
+* 84 out-of-state, 1 in-state
 
 :::
 
