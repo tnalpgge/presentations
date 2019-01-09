@@ -29,3 +29,15 @@ xhtml11-quirks.css
 # reveal
 reveal.js/
 revealjs-*.tar.gz
+!reveal.js/css/print/paper.css
+!reveal.js/css/print/pdf.css
+!reveal.js/css/print/paper.css
+!reveal.js/css/print/pdf.css
+!reveal.js/css/reveal.css
+!reveal.js/css/theme/custom.css
+!reveal.js/js/reveal.js
+!reveal.js/lib/js/classList.js
+!reveal.js/lib/js/head.min.js
+!reveal.js/lib/js/html5shiv.js
+!reveal.js/plugin/notes/notes.js
+!reveal.js/plugin/zoom-js/zoom.js
