@@ -363,7 +363,7 @@ No visitors all day!  Well, almost.
 
 * 85 QSOs, 74 unique calls
 * 30 on Saturday, 55 on Sunday
-* 35 on 20 meters, 49 on 15 meters
+* 36 on 20 meters, 49 on 15 meters
 * 84 via phone, 1 via CW
 * 84 out-of-state, 1 in-state
 
