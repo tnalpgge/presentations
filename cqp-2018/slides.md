@@ -78,7 +78,7 @@ and looked for unclaimed counties.
 
 :::
 
-## Mail from More Experienced Operators
+## Mail to More Experienced Operators
 
 So I sent mail to the contest organizers.
 
@@ -92,24 +92,17 @@ Certainly the members of the
 [Northern California Contest Club](http://nccc.cc/)
 would know something about portable operating spots!
 
-## Bob N6TV
+## Mail from More Experienced Operators
 
-> Any ideas Alan?
-
-## Alan AD6E/KH6TU
+> Any ideas [name redacted]?
 
 > I took a quick look at Google Earth, and there seems to
 > be a nice little park called Orange Blossom Recreation Area about 4
 > miles east of Oakdale...GL, I'm going to need STAN myself this time.
 
-## Glen W6JB
-
-> Tom,
 > Glad to hear you will going to
 > Stanislaus...Maybe someone on the email list will have a suggestion
 > for a good location.
-
-Tom?  Who's Tom?! &#x1f620;
 
 ## Equipment
 
